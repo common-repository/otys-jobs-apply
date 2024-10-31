@@ -1,0 +1,1656 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: OTYS Jobs & Apply\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-09-11 14:16+0200\n"
+"PO-Revision-Date: 2024-09-11 14:17+0200\n"
+"Last-Translator: \n"
+"Language-Team: Nederlands\n"
+"Language: nl_NL\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 3.5\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: otys-jobs-apply.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Loco-Version: 2.6.9; wp-6.5.3\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.min.js\n"
+"X-Poedit-SearchPathExcluded-1: vendor\n"
+"X-Poedit-SearchPathExcluded-2: node_modules\n"
+
+#: app/Controllers/Admin/AdminJobAlertController.php:59
+msgid "Job alert management"
+msgstr "Job alert beheer"
+
+#: app/Controllers/Admin/AdminJobAlertController.php:62
+msgid ""
+"Below you can configure the JobAlert. You able to choose which questions a "
+"person has to fill in when creating a job alert."
+msgstr ""
+"Hieronder kun je de JobAlert configureren. U kunt kiezen welke vragen een "
+"persoon moet invullen bij het aanmaken van een vacature-alert."
+
+#: app/Controllers/Admin/AdminJobAlertController.php:71
+msgid "Document to use for the Job Alert confirmation email"
+msgstr "Te gebruiken document voor de bevestigingsmail van de vacature-alert"
+
+#: app/Controllers/Admin/AdminJobAlertController.php:79
+msgid ""
+"Choose which document you want to use for the Job Alert confirmation email. "
+"By default we created a corresponding template automaticly which you can "
+"use, this document is called WordPress | JobAlert (default)."
+msgstr ""
+"Kies welk document je wilt gebruiken voor de bevestigingsmail van de "
+"vacature-alert. Standaard hebben we automatisch een sjabloon aangemaakt dat "
+"je kunt gebruiken. Dit document heet WordPress | JobAlert (standaard)."
+
+#: app/Controllers/Admin/AdminJobAlertController.php:89
+msgid "Questions which the candidate has to fill in"
+msgstr "Vragen die de kandidaat moet invullen"
+
+#: app/Controllers/Admin/AdminJobAlertController.php:97
+msgid "Choose which questions get asked in which order for the job alert."
+msgstr "Kies welke vragen in welke volgorde worden gesteld voor de job alert."
+
+#: app/Controllers/Admin/AdminJobAlertController.php:225
+msgid "This field is required and can therefore not be disabled"
+msgstr "Dit veld is verplicht en kan daarom niet worden uitgeschakeld"
+
+#: app/Controllers/Admin/AdminJobAlertController.php:231
+msgid ""
+"This criteria does not have any options and can therefore not be enabled"
+msgstr "Dit criterium heeft geen opties en kan daarom niet worden ingeschakeld"
+
+#: app/Controllers/Admin/AdminRoutesSettingsController.php:90
+#: app/Controllers/Admin/AdminSettingsController.php:91
+#: app/Controllers/Admin/AdminSettingsController.php:581
+#: app/Includes/Core/OtysPlugin.php:171
+msgid "Vacancies overview"
+msgstr "Vacatures overzicht"
+
+#: app/Controllers/Admin/AdminRoutesSettingsController.php:91
+#: app/Controllers/Admin/AdminSettingsController.php:878
+#: app/Controllers/Admin/AdminSettingsController.php:900
+#: app/Includes/Core/OtysPlugin.php:172
+msgid "Vacancy detail"
+msgstr "Vacature detail"
+
+#: app/Controllers/Admin/AdminSettingsController.php:64
+msgid "The API key has been removed."
+msgstr "De API sleutel is verwijderd."
+
+#: app/Controllers/Admin/AdminSettingsController.php:85
+msgid "API"
+msgstr "API"
+
+#: app/Controllers/Admin/AdminSettingsController.php:97
+msgid "Vacancies detail"
+msgstr "Vacature detail"
+
+#: app/Controllers/Admin/AdminSettingsController.php:103
+msgid "Vacancies apply"
+msgstr "Vacatures"
+
+#: app/Controllers/Admin/AdminSettingsController.php:109
+msgid "Candidate authentication"
+msgstr "Kandidaat authenticatie"
+
+#: app/Controllers/Admin/AdminSettingsController.php:350
+#: app/Controllers/Admin/AdminSettingsController.php:393
+msgid "All plugin related cache has been removed"
+msgstr "Alle plugin gerelateerde cache is verwijderd"
+
+#: app/Controllers/Admin/AdminSettingsController.php:386
+msgid "Invalid API key given"
+msgstr "Ongeldige API sleutel gegeven"
+
+#: app/Controllers/Admin/AdminSettingsController.php:421
+#: app/Controllers/Admin/AdminWebhooksController.php:52
+msgid "Api settings"
+msgstr "API instellingen"
+
+#: app/Controllers/Admin/AdminSettingsController.php:432
+msgid "API key"
+msgstr "API key"
+
+#: app/Controllers/Admin/AdminSettingsController.php:439
+msgid "Enter the API key provided by OTYS."
+msgstr "Voer de door OTYS verstrekte API sleutel in."
+
+#: app/Controllers/Admin/AdminSettingsController.php:451
+msgid "Brand"
+msgstr "Merk"
+
+#: app/Controllers/Admin/AdminSettingsController.php:458
+msgid "Choose which brand to use."
+msgstr "Kies welk merk u wilt gebruiken."
+
+#: app/Controllers/Admin/AdminSettingsController.php:465
+msgid "Website status"
+msgstr "Website status"
+
+#: app/Controllers/Admin/AdminSettingsController.php:468
+msgid ""
+"No, this website is not available to the public. (i.e. development "
+"environment)"
+msgstr ""
+"Nee, deze website is niet beschikbaar voor het publiek. (d.w.z. "
+"ontwikkelomgeving)"
+
+#: app/Controllers/Admin/AdminSettingsController.php:469
+msgid "Yes, this website is available to the public."
+msgstr "Ja, deze website is beschikbaar voor het publiek."
+
+#: app/Controllers/Admin/AdminSettingsController.php:478
+msgid ""
+"Production means that this website is used by the end-user and the website "
+"is live. <br><b>Note</b>: Only one website can be used as production website "
+"per brand, if you mark more than one website as production issues will occur."
+msgstr ""
+"Productie betekent dat deze website wordt gebruikt door de eindgebruiker en "
+"dat de website live is. <br><b>Opmerking</b>: Slechts één website kan worden "
+"gebruikt als productie website, indien u meer dan één website als productie "
+"markeert zullen er problemen optreden."
+
+#: app/Controllers/Admin/AdminSettingsController.php:488
+msgid "Vacancy Overview"
+msgstr "Vacature Overzicht"
+
+#: app/Controllers/Admin/AdminSettingsController.php:501
+msgid "Vacancies per page"
+msgstr "Vacatures per pagina"
+
+#: app/Controllers/Admin/AdminSettingsController.php:509
+msgid "The amount of vacancies displayed per page on the vacancy overview."
+msgstr "Aantal getoonde vacatures per pagina."
+
+#: app/Controllers/Admin/AdminSettingsController.php:518
+msgid "Sorting of filter options"
+msgstr "Sortering van filteropties"
+
+#: app/Controllers/Admin/AdminSettingsController.php:525
+msgid "The sorting of the options of each filter"
+msgstr "De sortering van de opties van elk filter"
+
+#: app/Controllers/Admin/AdminSettingsController.php:526
+msgid "Alphabetic"
+msgstr "Alfabetisch"
+
+#: app/Controllers/Admin/AdminSettingsController.php:526
+msgid "Frequency"
+msgstr "Frequentie"
+
+#: app/Controllers/Admin/AdminSettingsController.php:536
+msgid "Vacancy filters"
+msgstr "Vacature filters"
+
+#: app/Controllers/Admin/AdminSettingsController.php:544
+msgid ""
+"The filters displayed when using the shortcode [otys-vacancies-filters]."
+msgstr ""
+"De filters die worden weergegeven bij gebruik van de shortcode [otys-"
+"vacatures-filters]."
+
+#: app/Controllers/Admin/AdminSettingsController.php:554
+#: app/Controllers/Admin/AdminSettingsController.php:950
+msgid "Vacancy labels"
+msgstr "Vacature labels"
+
+#: app/Controllers/Admin/AdminSettingsController.php:562
+msgid ""
+"Labels displayed at the vacancies displayed with the shortcodes [otys-"
+"vacancies-list] and [otys-vacancies-shortlist]."
+msgstr ""
+"Labels getoond bij de vacatures getoond met de shortcodes [otys-vacatures-"
+"list] en [otys-vacatures-shortlist]."
+
+#: app/Controllers/Admin/AdminSettingsController.php:571
+msgid "Vacancy overview url"
+msgstr "Vacature Overzicht"
+
+#: app/Controllers/Admin/AdminSettingsController.php:582
+msgid ""
+"Choose what url you want to use for the vacancies overview. This url should "
+"correspond with the page containing atleast a [otys-vacancies-list] "
+"shortcode. Add a vacancies overview url for each language. If your language "
+"is not available in the dropdown, make sure to install the language in your "
+"WordPress installation."
+msgstr ""
+"Kies welke url je wilt gebruiken voor het vacatureoverzicht. Deze url moet "
+"overeenkomen met de pagina die ten minste een [otys-vacatures-overzicht] "
+"shortcode bevat. Voeg een vacatureoverzicht url toe voor elke taal. Als je "
+"taal niet beschikbaar is in de dropdown, zorg er dan voor dat je de taal "
+"installeert in je WordPress installatie."
+
+#: app/Controllers/Admin/AdminSettingsController.php:593
+msgid "Vacancy apply"
+msgstr "Vacature detail"
+
+#: app/Controllers/Admin/AdminSettingsController.php:605
+msgid "Use mobile questionset"
+msgstr "Verkeerde vragenset UID"
+
+#: app/Controllers/Admin/AdminSettingsController.php:612
+msgid ""
+"Wheter to use the mobile questionset for mobile devices. Mobile devices get "
+"automaticly recognized based on user agent. Make sure to mark a qusetionset "
+"as mobile questionset in OTYS (Setting nr. GE31). Using mobile questionset "
+"you can ask different questions to mobile users or have different validation "
+"rules."
+msgstr ""
+
+#: app/Controllers/Admin/AdminSettingsController.php:613
+#: app/Controllers/Admin/AdminSettingsController.php:1164
+#: app/Controllers/Admin/AdminSettingsController.php:1181
+msgid "No"
+msgstr "Nee"
+
+#: app/Controllers/Admin/AdminSettingsController.php:613
+#: app/Controllers/Admin/AdminSettingsController.php:1164
+#: app/Controllers/Admin/AdminSettingsController.php:1181
+msgid "Yes"
+msgstr "Ja"
+
+#: app/Controllers/Admin/AdminSettingsController.php:622
+msgid "Vacancy thank you url"
+msgstr "Vacature sollicitatie bedankt"
+
+#: app/Controllers/Admin/AdminSettingsController.php:632
+msgid "Vacancy application thank you"
+msgstr "Vacature sollicitatie bedankt"
+
+#: app/Controllers/Admin/AdminSettingsController.php:633
+msgid ""
+"Optionally you can choose what url you want to use for the thank you page "
+"after a candidate has applied for a vacancy. You can add a different thank "
+"you url for each language. If your language is not available in the "
+"dropdown, make sure to install the language in your WordPress installation."
+msgstr ""
+"Optioneel kunt u kiezen welke url u wilt gebruiken voor de bedankpagina "
+"nadat een kandidaat op een vacature heeft gesolliciteerd. U kunt voor elke "
+"taal een andere bedank-URL toevoegen. Als uw taal niet beschikbaar is in de "
+"vervolgkeuzelijst, zorg er dan voor dat u de taal in uw WordPress-"
+"installatie installeert."
+
+#: app/Controllers/Admin/AdminSettingsController.php:645
+msgid "Google reCAPTCHA v3"
+msgstr "Google reCAPTCHA v3"
+
+#: app/Controllers/Admin/AdminSettingsController.php:650
+#, php-format
+msgid ""
+"Setting up recaptcha is required. Please use your Google account to generate "
+"the needed API keys. Please make sure to choose reCAPTCHA v3 as type and add "
+"<u>%s</u> to the list of domains."
+msgstr ""
+"Het instellen van recaptcha is vereist. Gebruik uw Google-account om de "
+"benodigde API-sleutels te genereren. Zorg ervoor dat u reCAPTCHA v3 kiest "
+"als type en voeg toe <u>%s</u> toe aan de lijst met domeinen."
+
+#: app/Controllers/Admin/AdminSettingsController.php:651
+msgid "Create API Key"
+msgstr "API-sleutel aanmaken"
+
+#: app/Controllers/Admin/AdminSettingsController.php:662
+msgid "Site key"
+msgstr "Sitesleutel"
+
+#: app/Controllers/Admin/AdminSettingsController.php:669
+msgid "This site key is used in the HTML code your site serves to users."
+msgstr ""
+"Deze site sleutel wordt gebruikt in de HTML code die je site aan gebruikers "
+"voorschotelt."
+
+#: app/Controllers/Admin/AdminSettingsController.php:677
+msgid "Secret Key"
+msgstr "Geheime sleutel"
+
+#: app/Controllers/Admin/AdminSettingsController.php:684
+msgid ""
+"This secret key is used for communication between your site and reCAPTCHA."
+msgstr ""
+"Deze geheime sleutel wordt gebruikt voor de communicatie tussen je site en "
+"reCAPTCHA."
+
+#: app/Controllers/Admin/AdminSettingsController.php:692
+msgid "Threshold"
+msgstr "Grenswaarde"
+
+#: app/Controllers/Admin/AdminSettingsController.php:699
+msgid ""
+"reCAPTCHA learns by seeing real traffic on your site. For this reason, "
+"scores in a staging environment or soon after implementing may differ from "
+"production. As reCAPTCHA v3 doesn't ever interrupt the user flow, you can "
+"first run reCAPTCHA without taking action and then decide on thresholds by "
+"looking at your traffic in the admin console. By default, you can use a "
+"threshold of 0.5."
+msgstr ""
+"reCAPTCHA leert door echt verkeer op je site te zien. Daarom kunnen scores "
+"in een staging omgeving of kort na het implementeren verschillen van die in "
+"productie. Omdat reCAPTCHA v3 de gebruikersstroom nooit onderbreekt, kun je "
+"reCAPTCHA eerst laten lopen zonder actie te ondernemen en dan drempels "
+"bepalen door je verkeer in het beheerconsole te bekijken. Standaard kun je "
+"een drempel van 0.5 gebruiken."
+
+#: app/Controllers/Admin/AdminSettingsController.php:708
+msgid "Mails"
+msgstr "Mails"
+
+#: app/Controllers/Admin/AdminSettingsController.php:725
+msgid "Application"
+msgstr "Applicatie"
+
+#: app/Controllers/Admin/AdminSettingsController.php:739
+msgid "Candidate applied (existing)"
+msgstr "Kandidaat gesolliciteerd (bestaand)"
+
+#: app/Controllers/Admin/AdminSettingsController.php:747
+msgid "Email when an existing candidate applied for a job"
+msgstr "E-mail wanneer een bestaande kandidaat heeft gesolliciteerd"
+
+#: app/Controllers/Admin/AdminSettingsController.php:757
+msgid "Candidate applied (new)"
+msgstr "Kandidaat gesolliciteerd (nieuw)"
+
+#: app/Controllers/Admin/AdminSettingsController.php:765
+msgid "Email when a new candidate applied for a job."
+msgstr ""
+"E-mail wanneer een nieuwe kandidaat voor een baan heeft gesolliciteerd."
+
+#: app/Controllers/Admin/AdminSettingsController.php:775
+msgid "Candidate confirm email"
+msgstr "Kandidaat bevestigt e-mail"
+
+#: app/Controllers/Admin/AdminSettingsController.php:783
+msgid ""
+"When a candidate applies with a known email adres, the candidate will "
+"receive an email with a code, the code needs to be filled in at the last "
+"step of the application proces to continue the application."
+msgstr ""
+"Wanneer een kandidaat solliciteert met een bekend e-mailadres, ontvangt de "
+"kandidaat een e-mail met een code. Deze code moet bij de laatste stap van "
+"het sollicitatieproces worden ingevuld om verder te kunnen solliciteren."
+
+#: app/Controllers/Admin/AdminSettingsController.php:793
+msgid "Vacancy owner application notification"
+msgstr "Kennisgeving van vacature eigenaar"
+
+#: app/Controllers/Admin/AdminSettingsController.php:801
+msgid "Notification to vacancy owner when a candidate applied on a vacancy."
+msgstr ""
+"Kennisgeving aan de vacaturehouder wanneer een kandidaat op een vacature "
+"heeft gesolliciteerd."
+
+#: app/Controllers/Admin/AdminSettingsController.php:810
+msgid "Open application"
+msgstr "Open sollicitatie"
+
+#: app/Controllers/Admin/AdminSettingsController.php:823
+msgid "Candidate open application"
+msgstr "Kandidaat open sollicitatie"
+
+#: app/Controllers/Admin/AdminSettingsController.php:831
+msgid "Email to candidate when candidate did an open application."
+msgstr "Email wanneer kandidaat een open sollicitatie heeft gedaan."
+
+#: app/Controllers/Admin/AdminSettingsController.php:841
+msgid "Candidate open application notification consultant"
+msgstr "E-mail notificatie aan adviseur voor nieuwe aanvragers"
+
+#: app/Controllers/Admin/AdminSettingsController.php:849
+msgid "Email to chosen recipient after a candidate did a open application."
+msgstr "Email wanneer kandidaat een open sollicitatie heeft gedaan."
+
+#: app/Controllers/Admin/AdminSettingsController.php:859
+msgid "Open application email recipient"
+msgstr "Open sollicitatieformulier"
+
+#: app/Controllers/Admin/AdminSettingsController.php:866
+#, php-format
+msgid "i.e. name@%s"
+msgstr "d.w.z. name@%s"
+
+#: app/Controllers/Admin/AdminSettingsController.php:868
+msgid "The e-mail adres a open application notifcation gets send to."
+msgstr ""
+"Het e-mail adres waarnaar een open sollicitatie notificatie wordt gestuurd."
+
+#: app/Controllers/Admin/AdminSettingsController.php:890
+msgid "Vacancy detail url"
+msgstr "Vacature detail"
+
+#: app/Controllers/Admin/AdminSettingsController.php:901
+msgid ""
+"Choose what url you want to use for the vacancies detail page. The vacancy "
+"detail page can be the same url as the vacancy overview url. Add a vacancies "
+"detail url for each language. If your language is not available in the "
+"dropdown, make sure to install the language in your WordPress installation."
+msgstr ""
+"Kies welke url je wilt gebruiken voor de vacaturedetailpagina. De "
+"vacaturedetailpagina kan dezelfde url zijn als de vacatureoverzicht url. "
+"Voeg een vacaturedetail url toe voor elke taal. Als je taal niet beschikbaar "
+"is in de dropdown, zorg er dan voor dat je de taal installeert in je "
+"WordPress installatie."
+
+#: app/Controllers/Admin/AdminSettingsController.php:911
+msgid "Fallback header image"
+msgstr "Fallback header afbeelding"
+
+#: app/Controllers/Admin/AdminSettingsController.php:918
+msgid "The header to show when no vacancy header is set."
+msgstr ""
+"De header afbeelding die wordt weergegeven als er geen vacature header "
+"afbeelding  is ingesteld."
+
+#: app/Controllers/Admin/AdminSettingsController.php:920
+msgid "Choose fallback header image"
+msgstr "Kies een header afbeelding om op terug te vallen"
+
+#: app/Controllers/Admin/AdminSettingsController.php:921
+msgid "Use image"
+msgstr "Gebruik afbeelding"
+
+#: app/Controllers/Admin/AdminSettingsController.php:931
+msgid "Use textfield as meta description"
+msgstr "Gebruik tekst veld als meta beschrijving"
+
+#: app/Controllers/Admin/AdminSettingsController.php:938
+msgid ""
+"You can select a textfield from OTYS to use as meta description for your "
+"vacancy. Recommended is to either use the short description or specify a "
+"specific field in OTYS to use as meta description."
+msgstr ""
+"U kunt een tekstveld uit OTYS selecteren om te gebruiken als "
+"metabeschrijving voor uw vacature. Aanbevolen wordt om de korte beschrijving "
+"te gebruiken of een specifiek veld in OTYS op te geven om te gebruiken als "
+"metabeschrijving."
+
+#: app/Controllers/Admin/AdminSettingsController.php:958
+msgid "Vacancy labels displayed on the vacancy detail."
+msgstr ""
+"Kies welke matchcriteria standaard in de vacaturefilters getoond worden."
+
+#: app/Controllers/Admin/AdminSettingsController.php:967
+msgid "Mail sender"
+msgstr "Mail afzender"
+
+#: app/Controllers/Admin/AdminSettingsController.php:980
+msgid "Force sending all mails from one user"
+msgstr "Forceer het verzenden van alle e-mails van één gebruiker"
+
+#: app/Controllers/Admin/AdminSettingsController.php:988
+msgid ""
+"When this setting is enabled mails will never be send from the consultant. "
+"Instead mails will be send from the mail address assigned to the API."
+msgstr ""
+"Wanneer deze instelling is ingeschakeld zullen e-mails nooit worden "
+"verzonden vanaf de consultant. In plaats daarvan worden e-mails verzonden "
+"vanaf het e-mailadres dat is toegewezen aan de API."
+
+#: app/Controllers/Admin/AdminSettingsController.php:999
+msgid "Pagination"
+msgstr "Paginering"
+
+#: app/Controllers/Admin/AdminSettingsController.php:1010
+msgid "Maximum amount of pages"
+msgstr "Maximaal aantal pagina's"
+
+#: app/Controllers/Admin/AdminSettingsController.php:1017
+msgid "The maximum amount of pages shown in the pagination."
+msgstr "Het maximum aantal pagina's dat in de paginering wordt getoond."
+
+#: app/Controllers/Admin/AdminSettingsController.php:1026
+msgid "Previous and next buttons"
+msgstr "Vorige en volgende knoppen"
+
+#: app/Controllers/Admin/AdminSettingsController.php:1033
+msgid "How to show the previous and next buttons."
+msgstr "Hoe de vorige en volgende knop te tonen."
+
+#: app/Controllers/Admin/AdminSettingsController.php:1035
+msgid "Hide previous and next button"
+msgstr "Verberg vorige en volgende knop"
+
+#: app/Controllers/Admin/AdminSettingsController.php:1036
+msgid "Show previous and next button as text"
+msgstr "Toon vorige en volgende knop als tekst"
+
+#: app/Controllers/Admin/AdminSettingsController.php:1037
+msgid "Show previous and next button as icon"
+msgstr "Toon vorige en volgende knop als pictogram"
+
+#: app/Controllers/Admin/AdminSettingsController.php:1046
+msgid "Previous page button"
+msgstr "Vorige pagina knop"
+
+#: app/Controllers/Admin/AdminSettingsController.php:1053
+#: app/Controllers/Admin/AdminSettingsController.php:1091
+#: app/Controllers/Admin/AdminSettingsController.php:1111
+#: app/Controllers/Admin/AdminSettingsController.php:1130
+msgid "How to show the first and last buttons."
+msgstr "Hoe toon je de eerste en de laatste knop."
+
+#: app/Controllers/Admin/AdminSettingsController.php:1055
+msgid "Choose the icon to be used for the previous page button"
+msgstr "Kies het pictogram voor de knop Vorige pagina"
+
+#: app/Controllers/Admin/AdminSettingsController.php:1056
+#: app/Controllers/Admin/AdminSettingsController.php:1075
+#: app/Controllers/Admin/AdminSettingsController.php:1114
+#: app/Controllers/Admin/AdminSettingsController.php:1133
+msgid "Use as icon"
+msgstr "Gebruik als pictogram"
+
+#: app/Controllers/Admin/AdminSettingsController.php:1065
+msgid "Next page button"
+msgstr "Volgende Pagina button"
+
+#: app/Controllers/Admin/AdminSettingsController.php:1072
+msgid "Choose the icon to be used for the next page button."
+msgstr "Kies het pictogram voor de knop Volgende pagina."
+
+#: app/Controllers/Admin/AdminSettingsController.php:1074
+msgid "Choose icon to be used for the next page button"
+msgstr "Kies een pictogram voor de knop Volgende pagina"
+
+#: app/Controllers/Admin/AdminSettingsController.php:1084
+msgid "First and last buttons"
+msgstr "Eerste en laatste knop"
+
+#: app/Controllers/Admin/AdminSettingsController.php:1093
+msgid "Hide first and last button button"
+msgstr "Verberg eerste en laatste knop"
+
+#: app/Controllers/Admin/AdminSettingsController.php:1094
+msgid "Show first and last button as text"
+msgstr "Toon eerste en laatste knop als tekst"
+
+#: app/Controllers/Admin/AdminSettingsController.php:1095
+msgid "Show first and last button as icon"
+msgstr "Toon eerste en laatste knop als pictogram"
+
+#: app/Controllers/Admin/AdminSettingsController.php:1104
+msgid "First page button"
+msgstr "Eerste pagina knop"
+
+#: app/Controllers/Admin/AdminSettingsController.php:1113
+msgid "Choose icon to be used for the first page button"
+msgstr "Kies een pictogram voor de knop van de eerste pagina"
+
+#: app/Controllers/Admin/AdminSettingsController.php:1123
+msgid "Last page button"
+msgstr "Laatste pagina knop"
+
+#: app/Controllers/Admin/AdminSettingsController.php:1132
+msgid "Choose icon to be used for the last page button"
+msgstr "Kies het icoon die word gebruikt voor de laatste pagina knop"
+
+#: app/Controllers/Admin/AdminSettingsController.php:1143
+msgid "Candidate authentication settings"
+msgstr "Kandidaat authenticatie instellingen"
+
+#: app/Controllers/Admin/AdminSettingsController.php:1156
+msgid "Show candidate login link at application forms"
+msgstr "Toon een login link bij sollicitatie formulieren"
+
+#: app/Controllers/Admin/AdminSettingsController.php:1163
+msgid "A login link will be shown at the application form."
+msgstr "Een login link zal getoond worden bij sollicitatie formulieren."
+
+#: app/Controllers/Admin/AdminSettingsController.php:1173
+msgid "Use known candidate questionset for logged in candidates"
+msgstr "Gebruik bekende kandidaat vragenset voor ingelogde kandidaten"
+
+#: app/Controllers/Admin/AdminSettingsController.php:1180
+msgid "Use the known candidate questionset for logged in users"
+msgstr "Gebruik de bekende kandidaat vragenset voor ingelogde gebruikers"
+
+#: app/Controllers/Admin/AdminSettingsController.php:1195
+msgid "Forgot password e-mail"
+msgstr "Wachtwoord vergeten e-mail"
+
+#: app/Controllers/Admin/AdminSettingsController.php:1203
+msgid ""
+"To enable forgot password choose the document which is used as e-mail to "
+"send the newly generated password to the candidate. Also make sure to do the "
+"url settings and provide a forgot password url."
+msgstr ""
+"Om wachtwoord vergeten in te schakelen, kiest u het document dat wordt "
+"gebruikt als e-mail om het nieuw gegenereerde wachtwoord naar de kandidaat "
+"te sturen. Zorg er ook voor dat je de url-instellingen doet en een "
+"wachtwoord vergeten url opgeeft."
+
+#: app/Controllers/Admin/AdminSettingsController.php:1212
+msgid "URL Settings"
+msgstr "URL-instellingen"
+
+#: app/Controllers/Admin/AdminSettingsController.php:1222
+msgid "Candidate login"
+msgstr "Kandidaat login"
+
+#: app/Controllers/Admin/AdminSettingsController.php:1223
+msgid ""
+"Choose what url you want to use for the candidate login. Note that you'll "
+"have to create page by yourself and that the [otys-candidate-login] "
+"shortcode should be present on this page."
+msgstr ""
+"Kies welke url je wilt gebruiken voor de kandidatenlogin. Merk op dat je "
+"zelf een pagina moet aanmaken en dat de [otys-candidate-login] shortcode op "
+"deze pagina aanwezig moet zijn."
+
+#: app/Controllers/Admin/AdminSettingsController.php:1226
+msgid "Candidate logout"
+msgstr "Kandidaat afmelden"
+
+#: app/Controllers/Admin/AdminSettingsController.php:1227
+msgid ""
+"Choose what url you want to use for the candidate logout. Logout will only "
+"be a link, the candidate will be automaticly redirected."
+msgstr ""
+"Kies welke url je wilt gebruiken voor het uitloggen van de kandidaat. "
+"Uitloggen is alleen een link, de kandidaat wordt automatisch doorgestuurd."
+
+#: app/Controllers/Admin/AdminSettingsController.php:1230
+msgid "Candidate portal"
+msgstr "Kandidaat portaal"
+
+#: app/Controllers/Admin/AdminSettingsController.php:1231
+msgid ""
+"Choose what url you want to use for the candidate portal. The candidate will "
+"be redirected to the otys candidate portal using this url."
+msgstr ""
+"Kies welke url u wilt gebruiken voor de kandidatenportal. De kandidaat wordt "
+"via deze url doorgestuurd naar de otys kandidatenportal."
+
+#: app/Controllers/Admin/AdminSettingsController.php:1234
+msgid "Candidate forgot password"
+msgstr "Kandidaat wachtwoord vergeten"
+
+#: app/Controllers/Admin/AdminSettingsController.php:1235
+msgid ""
+"Choose what url you want to for the forgot password page. Note that you'll "
+"have to create the page by yourself and that the [otys-candidate-forgot-"
+"password] shotcode should be present on this page and that you need to "
+"specify which document you want to use for the forgot password mail. By "
+"default a forgot password document has been made which can be used."
+msgstr ""
+"Kies welke url je wilt gebruiken voor de wachtwoord vergeten pagina. Merk op "
+"dat je de pagina zelf moet aanmaken en dat de [otys-kandidaat-vergeten-"
+"wachtwoord] shotcode aanwezig moet zijn op deze pagina en dat je moet "
+"aangeven welk document je wilt gebruiken voor de wachtwoord vergeten mail. "
+"Standaard is er een vergeten-wachtwoord-document gemaakt dat gebruikt kan "
+"worden."
+
+#: app/Controllers/Admin/AdminSettingsController.php:1313
+msgid ""
+"Are you sure you want to remove the API Key? You will loose plugin related "
+"settings and all plugin related cache will be removed."
+msgstr ""
+"Weet u zeker dat u de API sleutel wilt verwijderen? Je verliest dan plugin "
+"gerelateerde instellingen en alle plugin gerelateerde cache wordt verwijderd."
+
+#: app/Controllers/Admin/AdminSettingsController.php:1313
+msgid "Remove API key"
+msgstr "Verwijder API key"
+
+#: app/Controllers/Admin/AdminSettingsController.php:1316
+#, php-format
+msgid "Connected to %s"
+msgstr "Verbonden met %s"
+
+#: app/Controllers/Admin/AdminSettingsController.php:1332
+msgid ""
+"You are using an incorrect API key for the OTYS WordPress plugin. Please "
+"contact OTYS to resolve this to avoid future issues."
+msgstr ""
+"Je gebruikt een onjuiste API-sleutel voor de OTYS WordPress-plugin. Neem "
+"contact op met OTYS om dit op te lossen en problemen in de toekomst te "
+"voorkomen."
+
+#: app/Controllers/Admin/AdminWebhooksController.php:62
+msgid "Webhook url"
+msgstr "Webhooks"
+
+#: app/Controllers/Admin/AdminWebhooksController.php:70
+#, php-format
+msgid ""
+"The webhook url should on live websites always point at %1$s. \n"
+"                    It is not recommended to change this url. This setting "
+"is here solely for development purposes. \n"
+"                    For safety this setting only gets used when debug mode "
+"is on. \n"
+"                    Remember to click the Register hooks button to register "
+"hooks with OTYS, otherwise changes will not have any effect. \n"
+"                    To make sure the correct webhooks are registered, see "
+"the list of registed webhooks below."
+msgstr ""
+"De webhook url moet op live websites altijd naar %1$s wijzen\n"
+"                    Het is niet aan te raden deze url te wijzigen. Deze "
+"instelling is hier alleen voor ontwikkelingsdoeleinden\n"
+"                    Voor de veiligheid wordt deze instelling alleen gebruikt "
+"als debug modus aan staat\n"
+"                    Vergeet niet op de knop Haken registreren te klikken om "
+"haken bij OTYS te registreren, anders hebben wijzigingen geen effect\n"
+"                    Om er zeker van te zijn dat de juiste webhooks zijn "
+"geregistreerd, zie de lijst van geregistreerde webhooks hieronder."
+
+#: app/Controllers/Shortcodes/AbstractInteractionsController.php:81
+#: app/Controllers/Shortcodes/AuthController.php:64
+#: app/Controllers/Shortcodes/ForgotPasswordController.php:67
+msgid ""
+"Please setup the recaptcha key correctly, otherwise the interaction form "
+"will not work. If you need help please read the article <a target=\"_blank\" "
+"href=\"https://wordpress.otys.com/kb/guide/en/QIkQJMUsa2/\">How do I setup "
+"Google Recaptcha?</a> on our knowledge base."
+msgstr ""
+"Stel de recaptcha-sleutel correct in, anders werkt het interactieformulier "
+"niet. Als u hulp nodig heeft, lees dan het artikel <a target=\"_blank\" "
+"href=\"https://wordpress.otys.com/kb/guide/en/QIkQJMUsa2/\">Hoe stel ik "
+"Google Recaptcha in?</a> op onze kennisbank."
+
+#: app/Controllers/Shortcodes/AbstractInteractionsController.php:99
+msgid "Thank you for filling in the form."
+msgstr "Bedankt voor het invullen van het formulier."
+
+#: app/Controllers/Shortcodes/AbstractInteractionsController.php:100
+msgid "Send"
+msgstr "Verzenden"
+
+#: app/Controllers/Shortcodes/AuthController.php:129
+msgid "Login"
+msgstr "Inloggen"
+
+#: app/Controllers/Shortcodes/AuthController.php:130
+msgid "You've been sucessfully logged in and will be redirect to the portal.."
+msgstr "U bent succesvol ingelogd en wordt doorgestuurd naar het portaal..."
+
+#: app/Controllers/Shortcodes/ForgotPasswordController.php:110
+msgid "Send new password"
+msgstr "Verstuur nieuw wachtwoord"
+
+#: app/Controllers/Shortcodes/ForgotPasswordController.php:111
+msgid "A new password has been send to your e-mail address."
+msgstr "Er is een nieuw wachtwoord naar uw e-mailadres verzonden."
+
+#: app/Controllers/Shortcodes/JobAlertController.php:73
+msgid ""
+"Please configure the jobalert settings. Please navigate to the Job Alert tab "
+"under OTYS settings in your WordPress admin panel and select which match "
+"criteria to show."
+msgstr ""
+"Configureer de jobalert-instellingen. Navigeer naar het tabblad Vacature-"
+"alert onder OTYS-instellingen in je WordPress beheerderspaneel en selecteer "
+"welke matchcriteria moeten worden getoond."
+
+#: app/Controllers/Shortcodes/JobAlertController.php:83
+msgid ""
+"Please configure the jobalert settings. Please navigate to the Job Alert tab "
+"under OTYS settings in your WordPress admin panel and select which document "
+"to use for the confirmation email."
+msgstr ""
+"Configureer de jobalert-instellingen. Navigeer naar het tabblad Vacature-"
+"alert onder OTYS-instellingen in je WordPress beheerderspaneel en selecteer "
+"welk document je wilt gebruiken voor de bevestigingsmail."
+
+#: app/Controllers/Shortcodes/JobAlertController.php:126
+msgid ""
+"Thank you for creating a job alert. An email has been send to your email "
+"address with a confirmation link."
+msgstr ""
+"Bedankt voor het aanmaken van een job alert. Er is een e-mail naar uw e-"
+"mailadres gestuurd met een bevestigingslink."
+
+#: app/Controllers/Shortcodes/JobAlertController.php:129
+msgid "Subscribe"
+msgstr "Inschrijven"
+
+#: app/Controllers/Shortcodes/JobAlertController.php:143
+msgid ""
+"Something went wrong while creating the jobalert. Please contact OTYS "
+"support."
+msgstr ""
+"Er ging iets mis tijdens het aanmaken van de job alert. Neem contact op met "
+"OTYS support."
+
+#: app/Controllers/Shortcodes/JobAlertController.php:155
+msgid "No email address found for the jobalert. Please contact OTYS support."
+msgstr ""
+"Geen e-mailadres gevonden voor de jobalert. Neem contact op met OTYS support."
+
+#: app/Controllers/Shortcodes/JobAlertController.php:159
+msgid ""
+"Something went wrong while getting the jobalert details. Please contact OTYS "
+"support."
+msgstr ""
+"Something went wrong while getting the jobalert details. Please contact OTYS "
+"support."
+
+#: app/Controllers/Shortcodes/JobAlertController.php:166
+msgid ""
+"No document set for the jobalert confirmation email, please configure this "
+"in your WordPress admin panel."
+msgstr ""
+"Er is geen document ingesteld voor de bevestiging e-mail van de job alert. "
+"Configureer dit in je WordPress adminpaneel."
+
+#: app/Controllers/Shortcodes/JobAlertController.php:183
+msgid "No OTYS website found for your website, please contact OTYS support."
+msgstr ""
+"Geen OTYS-website gevonden voor uw website, neem contact op met OTYS support."
+
+#: app/Controllers/Shortcodes/JobAlertController.php:198
+#, php-format
+msgid ""
+"Something went wrong while getting the mail confirmation configuration. "
+"Please contact %s."
+msgstr ""
+"Er is iets fout gegaan tijdens het ophalen van de mail configuratie. Neem "
+"contact op met %s."
+
+#: app/Controllers/Shortcodes/VacanciesApplyController.php:76
+msgid ""
+"Please setup the recaptcha key correctly, otherwise the application form "
+"will not work. If you need help please read the article <a target=\"_blank\" "
+"href=\"https://wordpress.otys.com/kb/guide/en/QIkQJMUsa2/\">How do I setup "
+"Google Recaptcha?</a> on our knowledge base."
+msgstr ""
+"Stel de recaptcha correct in, anders zal het aanvraagformulier niet werken. "
+"Als je hulp nodig hebt, lees dan het artikel <a target=\"_blank\" "
+"href=\"https://wordpress.otys.com/kb/guide/en/QIkQJMUsa2/\">Hoe stel ik "
+"Google Recaptcha in?</a> op onze kennisbank."
+
+#: app/Controllers/Shortcodes/VacanciesApplyController.php:242
+msgid "Email adres is already used, please choose a different email adres."
+msgstr "Het e-mailadres is al in gebruik. Kies een ander e-mailadres."
+
+#: app/Controllers/Shortcodes/VacanciesApplyController.php:248
+#: app/Controllers/Shortcodes/VacanciesApplyController.php:264
+msgid "You've already applied on this vacancy with this email adres."
+msgstr "Je hebt al gesolliciteerd op deze vacature met dit e-mailadres."
+
+#: app/Controllers/Shortcodes/VacanciesApplyController.php:251
+#: app/Models/QuestionsetModel.php:1201
+#: app/Models/Shortcodes/InteractionsModel.php:462
+msgid "Invalid email adres."
+msgstr "Ongeldig e-mail adres."
+
+#: app/Controllers/Shortcodes/VacanciesApplyController.php:383
+#, php-format
+msgid ""
+"Something went wrong. Please contact %s to make sure your application went "
+"through."
+msgstr ""
+"Er ging iets mis. Neem contact op met %s, om er zeker van te zijn dat de "
+"sollicitatie is gelukt."
+
+#: app/Controllers/Shortcodes/VacanciesApplyController.php:459
+msgid "Application failed, please contact us."
+msgstr "Aanvraag mislukt, neem dan contact met ons op."
+
+#: app/Controllers/Shortcodes/VacanciesListController.php:115
+msgid "No vacancies found."
+msgstr "Geen vacatures gevonden."
+
+#: app/Controllers/VacanciesApplyController.php:49
+#, php-format
+msgid "Apply for %1$s"
+msgstr "Solliciteer als %1$s"
+
+#: app/Controllers/VacanciesDetailController.php:65
+#, php-format
+msgctxt "Vacancy detail title"
+msgid "%1$s"
+msgstr "%1$s"
+
+#: app/Includes/Core/OtysPlugin.php:145
+msgid "Edit settings"
+msgstr "Instellingen bewerken"
+
+#: app/Includes/Core/Updater.php:311
+msgid "How to contact support?"
+msgstr "Hoe neemt u contact op met ondersteuning?"
+
+#: app/Includes/Core/Updater.php:312
+#, php-format
+msgid ""
+"Failed updating version %s to version %s. The updater failed at version %s. "
+"Please create a OTYS support ticket and provide this information in the "
+"ticket. %s"
+msgstr ""
+"Mislukt bij het updaten van versie %s naar versie %s. Mislukt bij update %s. "
+"Maak een OTYS support ticket aan en geef deze informatie mee in het ticket. "
+"%s"
+
+#: app/Includes/OtysApi.php:158 app/Includes/OtysApi.php:198
+msgid "API key provided is invalid."
+msgstr "De gegeven API key is foutief."
+
+#: app/Includes/OtysApi.php:225
+msgid "Session provided with the request is invalid."
+msgstr "De sessie die bij het verzoek is geleverd, is ongeldig."
+
+#: app/Includes/OtysApi.php:227
+msgid "No error message available."
+msgstr "Geen foutmelding beschikbaar."
+
+#: app/Models/CandidateModel.php:165 app/Models/CandidateModel.php:206
+msgid "Could not create candidate."
+msgstr "Kon kandidaat niet aanmaken."
+
+#: app/Models/FilesModel.php:116
+msgid "Invalid file upload."
+msgstr "Foutief bestand geüpload."
+
+#: app/Models/FilesModel.php:139
+#, php-format
+msgid "%s is an invalid file."
+msgstr "%s is een ongeldig bestand."
+
+#: app/Models/FilesModel.php:153
+#, php-format
+msgid "File %1$s exceeds filesize limit. Max file size is %2$s."
+msgstr ""
+"Bestand %1$s overschrijdt de bestandsgroottelimiet. De maximale "
+"bestandsgrootte is %2$s."
+
+#: app/Models/FilesModel.php:185
+#, php-format
+msgid "File extension of %s is not allowed."
+msgstr "Bestandsextensie van %s is niet toegestaan."
+
+#: app/Models/FilesModel.php:191
+msgid "No file uploaded"
+msgstr "Geen bestand geüpload"
+
+#: app/Models/FilesModel.php:195 app/Models/FilesModel.php:198
+#, php-format
+msgid "File %s exceeds filesize limit."
+msgstr "Bestand %s overschrijdt bestandsgroottelimiet."
+
+#: app/Models/FilesModel.php:201
+msgid "Something went wrong while uploading your documents."
+msgstr "Er ging iets mis, neem contact op met deze server admin."
+
+#: app/Models/FilesModel.php:224
+msgid "no subject"
+msgstr "geen onderwerp"
+
+#: app/Models/MailModel.php:38
+msgid "No message set for email."
+msgstr "Geen bericht ingesteld voor e-mail."
+
+#: app/Models/Pagination.php:113
+msgid "First"
+msgstr "Eerste"
+
+#: app/Models/Pagination.php:129
+msgid "Prev"
+msgstr "Vorige"
+
+#: app/Models/Pagination.php:145 app/views/interactions/interactions.php:87
+#: app/views/vacancies/apply/vacancies-apply-shortcode.php:103
+msgid "Next"
+msgstr "Volgende"
+
+#: app/Models/Pagination.php:162
+msgid "Last"
+msgstr "Laatste"
+
+#: app/Models/QuestionsetModel.php:656
+msgid "Wrong questionset UID"
+msgstr "Verkeerde vragenset UID"
+
+#: app/Models/QuestionsetModel.php:761
+#, php-format
+msgctxt "GDPR"
+msgid "%s months"
+msgstr "%s maanden"
+
+#: app/Models/QuestionsetModel.php:1030 app/Models/QuestionsetModel.php:1086
+#: app/Models/QuestionsetModel.php:1142
+msgid "Response open questionset is invalid"
+msgstr "Antwoord open vragenset is ongeldig"
+
+#: app/Models/QuestionsetModel.php:1169
+#: app/Models/Shortcodes/InteractionsModel.php:430
+msgid "This field is required."
+msgstr "Dit veld is verplicht."
+
+#: app/Models/QuestionsetModel.php:1173
+#: app/Models/Shortcodes/InteractionsModel.php:434
+msgid "File upload is required."
+msgstr "Bestand uploaden is vereist."
+
+#: app/Models/QuestionsetModel.php:1180
+#: app/Models/Shortcodes/InteractionsModel.php:441
+msgid "Value should be a valid date."
+msgstr "De waarde moet een geldige datum zijn."
+
+#: app/Models/QuestionsetModel.php:1187
+#: app/Models/Shortcodes/InteractionsModel.php:448
+msgid "Postal code is invalid."
+msgstr "Postcode is ongeldig."
+
+#: app/Models/QuestionsetModel.php:1194 app/Models/QuestionsetModel.php:1236
+#: app/Models/Shortcodes/InteractionsModel.php:455
+#: app/Models/Shortcodes/InteractionsModel.php:497
+msgid "Too many digits."
+msgstr "Te veel cijfers."
+
+#: app/Models/QuestionsetModel.php:1207 app/Models/QuestionsetModel.php:1210
+#: app/Models/Shortcodes/InteractionsModel.php:468
+#: app/Models/Shortcodes/InteractionsModel.php:471
+msgid "Only numbers & letters are allowed."
+msgstr "Alleen cijfers & letters zijn toegestaan."
+
+#: app/Models/QuestionsetModel.php:1217 app/Models/QuestionsetModel.php:1222
+#: app/Models/Shortcodes/InteractionsModel.php:478
+#: app/Models/Shortcodes/InteractionsModel.php:483
+msgid "Invalid phonenumber."
+msgstr "Ongeldig telefoonnummer."
+
+#: app/Models/QuestionsetModel.php:1229
+#: app/Models/Shortcodes/InteractionsModel.php:490
+msgid "Please enter a international phonenumber."
+msgstr "Voer een internationaal telefoonnummer in."
+
+#: app/Models/QuestionsetModel.php:1243 app/Models/QuestionsetModel.php:1246
+#: app/Models/Shortcodes/InteractionsModel.php:504
+#: app/Models/Shortcodes/InteractionsModel.php:507
+msgid "Value should be a valid date of birth."
+msgstr "De waarde moet een geldige geboortedatum zijn."
+
+#: app/Models/QuestionsetModel.php:1261
+#: app/Models/Shortcodes/InteractionsModel.php:522
+msgid "Invalid document type."
+msgstr "Ongeldige documentsoort."
+
+#: app/Models/Shortcodes/AuthModel.php:36
+msgid "Something went wrong while trying to login."
+msgstr "Er is iets mis gegaan tijdens het inloggen."
+
+#: app/Models/Shortcodes/AuthModel.php:40
+#: app/Models/Shortcodes/AuthModel.php:46
+msgid "User and password combination is wrong."
+msgstr "De gebruikersnaam / wachtwoord combinatie is verkeerd."
+
+#: app/Models/Shortcodes/AuthModel.php:128
+#: app/Models/Shortcodes/ForgotPasswordModel.php:55
+#: app/Models/Shortcodes/InteractionsModel.php:566
+#: app/Models/Shortcodes/VacanciesApplyModel.php:344
+msgid "reCAPTCHA is incorrect. Please try again."
+msgstr "reCAPTCHA is onjuist. Probeer het opnieuw."
+
+#: app/Models/Shortcodes/AuthModel.php:224
+msgid "Unable to generate the login link"
+msgstr "Kan de aanmeldlink niet genereren"
+
+#: app/Models/Shortcodes/ForgotPasswordModel.php:101
+msgid "An error occurred while resetting the password."
+msgstr "Er is een fout opgetreden tijdens het resetten van het wachtwoord."
+
+#: app/Models/Shortcodes/ForgotPasswordModel.php:161
+msgid "User not found."
+msgstr "Gebruiker niet gevonden."
+
+#: app/Models/Shortcodes/ForgotPasswordModel.php:196
+msgid "Candidate not found."
+msgstr "Kandidaat niet gevonden."
+
+#: app/Models/Shortcodes/InteractionsModel.php:252
+#: app/Models/Shortcodes/InteractionsModel.php:300
+msgid "Error while fetching the interaction form."
+msgstr "Fout bij het ophalen van het interactieformulier."
+
+#: app/Models/Shortcodes/InteractionsModel.php:256
+#: app/Models/Shortcodes/InteractionsModel.php:304
+msgid "Interaction form data not found."
+msgstr "Gegevens interactieformulier niet gevonden."
+
+#: app/Models/Shortcodes/InteractionsModel.php:258
+#: app/Models/Shortcodes/InteractionsModel.php:306
+msgid "Could not find interaction form data."
+msgstr "Kan gegevens interactieformulier niet vinden."
+
+#: app/Models/Shortcodes/InteractionsModel.php:262
+#: app/Models/Shortcodes/InteractionsModel.php:264
+#: app/Models/Shortcodes/InteractionsModel.php:347
+msgid "No session id found."
+msgstr "Geen sessie id gevonden."
+
+#: app/Models/Shortcodes/InteractionsModel.php:333
+msgid "Error while submitting the interaction form"
+msgstr "Fout tijdens het versturen van het interactieformulier"
+
+#: app/Models/Shortcodes/InteractionsModel.php:362
+msgid "Errors occured while commiting the session"
+msgstr "Er hebben zich fouten voorgedaan tijdens het versturen van de sessie"
+
+#: app/Models/Shortcodes/InteractionsModel.php:550
+msgid "Invalid id."
+msgstr "Ongeldige id."
+
+#: app/Models/Shortcodes/JobAlertModel.php:56
+msgid "Please choose at least one match criteria"
+msgstr "Selecteer tenminste één match criteria"
+
+#: app/Models/Shortcodes/JobAlertModel.php:280
+msgid "Language"
+msgstr "Taal"
+
+#: app/Models/Shortcodes/JobAlertModel.php:283
+msgid "E-mail"
+msgstr "E-mail"
+
+#: app/Models/Shortcodes/JobAlertModel.php:287
+msgid "Period"
+msgstr "Periode"
+
+#: app/Models/Shortcodes/VacanciesApplyModel.php:268
+msgid "Something went wrong while retrieving the vacancy."
+msgstr "Er ging iets mis, neem contact op met deze server admin."
+
+#: app/Models/Shortcodes/VacanciesApplyModel.php:328
+msgid "Invalid vacancy uid."
+msgstr "Ongeldige vacature uid.."
+
+#: app/Models/Shortcodes/VacanciesApplyModel.php:358
+msgid "Invalid action."
+msgstr "Ongeldige actie."
+
+#: app/Models/Shortcodes/VacanciesApplyModel.php:383
+msgid "Invalid confirmation code."
+msgstr "Foutieve bevestigingscode."
+
+#: app/Models/Shortcodes/VacanciesListModel.php:492
+msgid "Could not retrieve vacancy list"
+msgstr "Kan vacaturelijst niet ophalen"
+
+#: app/Models/Shortcodes/VacanciesListModel.php:570
+#: app/Models/VacanciesDetailModel.php:372
+msgid "Category"
+msgstr "Categorie"
+
+#: app/Models/Shortcodes/VacanciesSelectedFiltersModel.php:40
+msgid "km"
+msgstr "km"
+
+#: app/Models/VacanciesDetailModel.php:507
+#: app/views/admin/wp-settings-api/cb-select-document.php:13
+msgid "Disabled"
+msgstr "Uitgeschakeld"
+
+#: app/views/admin/admin-cache/admin-cache.php:14
+#: app/views/admin/admin-logs/admin-logs.php:16
+msgid "Are you sure you want to delete"
+msgstr "Weet je zeker dat je dit wilt verwijderen"
+
+#: app/views/admin/admin-cache/admin-cache.php:21
+msgid "Admin cache"
+msgstr "Beheerders-dashboard"
+
+#: app/views/admin/admin-cache/admin-cache.php:25
+#: app/views/admin/admin-cache/admin-cache.php:26
+msgid "all cache"
+msgstr "alle cache"
+
+#: app/views/admin/admin-cache/admin-cache.php:25
+msgid "Delete all cache"
+msgstr "Verwijder alle cache"
+
+#: app/views/admin/admin-cache/admin-cache.php:26
+msgid "Delete expired cache"
+msgstr "Verwijder alle verlopen cache"
+
+#: app/views/admin/admin-cache/admin-cache.php:33
+#: app/views/admin/admin-logs/admin-logs.php:34
+msgid "Total data size"
+msgstr "Totale gegevensgrootte"
+
+#: app/views/admin/admin-cache/admin-cache.php:47
+msgid "Transient name"
+msgstr "Transientnaam"
+
+#: app/views/admin/admin-cache/admin-cache.php:48
+msgid "Autoload"
+msgstr "Autoload"
+
+#: app/views/admin/admin-cache/admin-cache.php:49
+msgid "Expire date"
+msgstr "Vervaldatum"
+
+#: app/views/admin/admin-cache/admin-cache.php:50
+#: app/views/admin/admin-logs/admin-logs.php:54
+msgid "Action"
+msgstr "Actie"
+
+#: app/views/admin/admin-cache/admin-cache.php:64
+#: app/views/admin/admin-routes-settings/admin-routes-input.php:61
+#: app/views/admin/admin-routes-settings/admin-routes-input.php:121
+msgid "Delete"
+msgstr "Verwijderen"
+
+#: app/views/admin/admin-cache/admin-cache.php:77
+#: app/views/admin/admin-logs/admin-logs.php:143
+msgid "&laquo;"
+msgstr "&laquo;"
+
+#: app/views/admin/admin-cache/admin-cache.php:78
+#: app/views/admin/admin-logs/admin-logs.php:144
+msgid "&raquo;"
+msgstr "&raquo;"
+
+#: app/views/admin/admin-cache/admin-cache.php:86
+msgid "Currently there is no cache"
+msgstr "Momenteel is er geen cache"
+
+#: app/views/admin/admin-dashboard/admin-dashboard.php:2
+msgid "Admin Dashboard"
+msgstr "Beheerders-dashboard"
+
+#: app/views/admin/admin-dashboard/admin-dashboard.php:8
+msgid ""
+"Currently the OTYS Plugin does not have a valid session. \n"
+"                Make sure to add a proper API Key"
+msgstr ""
+"Momenteel heeft de OTYS Plugin geen geldige sessie\n"
+"                Zorg ervoor dat je een juiste API Sleutel toevoegt"
+
+#: app/views/admin/admin-dashboard/admin-dashboard.php:12
+msgid "Add API Key"
+msgstr "API-sleutel toevoegen"
+
+#: app/views/admin/admin-job-alert/admin-job-alert.php:7
+msgid ""
+"Job alert is not enabled for your client. If you want to use job alerts "
+"please contact support."
+msgstr ""
+"Job-alert is niet ingeschakeld voor uw klant. Neem contact op met support "
+"als je vacaturewaarschuwingen wilt gebruiken."
+
+#: app/views/admin/admin-job-alert/admin-job-alert.php:16
+#: app/views/admin/admin-routes-settings/admin-routes-settings.php:19
+#: app/views/admin/admin-settings/admin-settings.php:36
+msgid "Save changes"
+msgstr "Wijzigingen opslaan"
+
+#: app/views/admin/admin-logs/admin-logs.php:23
+#: app/views/admin/admin-webhooks/admin-webhooks.php:71
+msgid "Logs"
+msgstr "Logs"
+
+#: app/views/admin/admin-logs/admin-logs.php:27
+msgid "all logs"
+msgstr "alle logboeken"
+
+#: app/views/admin/admin-logs/admin-logs.php:27
+msgid "Delete all logs"
+msgstr "Alle logs verwijderen"
+
+#: app/views/admin/admin-logs/admin-logs.php:49
+msgid "ID"
+msgstr "ID"
+
+#: app/views/admin/admin-logs/admin-logs.php:50
+msgid "Method"
+msgstr "Methode"
+
+#: app/views/admin/admin-logs/admin-logs.php:51
+msgid "Status"
+msgstr "Status"
+
+#: app/views/admin/admin-logs/admin-logs.php:52
+msgid "Message"
+msgstr "Bericht"
+
+#: app/views/admin/admin-logs/admin-logs.php:53
+msgid "Timestamp"
+msgstr "Tijdstempel"
+
+#: app/views/admin/admin-logs/admin-logs.php:88
+msgid "ERROR"
+msgstr "FOUT"
+
+#: app/views/admin/admin-logs/admin-logs.php:92
+#: app/views/admin/admin-webhooks/admin-webhooks.php:98
+msgid "View"
+msgstr "Bekijk"
+
+#: app/views/admin/admin-logs/admin-logs.php:100
+#: app/views/admin/admin-webhooks/admin-webhooks.php:120
+msgid "Request"
+msgstr "Aanvraag"
+
+#: app/views/admin/admin-logs/admin-logs.php:116
+#: app/views/admin/admin-webhooks/admin-webhooks.php:106
+msgid "Response"
+msgstr "Reactie"
+
+#: app/views/admin/admin-logs/admin-logs.php:152
+msgid "There are currently no logs"
+msgstr "Er zijn momenteel geen logs"
+
+#: app/views/admin/admin-routes-settings/admin-routes-input.php:45
+#: app/views/admin/admin-routes-settings/admin-routes-input.php:104
+msgctxt "vacancy detail route example"
+msgid "/vacancy-slug"
+msgstr "/vacature-slug"
+
+#: app/views/admin/admin-routes-settings/admin-routes-input.php:74
+msgid ""
+"Optionally you can set the application thank you url. By default the thank "
+"you message will be shown on the same page as the application form."
+msgstr ""
+"Optioneel kunt u de bedank-URL van de applicatie instellen. Standaard wordt "
+"het bedankbericht op dezelfde pagina getoond als het aanmeldingsformulier."
+
+#: app/views/admin/admin-routes-settings/admin-routes-input.php:77
+#, php-format
+msgid ""
+"%s page is not set and is required for your the plugin to work properly."
+msgstr ""
+"%s pagina is niet ingesteld en is nodig om de plugin goed te laten werken."
+
+#: app/views/admin/admin-routes-settings/admin-routes-input.php:134
+msgid "Add url"
+msgstr "URL Toevoegen"
+
+#: app/views/admin/admin-routes-settings/admin-routes-settings.php:7
+#: app/views/admin/admin-settings/admin-settings.php:13
+msgid "Settings Saved"
+msgstr "Instellingen opgeslagen"
+
+#: app/views/admin/admin-settings/admin-settings-mails.php:7
+msgid ""
+"Emails sent from the plugin are using documents from your OTYS enviroment."
+msgstr ""
+"E-mails die vanuit de plugin worden verzonden gebruiken documenten uit je "
+"OTYS omgeving."
+
+#: app/views/admin/admin-settings/admin-settings-mails.php:13
+msgid ""
+"Below you see mails that get triggered when events happen. For each email "
+"that gets triggered you can choose which document to use. When choosing "
+"disabled the email will not be send."
+msgstr ""
+"Hieronder zie je mails die getriggerd worden wanneer gebeurtenissen "
+"plaatsvinden. Voor elke e-mail die getriggerd wordt kun je kiezen welk "
+"document je wilt gebruiken. Als je kiest voor uitgeschakeld, zal de email "
+"niet worden verzonden."
+
+#: app/views/admin/admin-settings/admin-settings-mails.php:19
+msgid ""
+"If you as a user has rights to the document module in OTYS, you are able to "
+"edit these documents and also able to create new documents which can be used "
+"for emailing aswell."
+msgstr ""
+"Indien u als gebruiker rechten heeft op de documentenmodule in OTYS, bent u "
+"in staat deze documenten te bewerken en tevens nieuwe documenten aan te "
+"maken die ook gebruikt kunnen worden voor emailing."
+
+#: app/views/admin/admin-settings/admin-settings-mails.php:23
+#: app/views/admin/admin-settings/admin-settings-mails.php:24
+msgid "Watch documents module instruction video"
+msgstr "Bekijk documenten module instructievideo"
+
+#: app/views/admin/admin-webhooks/admin-webhooks.php:30
+msgid "Registered webhooks"
+msgstr "Geregistreerde webhooks"
+
+#: app/views/admin/admin-webhooks/admin-webhooks.php:35
+msgid "Register hooks"
+msgstr "Registreer webhooks"
+
+#: app/views/admin/admin-webhooks/admin-webhooks.php:57
+msgid "Not registered"
+msgstr "Niet geregistreerd"
+
+#: app/views/admin/wp-settings-api/cb-checkbox.php:13
+#: app/views/admin/wp-settings-api/cb-radio.php:7
+#: app/views/admin/wp-settings-api/cb-select.php:9
+msgid "Select option"
+msgstr "Selecteer optie"
+
+#: app/views/admin/wp-settings-api/cb-image.php:6
+#: app/views/admin/wp-settings-api/cb-image.php:31
+msgid "Choose image"
+msgstr "Afbeelding kiezen"
+
+#: app/views/admin/wp-settings-api/cb-image.php:7
+msgid "Set image"
+msgstr "Afbeelding instellen"
+
+#: app/views/admin/wp-settings-api/cb-image.php:17
+msgid "Select image"
+msgstr "Selecteer afbeelding"
+
+#: app/views/admin/wp-settings-api/cb-image.php:42
+msgid "Remove image"
+msgstr "Verwijder afbeelding"
+
+#: app/views/admin/wp-settings-api/cb-jobalert-fields-select.php:9
+#: app/views/admin/wp-settings-api/cb-sortable-checkboxes.php:14
+msgid "Select options"
+msgstr "Selecteer opties"
+
+#: app/views/admin/wp-settings-api/cb-jobalert-fields-select.php:61
+msgid "Please select at least one match criteria"
+msgstr "Selecteer tenminste één match criteria"
+
+#: app/views/admin/wp-settings-api/cb-select-document.php:9
+msgid "Select documents"
+msgstr "Selecteer documenten"
+
+#: app/views/admin/wp-settings-api/cb-select-match-criteria.php:14
+msgid "Select match criteria"
+msgstr "Selecteer match criteria"
+
+#: app/views/forgot-password/forgot-password-success.php:3
+msgid ""
+"If your username is known by us you will receive an e-mail with a new "
+"password within a few minutes."
+msgstr ""
+"Als je gebruikersnaam bij ons bekend is, ontvang je binnen enkele minuten "
+"een e-mail met een nieuw wachtwoord."
+
+#: app/views/interactions/interactions.php:75
+#: app/views/vacancies/apply/vacancies-apply-shortcode.php:92
+msgid "Previous"
+msgstr "Vorige"
+
+#: app/views/login/login-logged-in.php:3
+#, php-format
+msgid "You are logged in as %s"
+msgstr "Welkom %s"
+
+#: app/views/login/login-logged-in.php:7
+msgid "Logout"
+msgstr "Uitloggen"
+
+#: app/views/login/login.php:49
+msgid "Forgot password"
+msgstr "Wachtwoord vergeten"
+
+#: app/views/vacancies/apply/vacancies-apply-shortcode-known-candidate.php:3
+msgid "You've already applied for this job."
+msgstr "Je hebt al gesolliciteerd op deze vacature."
+
+#: app/views/vacancies/apply/vacancies-apply-shortcode.php:31
+msgid "Already have an account? Login here."
+msgstr "Heb je al een account? Hier kan je inloggen."
+
+#: app/views/vacancies/apply/vacancies-apply-shortcode.php:98
+#: app/views/vacancies/vacancies-detail.php:93
+#: app/views/vacancies/vacancies-detail.php:131
+msgid "Apply"
+msgstr "Solliciteer"
+
+#: app/views/vacancies/apply/vacancies-apply-success.php:13
+#, php-format
+msgid ""
+"Thank you for your application. You have successfully applied for the "
+"vacancy %s."
+msgstr ""
+"Dank je voor je sollicitatie. Je hebt succesvol gesolliciteerd op de "
+"vacature %s."
+
+#: app/views/vacancies/apply/vacancies-apply.php:19
+msgid "You are currently applying for"
+msgstr "Je solliciteert momenteel op"
+
+#: app/views/vacancies/apply/vacancies-confirm-email.php:12
+msgid ""
+"We sent a confirmation code to your email address. Please confirm your "
+"application by filling in the confirmation code."
+msgstr ""
+"We hebben een bevestigingscode naar jouw e-mailadres verstuurd. Bevestig "
+"jouw sollicitatie door de bevestigingscode hier in te vullen."
+
+#: app/views/vacancies/apply/vacancies-confirm-email.php:18
+msgid "Confirmation code"
+msgstr "Bevestigingscode"
+
+#: app/views/vacancies/apply/vacancies-confirm-email.php:24
+msgid "Enter the confirmation code here"
+msgstr "Voer hier de bevestigingscode hier in"
+
+#: app/views/vacancies/apply/vacancies-open-apply-success.php:9
+msgid "Thank you for your application."
+msgstr "Bedankt voor jouw sollicitatie."
+
+#: app/views/vacancies/preview-mode.php:18
+msgid "Preview mode"
+msgstr "Voorbeeldmodus"
+
+#: app/views/vacancies/vacancies-detail.php:87
+msgid "ago"
+msgstr "geleden"
+
+#: app/views/vacancies/vacancies-filters.php:9
+msgid "Toggle filters"
+msgstr "Schakel filters"
+
+#: app/views/vacancies/vacancies-filters.php:16
+msgid "Filters"
+msgstr "Filters"
+
+#: app/views/vacancies/vacancies-geo-search.php:10
+msgid "Maximum distance"
+msgstr "Maximale afstand"
+
+#: app/views/vacancies/vacancies-geo-search.php:30
+msgid "Postal code"
+msgstr "Postcode"
+
+#: app/views/vacancies/vacancies-geo-search.php:61
+msgid "Reset"
+msgstr "Resetten"
+
+#: app/views/vacancies/vacancies-geo-search.php:66
+#: app/views/vacancies/vacancies-search.php:52
+msgid "Search"
+msgstr "Zoeken"
+
+#: app/views/vacancies/vacancies-list.php:16
+#, php-format
+msgid "Vacancy %s"
+msgstr "Vacature %1$s"
+
+#: app/views/vacancies/vacancies-list.php:59
+#: app/views/vacancies/vacancies-shortlist.php:59
+msgid "No vacancies found"
+msgstr "Geen vacatures gevonden"
+
+#: app/views/vacancies/vacancies-list.php:61
+msgid ""
+"There are no vacancies for your search filters. Remove filters to broaden "
+"the search."
+msgstr ""
+"Er zijn geen vacatures voor je zoekfilters. Verwijder filters om het zoeken "
+"te verbreden."
+
+#: app/views/vacancies/vacancies-list.php:62
+msgid "Remove all filters"
+msgstr "Alle filters verwijderen"
+
+#: app/views/vacancies/vacancies-search.php:9
+msgid "Search vacancies"
+msgstr "Vacatures zoeken"
+
+#: app/views/vacancies/vacancies-search.php:14
+msgid "Keyword"
+msgstr "Trefwoord"
+
+#: app/views/vacancies/vacancies-selected-filtes.php:19
+msgid "or"
+msgstr "of"
+
+#: otys-routes.php:32 otys-routes.php:33
+msgid "Settings"
+msgstr "Instellingen"
+
+#: otys-routes.php:44 otys-routes.php:45
+msgid "Cache"
+msgstr "Cache"
+
+#: otys-routes.php:68 otys-routes.php:69
+msgid "Webhooks"
+msgstr "Webhooks"
+
+#: otys-routes.php:79 otys-routes.php:80
+msgid "API Logs"
+msgstr "API Logs"
+
+#: otys-routes.php:88 otys-routes.php:89
+msgid "Instructions"
+msgstr "Instructies"
+
+#. Plugin Name of the plugin/theme
+msgid "OTYS Jobs & Apply"
+msgstr "OTYS Jobs & Solliciteer"
+
+#. Description of the plugin/theme
+msgid ""
+"Make your Wordpress website a proper recruitment website using the OTYS API"
+msgstr ""
+"Maak van je WordPress website een echte wervingssite met behulp van de OTYS "
+"API"
+
+#. Author of the plugin/theme
+msgid "OTYS"
+msgstr "OTYS"
+
+#. Author URI of the plugin/theme
+msgid "https://otys.nl"
+msgstr "https://otys.nl"
+
+#~ msgid "Mailing"
+#~ msgstr "Mailing"
+
+#~ msgid "Anti spam"
+#~ msgstr "Anti spam"
+
+#~ msgid "Vacancy Detail"
+#~ msgstr "Vacature Detail"
+
+#~ msgid "Vacancy URLs"
+#~ msgstr "Vacature URLs"
+
+#~ msgid "URL's"
+#~ msgstr "URL's"
+
+#~ msgid ""
+#~ "Choose which page to use for each module. This way the plugin knows where "
+#~ "the pages are located and how the url's should be structured. Make sure "
+#~ "to choose the correct language."
+#~ msgstr ""
+#~ "Kies voor elke module welke pagina gebruikt moet worden. Zo weet de "
+#~ "plugin waar de pagina's zich bevinden en hoe de url's gestructureerd "
+#~ "moeten worden. Zorg ervoor dat je de juiste taal kiest."

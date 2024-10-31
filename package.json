@@ -1,0 +1,36 @@
+{
+    "name": "otys-jobs-apply",
+    "version": "1.0.0",
+    "description": "=== OTYS Plugin ===\r Contributors: otysplugin\r Tags: ats, otys, recruiting, recruitment\r Requires at least: 5.1\r Tested up to: 6.0\r Stable tag: 1.2.3\r License: GPLv2 or later\r License URI: [http://www.gnu.org/licenses/gpl-2.0.html](http://www.gnu.org/licenses/gpl-2.0.html)",
+    "main": "index.js",
+    "scripts": {
+        "watch-scss": "sass --watch src/scss:assets/css --style compressed",
+        "ugly": "uglifyjs-folder src/js/ -eo assets/js/",
+        "start-watch": "npm-watch",
+        "dev": "concurrently --kill-others \"npm run start-watch\" \"npm run watch-scss\""
+    },
+    "watch": {
+        "ugly": {
+            "patterns": [
+                "src/js"
+            ],
+            "extensions": "js",
+            "quiet": false
+        }
+    },
+    "author": "OTYS",
+    "license": "ISC",
+    "dependencies": {
+        "sortablejs": "^1.15.0",
+        "swiper": "^8.4.4"
+    },
+    "devDependencies": {
+        "concurrently": "^7.6.0",
+        "node-sass": "^9.0.0",
+        "nodemon": "^3.1.4",
+        "npm-watch": "^0.11.0",
+        "sass": "^1.56.2",
+        "uglify-js": "^3.17.4",
+        "uglifyjs-folder": "^3.1.4"
+    }
+}

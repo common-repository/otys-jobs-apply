@@ -1,0 +1,301 @@
+[
+  {
+    "description": "Application new candidate confirmation",
+    "defaultOutput": "Email",
+    "defaultFormat": "Word",
+    "questions": [
+      {
+        "name": "password",
+        "code": "password",
+        "question": "Password"
+      }
+    ],
+    "content": {
+      "nl": {
+        "name": "WordPress | Nieuwe kandidaat sollicitatie (default)",
+        "content": "<p>Beste {{CandidateService.Person.firstName}},</p><p>Bedankt voor je sollicitatie op de vacature: {{VacancyService.title}}.</p>Met vriendelijke groet,<br />",
+        "subject": "Bevestiging sollicitatie"
+      },
+      "en": {
+        "name": "WordPress | New candidate application (default)",
+        "content": "<p>Dear {{CandidateService.Person.firstName}},</p><p>Thank you for applying on the vacancy {{VacancyService.title}}.</p>Kind regards,<br />",
+        "subject": "Application confirmation"
+      },
+      "fr": {
+        "name": "WordPress | Nouvelle candidature (par défaut)",
+        "content": "<p>Bonjour {{CandidateService.Person.firstName}},</p><p>Merci pour votre candidature au poste de {{VacancyService.title}}.</p>Cordialement,<br/>",
+        "subject": "Confirmation de candidature"
+      },
+      "de": {
+        "name": "WordPress | Neue Kandidatenbewerbung (Standard)",
+        "content": "<p>Sehr geehrter {{CandidateService.Person.firstName}},</p><p>Vielen Dank für Ihre Bewerbung auf das Stellenangebot: {{VacancyService.title}}.</p>Mit freundlichen Grüßen,<br />",
+        "subject": "Bewerbungsbestätigung"
+      },
+      "es": {
+        "name": "WordPress | Solicitud de nuevo candidato (predeterminado)",
+        "content": "<p>Estimado/a {{CandidateService.Person.firstName}},</p><p>Gracias por su solicitud para la vacante: {{VacancyService.title}}.</p>Atentamente,<br />",
+        "subject": "Confirmación de la solicitud"
+      }
+    }
+  },
+  {
+    "description": "Candidate new password",
+    "defaultOutput": "Email",
+    "defaultFormat": "Word",
+    "questions": [
+      {
+        "name": "password",
+        "code": "password",
+        "question": "Password"
+      }
+    ],
+    "content": {
+      "nl": {
+        "name": "WordPress | Nieuw wachtwoord (default)",
+        "content": "<p>Beste {{CandidateService.Person.firstName}},</p><p>Je hebt een nieuw wachtwoord aangevraagd.</p><p>Je nieuwe wachtwoord is: «password»</p>Met vriendelijke groet,<br />",
+        "subject": "Nieuw wachtwoord"
+      },
+      "en": {
+        "name": "WordPress | New password (default)",
+        "content": "<p>Dear {{CandidateService.Person.firstName}},</p><p>You have requested a new password.</p><p>Your new password is: «password»</p>Kind regards,<br />",
+        "subject": "New password"
+      },
+      "fr": {
+        "name": "WordPress | Nouveau mot de passe (par défaut)",
+        "content": "<p>Bonjour {{CandidateService.Person.firstName}},</p><p>Vous avez demandé un nouveau mot de passe.</p><p>Votre nouveau mot de passe est : «password»</p>Cordialement,<br />",
+        "subject": "Nouveau mot de passe"
+      },
+      "de": {
+        "name": "WordPress | Neues Passwort (Standard)",
+        "content": "<p>Sehr geehrter {{CandidateService.Person.firstName}},</p><p>Sie haben ein neues Passwort angefordert.</p><p>Ihr neues Passwort lautet: «password»</p>Mit freundlichen Grüßen,<br />",
+        "subject": "Neues Passwort"
+      },
+      "es": {
+        "name": "WordPress | Nueva contraseña (predeterminada)",
+        "content": "<p>Estimado/a {{CandidateService.Person.firstName}},</p><p>Ha solicitado una nueva contraseña.</p><p>Su nueva contraseña es: «password»</p>Atentamente,<br />",
+        "subject": "Nueva contraseña"
+      }
+    }
+  },
+  {
+    "description": "Application existing candidate confirmation",
+    "defaultOutput": "Email",
+    "defaultFormat": "Word",
+    "content": {
+      "nl": {
+        "name": "WordPress | Bestaande kandidaat sollicitatie (default)",
+        "content": "<p>Beste {{CandidateService.Person.firstName}},</p><p>Bedankt voor je sollicitatie op de vacature: {{VacancyService.title}}.</p>Met vriendelijke groet,<br />",
+        "subject": "Bevestiging sollicitatie"
+      },
+      "en": {
+        "name": "WordPress | Existing candidate application (default)",
+        "content": "<p>Dear {{CandidateService.Person.firstName}},</p><p>Thank you for applying on the vacancy {{VacancyService.title}}.</p>Kind regards,<br />",
+        "subject": "Application confirmation"
+      },
+      "fr": {
+        "name": "WordPress | Candidature existante (par défaut)",
+        "content": "<p>Bonjour {{CandidateService.Person.firstName}},</p><p>Merci pour votre candidature au poste de {{VacancyService.title}}.</p>Cordialement,<br/>",
+        "subject": "Confirmation de candidature"
+      },
+      "de": {
+        "name": "WordPress | Vorhandene Kandidatenbewerbung (Standard)",
+        "content": "<p>Sehr geehrter {{CandidateService.Person.firstName}},</p><p>Sie bewerben sich auf das Stellenangebot: {{VacancyService.title}}.</p><p>Bitte geben Sie den folgenden Code auf der Website ein, um Ihre Bewerbung abzuschließen: «code».</p>Mit freundlichen Grüßen, <br/>",
+        "subject": "Bewerbungsbestätigung"
+      },
+      "es": {
+        "name": "WordPress | Solicitud de candidato existente (predeterminada)",
+        "content": "<p>Estimado/a {{CandidateService.Person.firstName}},</p><p>Gracias por su solicitud para la vacante: {{VacancyService.title}}.</p>Atentamente, <br/>",
+        "subject": "Confirmación de la solicitud"
+      }
+    }
+  },
+  {
+    "description": "Open application confirmation",
+    "defaultOutput": "Email",
+    "defaultFormat": "Word",
+    "content": {
+      "nl": {
+        "name": "WordPress | Open sollicitatie (default)",
+        "content": "<p>Beste {{CandidateService.Person.firstName}},</p><p>Bedankt voor jouw open inschrijving.</p><p>Wij zullen z.s.m. contact met je opnemen.</p>Met vriendelijke groet,<br />",
+        "subject": "Bevestiging open sollicitatie"
+      },
+      "en": {
+        "name": "WordPress | Open application (default)",
+        "content": "<p>Dear {{CandidateService.Person.firstName}},</p><p>Thank you for your open application.</p><p>We will contact you as soon as possible.</p>Kind regards,<br />",
+        "subject": "Confirmation open application"
+      },
+      "fr": {
+        "name": "WordPress | Ouvrir l'application (par défaut)",
+        "content": "<p>Bonjour {{CandidateService.Person.firstName}},</p><p>Merci pour votre candidature spontanée.</p><p>Nous allons vous contacter dans les plus brefs délais.</p>Cordialement,<br />",
+        "subject": "Demande ouverte de confirmation"
+      },
+      "de": {
+        "name": "WordPress | Anwendung öffnen (Standard)",
+        "content": "<p>Sehr geehrter {{CandidateService.Person.firstName}},</p><p>Wir danken Ihnen für Ihre offene Anmeldung.</p><p>Wir werden Sie so bald wie möglich kontaktieren.</p>Mit freundlichen Grüßen,<br />",
+        "subject": "Bestätigung offener Antrag"
+      },
+      "es": {
+        "name": "WordPress | Abrir aplicación (predeterminado)",
+        "content": "<p>Estimado/a {{CandidateService.Person.firstName}}, </p><p>Gracias por su licitación. </p><p>Nos pondremos en contacto con usted lo más pronto posible. </p>Atentamente,<br />",
+        "subject": "Confirmación de solicitud abierta"
+      }
+    }
+  },
+  {
+    "description": "Consultant notification new application",
+    "defaultOutput": "Email",
+    "defaultFormat": "Word",
+    "content": {
+      "nl": {
+        "name": "WordPress | Consultant sollicitatie notificatie (default)",
+        "content": "<p>Een kandidaat heeft gesolliciteerd op de vacature {{VacancyService.title}}</p><p>Kandidaat informatie:</p><p><b>Naam:</b> {{CandidateService.Person.firstName}} {{CandidateService.Person.infix}} {{CandidateService.Person.lastName}}<br/><b>Email:</b> {{CandidateService.Person.emailPrimary}}<br/><b>Mobiel:</b> {{CandidateService.Person.phoneMobile}}</p>Met vriendelijke groet,<br />",
+        "subject": "Een kandidaat heeft gesolliciteerd"
+      },
+      "en": {
+        "name": "WordPress | Consultant application notification (default)",
+        "content": "<p>A candidate has applied for {{VacancyService.title}}</p><p>Candidate information:</p><p><b>Name:</b> {{CandidateService.Person.firstName}} {{CandidateService.Person.infix}} {{CandidateService.Person.lastName}}<br/><b>E-mail:</b> {{CandidateService.Person.emailPrimary}}<br/><b>Mobile:</b> {{CandidateService.Person.phoneMobile}}</p>Kind regards,<br />",
+        "subject": "A candidate has applied"
+      },
+      "fr": {
+        "name": "WordPress | Notification de demande de consultant (par défaut)",
+        "content": "<p>Une candidat.e a postulé au poste de {{VacancyService.title}}.</p><p><b>A propos du/de la candidate:</b></p><p><b>Nom:</b> {{CandidateService.Person.firstName}} {{CandidateService.Person.lastName}}<br /><b>Adresse </b>mail: {{CandidateService.Person.emailPrimary}}<br /><b>Portable:</b> {{CandidateService.Person.phoneMobile}}</p>Cordialement,<br />",
+        "subject": "Un candidat a postulé"
+      },
+      "de": {
+        "name": "WordPress | Benachrichtigung zur Beraterbewerbung (Standard)",
+        "content": "<p>Ein Bewerber hat sich auf die Stelle {{VacancyService.title}} beworben.</p><p><b>Informationen über den Kandidaten:</b></p><p><b>Name:</b> {{CandidateService.Person.firstName}} {{CandidateService.Person.infix}} {{CandidateService.Person.lastName}}<br /><b>E-Mail</b>: {{CandidateService.Person.emailPrimary}}<br /><b>Mobil:</b> {{CandidateService.Person.phoneMobile}}</p>Mit freundlichen Grüßen,<br />",
+        "subject": "Ein Kandidat hat sich beworben"
+      },
+      "es": {
+        "name": "WordPress | Notificación de solicitud de consultor (predeterminado)",
+        "content": "<p>Un candidato ha solicitado para la vacante {{VacancyService.title}}</p><p><b>Información del candidato:</b></p><p> <b>Nombre:</b> {{CandidateService.Person.firstName}} {{CandidateService.Person.infix}} {{CandidateService.Person.lastName}}<br /><b>Correo electrónico</b>: {{CandidateService.Person.emailPrimary}}<br /><b>Teléfono celular</b>: {{CandidateService.Person.phoneMobile}}</p>Atentamente,<br />",
+        "subject": "Un candidato ha solicitado"
+      }
+    }
+  },
+  {
+    "description": "Consultant notification new open application",
+    "defaultOutput": "Email",
+    "defaultFormat": "Word",
+    "content": {
+      "nl": {
+        "name": "WordPress | Consultant open sollicitatie notificatie (default)",
+        "content": "<p>Nieuwe kandidaat open sollicitatie.</p><p>Kandidaat informatie:</p><p><b>Naam:</b> {{CandidateService.Person.firstName}} {{CandidateService.Person.infix}} {{CandidateService.Person.lastName}}<br/><b>Email:</b> {{CandidateService.Person.emailPrimary}}<br/><b>Mobiel:</b> {{CandidateService.Person.phoneMobile}}</p>",
+        "subject": "Nieuwe open sollicitatie"
+      },
+      "en": {
+        "name": "WordPress | Consultant open application notification (default)",
+        "content": "<p>New candidate open application.</p><p>Candidate information:</p><p><b>Name:</b> {{CandidateService.Person.firstName}} {{CandidateService.Person.infix}} {{CandidateService.Person.lastName}}<br/><b>E-mail:</b> {{CandidateService.Person.emailPrimary}}<br/><b>Mobile:</b> {{CandidateService.Person.phoneMobile}}</p><br />",
+        "subject": "New open application"
+      },
+      "fr": {
+        "name": "WordPress | Notification de demande ouverte de consultant (par défaut)",
+        "content": "<p>Nouvelle candidature ouverte.</p><p><b>A propos du/de la candidate:</b></p><p><b>Nom:</b> {{CandidateService.Person.firstName}} {{CandidateService.Person.lastName}}<br /><b>Adresse </b>mail: {{CandidateService.Person.emailPrimary}}<br /><b>Portable:</b> {{CandidateService.Person.phoneMobile}}</p><br />",
+        "subject": "Nouvelle candidature ouverte"
+      },
+      "de": {
+        "name": "WordPress | Benachrichtigung über offenen Antrag des Beraters (Standard)",
+        "content": "<p>Offene Bewerbung für neue Kandidaten.</p><p><b>Informationen über den Kandidaten:</b></p><p><b>Name:</b> {{CandidateService.Person.firstName}} {{CandidateService.Person.infix}} {{CandidateService.Person.lastName}}<br /><b>E-Mail</b>: {{CandidateService.Person.emailPrimary}}<br /><b>Mobil:</b> {{CandidateService.Person.phoneMobile}}</p><br />",
+        "subject": "Neue offene Anwendung"
+      },
+      "es": {
+        "name": "WordPress | Notificación de solicitud abierta de consultor (predeterminado)",
+        "content": "<p>Solicitud abierta de nuevo candidato.</p><p><b>Información del candidato:</b></p><p> <b>Nombre:</b> {{CandidateService.Person.firstName}} {{CandidateService.Person.infix}} {{CandidateService.Person.lastName}}<br /><b>Correo electrónico</b>: {{CandidateService.Person.emailPrimary}}<br /><b>Teléfono celular</b>: {{CandidateService.Person.phoneMobile}}</p><br />",
+        "subject": "Nueva aplicación abierta"
+      }
+    }
+  },
+  {
+    "description": "Confirm email adres",
+    "defaultOutput": "Email",
+    "defaultFormat": "Word",
+    "questions": [
+      {
+        "name": "code",
+        "code": "code",
+        "question": "code"
+      }
+    ],
+    "content": {
+      "nl": {
+        "name": "WordPress | Bevestig email (default)",
+        "content": "<p>Beste {{CandidateService.Person.firstName}},</p><p>Je bent aan het solliciteren op de vacature: {{VacancyService.title}}.</p><p>Vul de volgende code op de website in om je sollicitatie af te ronden: «code»</p>Met vriendelijke groet,<br/>",
+        "subject": "Bevestig jouw email"
+      },
+      "en": {
+        "name": "WordPress | Confirm email (default)",
+        "content": "<p>Dear {{CandidateService.Person.firstName}},</p><p>You are applying for the vacancy: {{VacancyService.title}}.</p><p>Enter the following code on the website to complete your application: «code»</p>With kind regards,<br/>",
+        "subject": "Application confirmation"
+      },
+      "fr": {
+        "name": "WordPress | Confirmer l'e-mail (par défaut)",
+        "content": "<p>Bonjour {{CandidateService.Person.firstName}},</p><p>Vous êtes en train de postuler pour le poste de {{VacancyService.title}}.</p><p>Veuillez entrer le code suivant pour compléter votre candidature : «code».</p>Cordialement, <br />",
+        "subject": "Confirmez votre email"
+      },
+      "de": {
+        "name": "WordPress | Bestätigungs-E-Mail (Standard)",
+        "content": "<p>Sehr geehrter {{CandidateService.Person.firstName}},</p><p>Sie bewerben sich auf das Stellenangebot: {{VacancyService.title}}.</p><p>Bitte geben Sie den folgenden Code auf der Website ein, um Ihre Bewerbung abzuschließen: «code».</p>Mit freundlichen Grüßen, <br/>",
+        "subject": "Bewerbungsbestätigung"
+      },
+      "es": {
+        "name": "WordPress | Bestätigungs-E-Mail (Standard)",
+        "content": "<p>Estimado/a {{CandidateService.Person.firstName}},</p><po>Está solicitando para la vacante: {{VacancyService.title}}.</p><p>Por favor, introduzca el siguiente código en el sitio para completar su solicitud: «code».</p>Atentamente,<br />",
+        "subject": "Confirmar correo electrónico"
+      }
+    }
+  },
+  {
+    "description": "Confirm job alert email adres",
+    "defaultOutput": "Email",
+    "defaultFormat": "Word",
+    "questions": [
+      {
+        "name": "activation_link",
+        "code": "activation_link",
+        "question": "activation_link"
+      },
+      {
+        "name": "delete_link",
+        "code": "delete_link",
+        "question": "delete_link"
+      },
+      {
+        "name": "website_search_link",
+        "code": "website_search_link",
+        "question": "website_search_link"
+      },
+      {
+        "name": "website_link",
+        "code": "website_link",
+        "question": "website_link"
+      }
+    ],
+    "content": {
+      "nl": {
+        "name": "WordPress | JobAlert (default)",
+        "content": "<p>Beste kandidaat, </p> <p>Klik op de onderstaande link om jouw job alert te bevestigen.</p> <p><a target=\"blank\" href=\"«activation_link»\">Activeer de zoekopdracht</a></p> <p><a target=\"blank\" href=\"«delete_link»\">Deze opgeslagen opdracht verwijderen</a></p> Met vriendelijke groet,<br/>",
+        "subject": "Bevestig jouw job alert"
+      },
+      "en": {
+        "name": "WordPress | JobAlert (default)",
+        "content": "<p>Dear candidate, </p> <p>Click on the link below to confirm your job alert.</p> <p><a target=\"blank\" href=\"«activation_link»\">Activate the search</a></p> <p><a target=\"blank\" href=\"«delete_link»\">Delete this saved search</a></p> Best regards,<br/>",
+        "subject": "Confirm your job alert"
+      },
+      "fr": {
+        "name": "WordPress | Alerte emploi (par défaut)",
+        "content": "<p>Meilleur candidat, </p> <p>Cliquez sur le lien ci-dessous pour confirmer votre alerte emploi.</p> <p><a target=\"blank\" href=\"«activation_link»\">Activer la recherche</a></p> <p><a target=\"blank\" href=\"«delete_link»\">Supprimer cette recherche sauvegardée</a></p> Cordialement,<br/>",
+        "subject": "Confirmer votre alerte emploi"
+      },
+      "de": {
+        "name": "WordPress | JobAlert (Standard)",
+        "content": "<p>Bester kandidat, </p> <p>Klicken Sie auf den untenstehenden Link, um Ihren Job-Alert zu bestätigen.</p> <p><a target=\"blank\" href=\"«activation_link»\">Suche aktivieren</a></p> <p><a target=\"blank\" href=\"«delete_link»\">Diesen gespeicherten Auftrag löschen</a></p> Mit freundlichen Grüßen,<br/>",
+        "subject": "Job-Alert bestätigen"
+      },
+      "es": {
+        "name": "WordPress | Alerta de trabajo (predeterminado)",
+        "content": "<p>Mejor candidato, </p> <p>Haga clic en el enlace de abajo para confirmar su alerta de empleo.</p> <p><a target=\"blank\" href=\"«activation_link»\">Activar la búsqueda</a></p> <p><a target=\"blank\" href=\"«delete_link»\">Eliminar esta búsqueda guardada</a></p> Atentamente,<br/>",
+        "subject": "Confirmar su alerta de empleo"
+      }
+    }
+  }
+]

@@ -1,0 +1,278 @@
+== Changelog ==
+
+This file contains only old changelog. See readme.txt for newer versions.
+
+== 2.0.25 ==
+- Hotfix vacancies url redirect potential undefined array key
+
+== 2.0.24 ==
+- Added auto redirecting old OTYS vacancies url's to correct detail url page
+- Added the exclude parameter to [otys-vacancies-shortlist] which allows for excluding a vacancy based on uid
+
+== 2.0.23 ==
+- Added possibility to change mode for [otys-vacancies-shortlist]. See documentation https://wordpress.otys.com/kb/guide/en/vacancy-shortlist-jMwS2mp13u/Steps/1987303
+
+== 2.0.22 ==
+- Vacancies displayed in [otys-vacancies-shortlist] will now also require to have the publish in shortlist checkbox checked in OTYS Go!
+- Added new webhook for assigning questionsets
+
+== 2.0.21 ==
+- Improved keyword search results
+- Fixed 301 redirects for pagination
+- Added knowledge base to instructions page
+
+== 2.0.20 ==
+- Made it possible to prefilter using shortcode attributes by placing the same shortcode attributes on all shortcodes. If the shortcodes are not displayed via the_content() of WordPress, the shortcodes will not be able to automaticly communicate with eachother. To let the shortcodes still work in combination with eachother you'll have to use the same filter attributes on each shortcode. Which attributes you use for this can be seen in the documentation of the [otys-vacancies-list] shortcode.
+
+== 2.0.19 ==
+- (hotfix for version 2.0.17) Fixed type error for caching
+
+== 2.0.17 ==
+- Not all filter combinations will save cache anymore. This is to prevent large amounts of cache.
+- Performance improvements regarding to API calls
+
+== 2.0.16 ==
+- Changed url settings which allow to specify url instead of choosing a page. This allows for support with multiple multilangual plugins.
+- Added data size counters for cache & logs
+
+== 2.0.14 ==
+- Added possibility to show specific filters via [otys-vacancies-filters] attributes. https://stonly.com/sl/17492e79-ff6f-42c6-a8f9-35f5ae6dea68/Steps/
+- Added possibility to order filter options by frequency. This can be changed in the OTYS WordPress admin page under the tab vacancies
+- Small bug fixes
+
+== 2.0.13 ==
+- Fixed support for RankMath
+
+== 2.0.12 ==
+- Added the possibility to force sending mails from the e-mail address assigned to the API
+
+== 2.0.11 ==
+- Vacancies which have the hide application button checked will not throw a 404 anymore
+- Multiple filters for [otys-vacancies-filters] are now seperated using comma's
+
+== 2.0.10 ==
+- It's now possible to use sending profiles; It is required to allow the API to send mails from your domain.
+- When a new candidate applies the candidate gets assigned to the vacancy owner
+- Fixed shortlist showing warning error when API not activated
+
+Please check the links to our FAQ below;
+- How to create a mailing profile?; https://faq.otys.com/?faq=zIFgY93vT4
+- How to let emails be send from via your sending profile?; https://stonly.com/sl/8ab6ddac-cc5d-4d92-8e07-fab8cf6f80a3/Steps/
+
+== 2.0.9 ==
+- Fixed issue with shortlist based on vacancy owner
+- Made the plugin PHP 8.1 ready & fixed deprecated messages
+
+== 2.0.8 ==
+- Fixed FireFox issue with application form submission.
+
+== 2.0.7 ==
+- If the e-mail question is not present in the questionset a message will be thrown at the application page.
+- Bufix regarding to match criteria 18. Matchcriteria 18 is now working properly.
+
+== 2.0.6 ==
+- Fixed issue with motivation document validation
+
+== 2.0.0 ==
+*Warning*: Significant changes have been made, please read the changelog. When updating to version 2.0.0 the application form look & feel (templates) will be reset to the default view. Version 2.0.0 does not use the same application form templates as previous versions. Make sure to let your developer read the DEV Notes.
+
+== 1.3.19 ==
+- Added the action 'otys_cache' readmore at https://wordpress.otys.com/kb/guide/en/cache-deleted-o50WgXQck1/Steps/2473638
+- delete_transient function does not get used anymore for deleting large amount of cache
+- Added cron that removes expired transients that belong the otys plugin
+
+== 1.3.18 ==
+- Added the action 'otys_webhook' readmore at https://wordpress.otys.com/kb/guide/en/webhook-action-FVtdlsGhRV/Steps/2463365
+- Webhook improvements
+
+== 1.3.17 ==
+- Fixed webhook bug
+- Improved webhooks
+- Updated readme
+
+== 1.3.16 ==
+- Improved automatic cache refresh for questionsets
+- Fix regarding wrongly escaping special characters in candidate name
+
+== 1.3.15 ==
+- Improved stability
+- Limited to the amount log records
+
+== 1.3.14 ==
+- Created open application notification email for a consultant. It's now possible to specify an email address where notification emails get send to when a candidate does an open application.
+
+== 1.3.13 ==
+- Fixed caching bug
+- Other small improvements
+
+== 1.3.12 ==
+- Improved stability
+
+== 1.3.11 ==
+- Tested for WordPress version 6.2.0
+
+== 1.3.10 ==
+- Fixed issues with webhooks
+- Improved automatic cache refresh
+
+== 1.3.9 ==
+- Fixed warning regarding pagination in combination with empty search result
+
+== 1.3.8 ==
+- Small bufix regarding admin panel
+
+== 1.3.7 ==
+- Fixed issue vacancy 404 pages
+
+== 1.3.6 ==
+- Improved stability
+- Performance improvements
+- Updated translations
+
+== 1.3.5 ==
+- Updated translations
+
+== 1.3.4 ==
+- Added diagnostics for OTYS support
+
+== 1.3.3 ==
+- New pagination
+- Added pagination settings in Admin panel
+- Performance improvements
+- Added possibility to add motivation to procedure via questionset
+
+== 1.3.1 ==
+- Hotfix for [otys-vacancies-search]
+
+== 1.3.0 ==
+- Added filters to [otys-vacancies-search] shortcode. See the instructions page in the plugin for more information regarding the [otys-vacancies-search] shortcode. Note: If the theme file has been customized by your theme, you need to update your code in order for the new filter functionality to work.
+- Textfield ordering is now based on settings in OTYS
+- Extra vacancy text fields are now available in the vacancy detail
+- Removed enqueue scripts & css from view files. Enqueue is now done via the backend to improve maintainability. do_action('otys_load_script') and do_action('otys_load_style') will do nothing anymore and can be removed from theme files.
+- Removed unused view files
+
+== 1.2.18 ==
+- Small bug fix regarding to duplicate candidates
+
+= 1.2.17 =
+- Fixed cron which automaticly removed logs older than 1 day
+- Changed session check method
+
+= 1.2.16 =
+- Now [otys-vacancies-filters] only shows filters which have atleast one job attached
+- Improvements support PHP8
+
+= 1.2.15 =
+- Editing jobs via interactions will refresh vacancy overview cache
+- Added extra API calls to cache
+- Small bugfixes
+- CSS & JS is now compressed
+
+= 1.2.14 =
+- NOTICE: [otys-vacancies-shortlist] now needs vacancies to be marked to be published in the shortlist.
+- Portal referer is tracked when a candidate applies.
+- [otys-vacancies-list] and [otys-vacancies-shortlist] now supports filtering on premium vacancies by adding premium=true / false.
+- Added new short code [otys-vacancies-selected-filters] which shows a list of selected filters and the ability to remove the filters per group.
+
+= 1.2.13 =
+- Creating & Updating vacancies using interaction forms will now automaticly refresh cache where needed
+- More information is available for vacancies list
+
+= 1.2.12 =
+- New options page layout which should make it easier to setup the plugin
+- Added proper titles for OTYS pages
+- Gallery images information is now available for the [otys-vacancies-list] and [otys-vacancies-shortlist]
+- Added more webhooks
+- Translations updated
+- Includes needed third party resources
+
+= 1.2.10 =
+- Candidate creation UTM tags bugfix
+- Change publication start date to include today
+
+= 1.2.9 =
+- Extra fields added to questionsets
+- Translations Updated
+- Backend changes
+
+= 1.2.8 =
+- Bugfixes for open application form
+
+= 1.2.7 =
+- NOTE: otys-jobs-apply/vacancies/vacancies-detail.php labels shown are now based on $args['vacancy']['labels'] variable
+- NOTE: otys-jobs-apply/vacancies/vacancies-list.php labels shown are now based on $args['vacancies'][INDEX]['labels'] variable
+- NOTE: otys-jobs-apply/vacancies/vacancies-shortlist.php labels shown are now based on $args['vacancies'][INDEX]['labels'] variable
+- Added category to vacancy detail
+- Added category to otys-vacancies-filters shortcode
+- Added category to otys-vacancies-list shortcode
+- Added category to otys-vacancies-shortlist shortcode
+- Added new sorting meganism for sorting filters / labels in the Admin panel
+- Added explaination field to open application form
+- Removed filtering based on match criteria id for otys-vacancies-list shortcode
+- Removed filtering based on match criteria id for otys-vacancies-shortlist shortcode
+- Bugfixes
+
+= 1.2.5 =
+- Added question description to questionsets
+- General bugfixes
+
+= 1.2.3 =
+- Minimum PHP required updated to PHP 7.4
+- Vacancy shortlist filter on vacancy owner
+- Updated translation files
+- Added being able to preview vacancies which are not published as adminstrator / editor. [website]/[vacancy-page]/[vacancy-uid]. Example: http://mywebsite.com/vacancies/YC_sixEnfpI2Oqid/
+- Fixed search box going to wrong url when [otys-vacancies-search] is placed on another page then the vacancy overview
+- Added route explaination
+
+= 1.2.1 =
+* NOTE: Updated PHP Version requirement to PHP 7.4
+* NOTE: The following changes might influence the look of your website or break if the files are overwritten in the template file 
+** Changed delete button for files in otys-jobs-apply/include-parts/forms/field-file.php line 27 (class .form-document-delete)
+** Changed delete button for files in in otys-jobs-apply/include-parts/forms/field-multifile.php line 24 (class .form-document-delete)
+* Readme now shows proper path to custom files `~/plugins/otys-jobs-apply/[module]/[template]`
+* Small bug fixes
+* Changed default document creation process to be asynchronous
+
+= 1.2.0 =
+* NOTE: Changes that might influence template. Please check before updating if this update might influence your theme.
+** Bootstrap removed
+** Reference to files url's are now directly available in $args within templates. Shortcode [otys-image-url] is not used anymore.
+* Added extra consultant information to vacancy detail
+** Consultant image url
+** Consultant personal information
+* Small css fixes
+* Updated translations
+
+= 1.1.5 =
+* Lng & Lat available in vacancies list
+* Confirmation mails are sent with corresponding signature of user
+* Changes to Dutch translation
+* Cache time changed
+
+= 1.1.4 =
+* Publication start / end date now applies in list overview
+
+= 1.1.3 =
+* Added translation for Dutch
+* Added translation for German
+* Added translation for French
+* Added translation for Spanish
+
+= 1.1.2 =
+* Shortcodes:
+	* It is now possible to create a shortlist based on a relation (See instructions).
+	* It is now possible to create a vacancies list based on a relation (See instructions).
+* Templating:
+    * Vacancy list DOM Changes.
+	* Vacancy detail CSS + DOM changes.
+	* Vacancy detail removed displaying amount of applicants by default.
+	* More responsive.
+	* Replaced using rem to px.
+	* Added embeds to vacancy detail.
+* Vacancy publication widget features:
+	* Show employer checkbox hides/shows employer name.
+	* Block checkbox hides/shows vacancy from overview and when enabled the vacancy will be marked noindex/nofollow, but the vacancy link will still be available.
+	* Remove application url, will remove the vacancy url when checked and will disable the application page.
+* Removed showing webuser + profile link in new candidate email by default.
+* Changes to the instruction page / readme.
+* Other fixes.

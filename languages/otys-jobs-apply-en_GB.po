@@ -1,0 +1,1098 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: OTYS Jobs & Apply\n"
+"POT-Creation-Date: 2024-03-27 13:56+0100\n"
+"PO-Revision-Date: 2024-03-27 13:56+0100\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: en_GB\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 3.4.2\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: otys-jobs-apply.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.min.js\n"
+"X-Poedit-SearchPathExcluded-1: vendor\n"
+"X-Poedit-SearchPathExcluded-2: node_modules\n"
+
+#: app/Controllers/Admin/AdminRoutesSettingsController.php:97
+#: app/Controllers/Admin/AdminSettingsController.php:84
+#: app/Includes/Core/OtysPlugin.php:170
+msgid "Vacancies overview"
+msgstr ""
+
+#: app/Controllers/Admin/AdminRoutesSettingsController.php:98
+#: app/Controllers/Admin/AdminSettingsController.php:88
+#: app/Includes/Core/OtysPlugin.php:171
+msgid "Vacancy detail"
+msgstr ""
+
+#: app/Controllers/Admin/AdminSettingsController.php:65
+msgid "The API key has been removed."
+msgstr ""
+
+#: app/Controllers/Admin/AdminSettingsController.php:85
+msgid ""
+"Choose what url you want to use for the vacancies overview. This url should "
+"correspond with the page containing atleast a [otys-vacancies-list] "
+"shortcode. Add a vacancies overview url for each language. If your language "
+"is not available in the dropdown, make sure to install the language in your "
+"WordPress installation."
+msgstr ""
+
+#: app/Controllers/Admin/AdminSettingsController.php:89
+msgid ""
+"Choose what url you want to use for the vacancies detail page. The vacancy "
+"detail page can be the same url as the vacancy overview url. Add a vacancies "
+"detail url for each language. If your language is not available in the "
+"dropdown, make sure to install the language in your WordPress installation."
+msgstr ""
+
+#: app/Controllers/Admin/AdminSettingsController.php:92
+msgid "Vacancy application thank you"
+msgstr ""
+
+#: app/Controllers/Admin/AdminSettingsController.php:93
+msgid ""
+"Optionally you can choose what url you want to use for the thank you page "
+"after a candidate has applied for a vacancy. You can add a different thank "
+"you url for each language. If your language is not available in the "
+"dropdown, make sure to install the language in your WordPress installation."
+msgstr ""
+
+#: app/Controllers/Admin/AdminSettingsController.php:100
+msgid "API"
+msgstr ""
+
+#: app/Controllers/Admin/AdminSettingsController.php:106
+msgid "Vacancies"
+msgstr ""
+
+#: app/Controllers/Admin/AdminSettingsController.php:112
+msgid "Mailing"
+msgstr ""
+
+#: app/Controllers/Admin/AdminSettingsController.php:118
+msgid "Anti spam"
+msgstr ""
+
+#: app/Controllers/Admin/AdminSettingsController.php:124
+msgid "URL's"
+msgstr ""
+
+#: app/Controllers/Admin/AdminSettingsController.php:130
+#: app/Controllers/Admin/AdminSettingsController.php:927
+msgid "Pagination"
+msgstr ""
+
+#: app/Controllers/Admin/AdminSettingsController.php:362
+#: app/Controllers/Admin/AdminSettingsController.php:405
+msgid "All plugin related cache has been removed"
+msgstr ""
+
+#: app/Controllers/Admin/AdminSettingsController.php:398
+msgid "Invalid API key given"
+msgstr ""
+
+#: app/Controllers/Admin/AdminSettingsController.php:433
+#: app/Controllers/Admin/AdminWebhooksController.php:52
+msgid "Api settings"
+msgstr ""
+
+#: app/Controllers/Admin/AdminSettingsController.php:444
+msgid "API key"
+msgstr ""
+
+#: app/Controllers/Admin/AdminSettingsController.php:451
+msgid "Enter the API key provided by OTYS."
+msgstr ""
+
+#: app/Controllers/Admin/AdminSettingsController.php:463
+msgid "Brand"
+msgstr ""
+
+#: app/Controllers/Admin/AdminSettingsController.php:470
+msgid "Choose which brand to use."
+msgstr ""
+
+#: app/Controllers/Admin/AdminSettingsController.php:477
+msgid "Website status"
+msgstr ""
+
+#: app/Controllers/Admin/AdminSettingsController.php:480
+msgid ""
+"No, this website is not available to the public. (i.e. development "
+"environment)"
+msgstr ""
+
+#: app/Controllers/Admin/AdminSettingsController.php:481
+msgid "Yes, this website is available to the public."
+msgstr ""
+
+#: app/Controllers/Admin/AdminSettingsController.php:490
+msgid ""
+"Production means that this website is used by the end-user and the website "
+"is live. <br><b>Note</b>: Only one website can be used as production website "
+"per brand, if you mark more than one website as production issues will occur."
+msgstr ""
+
+#: app/Controllers/Admin/AdminSettingsController.php:500
+msgid "Google reCAPTCHA v3"
+msgstr ""
+
+#: app/Controllers/Admin/AdminSettingsController.php:505
+#, php-format
+msgid ""
+"Setting up recaptcha is required. Please use your Google account to generate "
+"the needed API keys. Please make sure to choose reCAPTCHA v3 as type and add "
+"<u>%s</u> to the list of domains."
+msgstr ""
+
+#: app/Controllers/Admin/AdminSettingsController.php:506
+msgid "Create API Key"
+msgstr ""
+
+#: app/Controllers/Admin/AdminSettingsController.php:517
+msgid "Site key"
+msgstr ""
+
+#: app/Controllers/Admin/AdminSettingsController.php:524
+msgid "This site key is used in the HTML code your site serves to users."
+msgstr ""
+
+#: app/Controllers/Admin/AdminSettingsController.php:532
+msgid "Secret Key"
+msgstr ""
+
+#: app/Controllers/Admin/AdminSettingsController.php:539
+msgid ""
+"This secret key is used for communication between your site and reCAPTCHA."
+msgstr ""
+
+#: app/Controllers/Admin/AdminSettingsController.php:547
+msgid "Threshold"
+msgstr ""
+
+#: app/Controllers/Admin/AdminSettingsController.php:554
+msgid ""
+"reCAPTCHA learns by seeing real traffic on your site. For this reason, "
+"scores in a staging environment or soon after implementing may differ from "
+"production. As reCAPTCHA v3 doesn't ever interrupt the user flow, you can "
+"first run reCAPTCHA without taking action and then decide on thresholds by "
+"looking at your traffic in the admin console. By default, you can use a "
+"threshold of 0.5."
+msgstr ""
+
+#: app/Controllers/Admin/AdminSettingsController.php:563
+msgid "Vacancy Overview"
+msgstr ""
+
+#: app/Controllers/Admin/AdminSettingsController.php:576
+msgid "Vacancies per page"
+msgstr ""
+
+#: app/Controllers/Admin/AdminSettingsController.php:584
+msgid "The amount of vacancies displayed per page on the vacancy overview."
+msgstr ""
+
+#: app/Controllers/Admin/AdminSettingsController.php:594
+msgid "Sorting of filter options"
+msgstr ""
+
+#: app/Controllers/Admin/AdminSettingsController.php:601
+msgid "The sorting of the options of each filter"
+msgstr ""
+
+#: app/Controllers/Admin/AdminSettingsController.php:602
+msgid "Alphabetic"
+msgstr ""
+
+#: app/Controllers/Admin/AdminSettingsController.php:602
+msgid "Frequency"
+msgstr ""
+
+#: app/Controllers/Admin/AdminSettingsController.php:612
+msgid "Vacancy filters"
+msgstr ""
+
+#: app/Controllers/Admin/AdminSettingsController.php:620
+msgid ""
+"The filters displayed when using the shortcode [otys-vacancies-filters]."
+msgstr ""
+
+#: app/Controllers/Admin/AdminSettingsController.php:630
+#: app/Controllers/Admin/AdminSettingsController.php:680
+msgid "Vacancy labels"
+msgstr ""
+
+#: app/Controllers/Admin/AdminSettingsController.php:638
+msgid ""
+"Labels displayed at the vacancies displayed with the shortcodes [otys-"
+"vacancies-list] and [otys-vacancies-shortlist]."
+msgstr ""
+
+#: app/Controllers/Admin/AdminSettingsController.php:647
+msgid "Vacancy Detail"
+msgstr ""
+
+#: app/Controllers/Admin/AdminSettingsController.php:658
+msgid "Fallback header image"
+msgstr ""
+
+#: app/Controllers/Admin/AdminSettingsController.php:665
+msgid "The header to show when no vacancy header is set."
+msgstr ""
+
+#: app/Controllers/Admin/AdminSettingsController.php:667
+msgid "Choose fallback header image"
+msgstr ""
+
+#: app/Controllers/Admin/AdminSettingsController.php:668
+msgid "Use image"
+msgstr ""
+
+#: app/Controllers/Admin/AdminSettingsController.php:688
+msgid "Vacancy labels displayed on the vacancy detail."
+msgstr ""
+
+#: app/Controllers/Admin/AdminSettingsController.php:697
+msgid "Mails"
+msgstr ""
+
+#: app/Controllers/Admin/AdminSettingsController.php:714
+msgid "Application"
+msgstr ""
+
+#: app/Controllers/Admin/AdminSettingsController.php:728
+msgid "Candidate applied (existing)"
+msgstr ""
+
+#: app/Controllers/Admin/AdminSettingsController.php:736
+msgid "Email when an existing candidate applied for a job"
+msgstr ""
+
+#: app/Controllers/Admin/AdminSettingsController.php:746
+msgid "Candidate applied (new)"
+msgstr ""
+
+#: app/Controllers/Admin/AdminSettingsController.php:754
+msgid "Email when a new candidate applied for a job."
+msgstr ""
+
+#: app/Controllers/Admin/AdminSettingsController.php:764
+msgid "Candidate confirm email"
+msgstr ""
+
+#: app/Controllers/Admin/AdminSettingsController.php:772
+msgid ""
+"When a candidate applies with a known email adres, the candidate will "
+"receive an email with a code, the code needs to be filled in at the last "
+"step of the application proces to continue the application."
+msgstr ""
+
+#: app/Controllers/Admin/AdminSettingsController.php:782
+msgid "Vacancy owner application notification"
+msgstr ""
+
+#: app/Controllers/Admin/AdminSettingsController.php:790
+msgid "Notification to vacancy owner when a candidate applied on a vacancy."
+msgstr ""
+
+#: app/Controllers/Admin/AdminSettingsController.php:799
+msgid "Open application"
+msgstr ""
+
+#: app/Controllers/Admin/AdminSettingsController.php:812
+msgid "Candidate open application"
+msgstr ""
+
+#: app/Controllers/Admin/AdminSettingsController.php:820
+msgid "Email to candidate when candidate did an open application."
+msgstr ""
+
+#: app/Controllers/Admin/AdminSettingsController.php:830
+msgid "Candidate open application notification consultant"
+msgstr ""
+
+#: app/Controllers/Admin/AdminSettingsController.php:838
+msgid "Email to chosen recipient after a candidate did a open application."
+msgstr ""
+
+#: app/Controllers/Admin/AdminSettingsController.php:848
+msgid "Open application email recipient"
+msgstr ""
+
+#: app/Controllers/Admin/AdminSettingsController.php:855
+#, php-format
+msgid "i.e. name@%s"
+msgstr ""
+
+#: app/Controllers/Admin/AdminSettingsController.php:857
+msgid "The e-mail adres a open application notifcation gets send to."
+msgstr ""
+
+#: app/Controllers/Admin/AdminSettingsController.php:866
+msgid "Mail sender"
+msgstr ""
+
+#: app/Controllers/Admin/AdminSettingsController.php:879
+msgid "Force sending all mails from one user"
+msgstr ""
+
+#: app/Controllers/Admin/AdminSettingsController.php:887
+msgid ""
+"When this setting is enabled mails will never be send from the consultant. "
+"Instead mails will be send from the mail address assigned to the API."
+msgstr ""
+
+#: app/Controllers/Admin/AdminSettingsController.php:897
+msgid "URL Settings"
+msgstr ""
+
+#: app/Controllers/Admin/AdminSettingsController.php:900
+msgid ""
+"Choose which page to use for each module. This way the plugin knows where "
+"the pages are located and how the url's should be structured. Make sure to "
+"choose the correct language."
+msgstr ""
+
+#: app/Controllers/Admin/AdminSettingsController.php:938
+msgid "Maximum amount of pages"
+msgstr ""
+
+#: app/Controllers/Admin/AdminSettingsController.php:945
+msgid "The maximum amount of pages shown in the pagination."
+msgstr ""
+
+#: app/Controllers/Admin/AdminSettingsController.php:954
+msgid "Previous and next buttons"
+msgstr ""
+
+#: app/Controllers/Admin/AdminSettingsController.php:961
+msgid "How to show the previous and next buttons."
+msgstr ""
+
+#: app/Controllers/Admin/AdminSettingsController.php:963
+msgid "Hide previous and next button"
+msgstr ""
+
+#: app/Controllers/Admin/AdminSettingsController.php:964
+msgid "Show previous and next button as text"
+msgstr ""
+
+#: app/Controllers/Admin/AdminSettingsController.php:965
+msgid "Show previous and next button as icon"
+msgstr ""
+
+#: app/Controllers/Admin/AdminSettingsController.php:974
+msgid "Previous page button"
+msgstr ""
+
+#: app/Controllers/Admin/AdminSettingsController.php:981
+#: app/Controllers/Admin/AdminSettingsController.php:1019
+#: app/Controllers/Admin/AdminSettingsController.php:1039
+#: app/Controllers/Admin/AdminSettingsController.php:1058
+msgid "How to show the first and last buttons."
+msgstr ""
+
+#: app/Controllers/Admin/AdminSettingsController.php:983
+msgid "Choose the icon to be used for the previous page button"
+msgstr ""
+
+#: app/Controllers/Admin/AdminSettingsController.php:984
+#: app/Controllers/Admin/AdminSettingsController.php:1003
+#: app/Controllers/Admin/AdminSettingsController.php:1042
+#: app/Controllers/Admin/AdminSettingsController.php:1061
+msgid "Use as icon"
+msgstr ""
+
+#: app/Controllers/Admin/AdminSettingsController.php:993
+msgid "Next page button"
+msgstr ""
+
+#: app/Controllers/Admin/AdminSettingsController.php:1000
+msgid "Choose the icon to be used for the next page button."
+msgstr ""
+
+#: app/Controllers/Admin/AdminSettingsController.php:1002
+msgid "Choose icon to be used for the next page button"
+msgstr ""
+
+#: app/Controllers/Admin/AdminSettingsController.php:1012
+msgid "First and last buttons"
+msgstr ""
+
+#: app/Controllers/Admin/AdminSettingsController.php:1021
+msgid "Hide first and last button button"
+msgstr ""
+
+#: app/Controllers/Admin/AdminSettingsController.php:1022
+msgid "Show first and last button as text"
+msgstr ""
+
+#: app/Controllers/Admin/AdminSettingsController.php:1023
+msgid "Show first and last button as icon"
+msgstr ""
+
+#: app/Controllers/Admin/AdminSettingsController.php:1032
+msgid "First page button"
+msgstr ""
+
+#: app/Controllers/Admin/AdminSettingsController.php:1041
+msgid "Choose icon to be used for the first page button"
+msgstr ""
+
+#: app/Controllers/Admin/AdminSettingsController.php:1051
+msgid "Last page button"
+msgstr ""
+
+#: app/Controllers/Admin/AdminSettingsController.php:1060
+msgid "Choose icon to be used for the last page button"
+msgstr ""
+
+#: app/Controllers/Admin/AdminSettingsController.php:1183
+msgid ""
+"Are you sure you want to remove the API Key? You will loose plugin related "
+"settings and all plugin related cache will be removed."
+msgstr ""
+
+#: app/Controllers/Admin/AdminSettingsController.php:1183
+msgid "Remove API key"
+msgstr ""
+
+#: app/Controllers/Admin/AdminSettingsController.php:1186
+#, php-format
+msgid "Connected to %s"
+msgstr ""
+
+#: app/Controllers/Admin/AdminWebhooksController.php:62
+msgid "Webhook url"
+msgstr ""
+
+#: app/Controllers/Admin/AdminWebhooksController.php:70
+#, php-format
+msgid ""
+"The webhook url should on live websites always point at %1$s. \n"
+"                    It is not recommended to change this url. This setting "
+"is here solely for development purposes. \n"
+"                    For safety this setting only gets used when debug mode "
+"is on. \n"
+"                    Remember to click the Register hooks button to register "
+"hooks with OTYS, otherwise changes will not have any effect. \n"
+"                    To make sure the correct webhooks are registered, see "
+"the list of registed webhooks below."
+msgstr ""
+
+#: app/Controllers/Shortcodes/InteractionsController.php:52
+msgid ""
+"Please setup the recaptcha key correctly, otherwise the interaction form "
+"will not work. If you need help please read the article <a target=\"_blank\" "
+"href=\"https://wordpress.otys.com/kb/guide/en/QIkQJMUsa2/\">How do I setup "
+"Google Recaptcha?</a> on our knowledge base."
+msgstr ""
+
+#: app/Controllers/Shortcodes/VacanciesApplyController.php:72
+msgid ""
+"Please setup the recaptcha key correctly, otherwise the application form "
+"will not work. If you need help please read the article <a target=\"_blank\" "
+"href=\"https://wordpress.otys.com/kb/guide/en/QIkQJMUsa2/\">How do I setup "
+"Google Recaptcha?</a> on our knowledge base."
+msgstr ""
+
+#: app/Controllers/Shortcodes/VacanciesApplyController.php:209
+msgid "Email adres is already used, please choose a different email adres."
+msgstr ""
+
+#: app/Controllers/Shortcodes/VacanciesApplyController.php:215
+msgid "You've already applied on this vacancy with this email adres."
+msgstr ""
+
+#: app/Controllers/Shortcodes/VacanciesApplyController.php:329
+#, php-format
+msgid ""
+"Something went wrong. Please contact %s to make sure your application went "
+"through."
+msgstr ""
+
+#: app/Controllers/Shortcodes/VacanciesApplyController.php:408
+msgid "Application failed, please contact us."
+msgstr ""
+
+#: app/Controllers/Shortcodes/VacanciesListController.php:116
+msgid "No vacancies found."
+msgstr ""
+
+#: app/Controllers/VacanciesApplyController.php:42
+#, php-format
+msgid "Apply for %1$s"
+msgstr ""
+
+#: app/Controllers/VacanciesDetailController.php:56
+#, php-format
+msgctxt "Vacancy detail title"
+msgid "%1$s"
+msgstr ""
+
+#: app/Includes/Core/OtysPlugin.php:144
+msgid "Edit settings"
+msgstr ""
+
+#: app/Includes/Core/Updater.php:273
+msgid "How to contact support?"
+msgstr ""
+
+#: app/Includes/Core/Updater.php:274
+#, php-format
+msgid ""
+"Failed updating version %s to version %s. The updater failed at version %s. "
+"Please create a OTYS support ticket and provide this information in the "
+"ticket. %s"
+msgstr ""
+
+#: app/Includes/OtysApi.php:153 app/Includes/OtysApi.php:189
+msgid "API key provided is invalid."
+msgstr ""
+
+#: app/Includes/OtysApi.php:216
+msgid "Session provided with the request is invalid."
+msgstr ""
+
+#: app/Includes/OtysApi.php:218
+msgid "No error message available."
+msgstr ""
+
+#: app/Models/CandidateModel.php:146 app/Models/CandidateModel.php:186
+msgid "Could not create candidate."
+msgstr ""
+
+#: app/Models/FilesModel.php:116
+msgid "Invalid file upload."
+msgstr ""
+
+#: app/Models/FilesModel.php:139
+#, php-format
+msgid "%s is an invalid file."
+msgstr ""
+
+#: app/Models/FilesModel.php:153
+#, php-format
+msgid "File %1$s exceeds filesize limit. Max file size is %2$s."
+msgstr ""
+
+#: app/Models/FilesModel.php:185
+#, php-format
+msgid "File extension of %s is not allowed."
+msgstr ""
+
+#: app/Models/FilesModel.php:191
+msgid "No file uploaded"
+msgstr ""
+
+#: app/Models/FilesModel.php:195 app/Models/FilesModel.php:198
+#, php-format
+msgid "File %s exceeds filesize limit."
+msgstr ""
+
+#: app/Models/FilesModel.php:201
+msgid "Something went wrong while uploading your documents."
+msgstr ""
+
+#: app/Models/FilesModel.php:224
+msgid "no subject"
+msgstr ""
+
+#: app/Models/MailModel.php:37
+msgid "No message set for email."
+msgstr ""
+
+#: app/Models/Pagination.php:113
+msgid "First"
+msgstr ""
+
+#: app/Models/Pagination.php:129
+msgid "Prev"
+msgstr ""
+
+#: app/Models/Pagination.php:145 app/views/interactions/interactions.php:91
+#: app/views/vacancies/apply/vacancies-apply-shortcode.php:91
+msgid "Next"
+msgstr ""
+
+#: app/Models/Pagination.php:162
+msgid "Last"
+msgstr ""
+
+#: app/Models/QuestionsetModel.php:361
+msgid "Wrong questionset UID"
+msgstr ""
+
+#: app/Models/QuestionsetModel.php:439
+#, php-format
+msgctxt "GDPR"
+msgid "%s months"
+msgstr ""
+
+#: app/Models/QuestionsetModel.php:676
+msgid "Response open questionset is invalid"
+msgstr ""
+
+#: app/Models/QuestionsetModel.php:703
+msgid "This field is required."
+msgstr ""
+
+#: app/Models/QuestionsetModel.php:707
+msgid "File upload is required."
+msgstr ""
+
+#: app/Models/QuestionsetModel.php:714
+msgid "Value should be a valid date."
+msgstr ""
+
+#: app/Models/QuestionsetModel.php:721
+msgid "Postal code is invalid."
+msgstr ""
+
+#: app/Models/QuestionsetModel.php:728 app/Models/QuestionsetModel.php:770
+msgid "Too many digits."
+msgstr ""
+
+#: app/Models/QuestionsetModel.php:735
+msgid "Invalid email adres."
+msgstr ""
+
+#: app/Models/QuestionsetModel.php:741 app/Models/QuestionsetModel.php:744
+msgid "Only numbers & letters are allowed."
+msgstr ""
+
+#: app/Models/QuestionsetModel.php:751 app/Models/QuestionsetModel.php:756
+msgid "Invalid phonenumber."
+msgstr ""
+
+#: app/Models/QuestionsetModel.php:763
+msgid "Please enter a international phonenumber."
+msgstr ""
+
+#: app/Models/QuestionsetModel.php:777 app/Models/QuestionsetModel.php:780
+msgid "Value should be a valid date of birth."
+msgstr ""
+
+#: app/Models/QuestionsetModel.php:795
+msgid "Invalid document type."
+msgstr ""
+
+#: app/Models/Shortcodes/InteractionsModel.php:162
+msgid "Error while fetching the interaction form"
+msgstr ""
+
+#: app/Models/Shortcodes/VacanciesApplyModel.php:250
+msgid "Something went wrong while retrieving the vacancy."
+msgstr ""
+
+#: app/Models/Shortcodes/VacanciesApplyModel.php:310
+msgid "Invalid vacancy uid."
+msgstr ""
+
+#: app/Models/Shortcodes/VacanciesApplyModel.php:326
+msgid "reCAPTCHA is incorrect. Please try again."
+msgstr ""
+
+#: app/Models/Shortcodes/VacanciesApplyModel.php:340
+msgid "Invalid action."
+msgstr ""
+
+#: app/Models/Shortcodes/VacanciesApplyModel.php:365
+msgid "Invalid confirmation code."
+msgstr ""
+
+#: app/Models/Shortcodes/VacanciesListModel.php:474
+msgid "Could not retrieve vacancy list"
+msgstr ""
+
+#: app/Models/Shortcodes/VacanciesListModel.php:552
+#: app/Models/VacanciesDetailModel.php:355
+msgid "Category"
+msgstr ""
+
+#: app/views/admin/admin-cache/admin-cache.php:14
+#: app/views/admin/admin-logs/admin-logs.php:16
+msgid "Are you sure you want to delete"
+msgstr ""
+
+#: app/views/admin/admin-cache/admin-cache.php:21
+msgid "Admin cache"
+msgstr ""
+
+#: app/views/admin/admin-cache/admin-cache.php:25
+#: app/views/admin/admin-cache/admin-cache.php:26
+msgid "all cache"
+msgstr ""
+
+#: app/views/admin/admin-cache/admin-cache.php:25
+msgid "Delete all cache"
+msgstr ""
+
+#: app/views/admin/admin-cache/admin-cache.php:26
+msgid "Delete expired cache"
+msgstr ""
+
+#: app/views/admin/admin-cache/admin-cache.php:33
+#: app/views/admin/admin-logs/admin-logs.php:34
+msgid "Total data size"
+msgstr ""
+
+#: app/views/admin/admin-cache/admin-cache.php:47
+msgid "Transient name"
+msgstr ""
+
+#: app/views/admin/admin-cache/admin-cache.php:48
+msgid "Autoload"
+msgstr ""
+
+#: app/views/admin/admin-cache/admin-cache.php:49
+msgid "Expire date"
+msgstr ""
+
+#: app/views/admin/admin-cache/admin-cache.php:50
+#: app/views/admin/admin-logs/admin-logs.php:54
+msgid "Action"
+msgstr ""
+
+#: app/views/admin/admin-cache/admin-cache.php:64
+#: app/views/admin/admin-routes-settings/admin-routes-input.php:63
+#: app/views/admin/admin-routes-settings/admin-routes-input.php:123
+msgid "Delete"
+msgstr ""
+
+#: app/views/admin/admin-cache/admin-cache.php:77
+#: app/views/admin/admin-logs/admin-logs.php:143
+msgid "&laquo;"
+msgstr ""
+
+#: app/views/admin/admin-cache/admin-cache.php:78
+#: app/views/admin/admin-logs/admin-logs.php:144
+msgid "&raquo;"
+msgstr ""
+
+#: app/views/admin/admin-cache/admin-cache.php:86
+msgid "Currently there is no cache"
+msgstr ""
+
+#: app/views/admin/admin-dashboard/admin-dashboard.php:2
+msgid "Admin Dashboard"
+msgstr ""
+
+#: app/views/admin/admin-dashboard/admin-dashboard.php:8
+msgid ""
+"Currently the OTYS Plugin does not have a valid session. \n"
+"                Make sure to add a proper API Key"
+msgstr ""
+
+#: app/views/admin/admin-dashboard/admin-dashboard.php:12
+msgid "Add API Key"
+msgstr ""
+
+#: app/views/admin/admin-logs/admin-logs.php:23
+#: app/views/admin/admin-webhooks/admin-webhooks.php:72
+msgid "Logs"
+msgstr ""
+
+#: app/views/admin/admin-logs/admin-logs.php:27
+msgid "all logs"
+msgstr ""
+
+#: app/views/admin/admin-logs/admin-logs.php:27
+msgid "Delete all logs"
+msgstr ""
+
+#: app/views/admin/admin-logs/admin-logs.php:49
+msgid "ID"
+msgstr ""
+
+#: app/views/admin/admin-logs/admin-logs.php:50
+msgid "Method"
+msgstr ""
+
+#: app/views/admin/admin-logs/admin-logs.php:51
+msgid "Status"
+msgstr ""
+
+#: app/views/admin/admin-logs/admin-logs.php:52
+msgid "Message"
+msgstr ""
+
+#: app/views/admin/admin-logs/admin-logs.php:53
+msgid "Timestamp"
+msgstr ""
+
+#: app/views/admin/admin-logs/admin-logs.php:88
+msgid "ERROR"
+msgstr ""
+
+#: app/views/admin/admin-logs/admin-logs.php:92
+#: app/views/admin/admin-webhooks/admin-webhooks.php:99
+msgid "View"
+msgstr ""
+
+#: app/views/admin/admin-logs/admin-logs.php:100
+#: app/views/admin/admin-webhooks/admin-webhooks.php:121
+msgid "Request"
+msgstr ""
+
+#: app/views/admin/admin-logs/admin-logs.php:116
+#: app/views/admin/admin-webhooks/admin-webhooks.php:107
+msgid "Response"
+msgstr ""
+
+#: app/views/admin/admin-logs/admin-logs.php:152
+msgid "There are currently no logs"
+msgstr ""
+
+#: app/views/admin/admin-routes-settings/admin-routes-input.php:47
+#: app/views/admin/admin-routes-settings/admin-routes-input.php:106
+msgctxt "vacancy detail route example"
+msgid "/vacancy-slug"
+msgstr ""
+
+#: app/views/admin/admin-routes-settings/admin-routes-input.php:76
+msgid ""
+"Optionally you can set the application thank you url. By default the thank "
+"you message will be shown on the same page as the application form."
+msgstr ""
+
+#: app/views/admin/admin-routes-settings/admin-routes-input.php:79
+#, php-format
+msgid ""
+"%s page is not set and is required for your the plugin to work properly."
+msgstr ""
+
+#: app/views/admin/admin-routes-settings/admin-routes-input.php:136
+msgid "Add url"
+msgstr ""
+
+#: app/views/admin/admin-routes-settings/admin-routes-settings.php:7
+#: app/views/admin/admin-settings/admin-settings.php:13
+msgid "Settings Saved"
+msgstr ""
+
+#: app/views/admin/admin-routes-settings/admin-routes-settings.php:19
+#: app/views/admin/admin-settings/admin-settings.php:36
+msgid "Save changes"
+msgstr ""
+
+#: app/views/admin/admin-settings/admin-settings-mails.php:7
+msgid ""
+"Emails sent from the plugin are using documents from your OTYS enviroment."
+msgstr ""
+
+#: app/views/admin/admin-settings/admin-settings-mails.php:13
+msgid ""
+"Below you see mails that get triggered when events happen. For each email "
+"that gets triggered you can choose which document to use. When choosing "
+"disabled the email will not be send."
+msgstr ""
+
+#: app/views/admin/admin-settings/admin-settings-mails.php:19
+msgid ""
+"If you as a user has rights to the document module in OTYS, you are able to "
+"edit these documents and also able to create new documents which can be used "
+"for emailing aswell."
+msgstr ""
+
+#: app/views/admin/admin-settings/admin-settings-mails.php:23
+#: app/views/admin/admin-settings/admin-settings-mails.php:24
+msgid "Watch documents module instruction video"
+msgstr ""
+
+#: app/views/admin/admin-webhooks/admin-webhooks.php:31
+msgid "Registered webhooks"
+msgstr ""
+
+#: app/views/admin/admin-webhooks/admin-webhooks.php:36
+msgid "Register hooks"
+msgstr ""
+
+#: app/views/admin/wp-settings-api/cb-checkbox.php:13
+#: app/views/admin/wp-settings-api/cb-radio.php:7
+#: app/views/admin/wp-settings-api/cb-select.php:9
+msgid "Select option"
+msgstr ""
+
+#: app/views/admin/wp-settings-api/cb-image.php:6
+#: app/views/admin/wp-settings-api/cb-image.php:31
+msgid "Choose image"
+msgstr ""
+
+#: app/views/admin/wp-settings-api/cb-image.php:7
+msgid "Set image"
+msgstr ""
+
+#: app/views/admin/wp-settings-api/cb-image.php:17
+msgid "Select image"
+msgstr ""
+
+#: app/views/admin/wp-settings-api/cb-image.php:42
+msgid "Remove image"
+msgstr ""
+
+#: app/views/admin/wp-settings-api/cb-select-document.php:9
+msgid "Select documents"
+msgstr ""
+
+#: app/views/admin/wp-settings-api/cb-select-document.php:13
+msgid "Disabled"
+msgstr ""
+
+#: app/views/admin/wp-settings-api/cb-select-match-criteria.php:14
+msgid "Select match criteria"
+msgstr ""
+
+#: app/views/admin/wp-settings-api/cb-sortable-checkboxes.php:14
+msgid "Select options"
+msgstr ""
+
+#: app/views/interactions/interactions.php:80
+#: app/views/vacancies/apply/vacancies-apply-shortcode.php:80
+msgid "Previous"
+msgstr ""
+
+#: app/views/interactions/interactions.php:86
+#: app/views/vacancies/apply/vacancies-apply-shortcode.php:86
+#: app/views/vacancies/vacancies-detail.php:94
+#: app/views/vacancies/vacancies-detail.php:132
+msgid "Apply"
+msgstr ""
+
+#: app/views/vacancies/apply/vacancies-apply-success.php:13
+#, php-format
+msgid ""
+"Thank you for your application. You have successfully applied for the "
+"vacancy %s."
+msgstr ""
+
+#: app/views/vacancies/apply/vacancies-apply.php:18
+msgid "You are currently applying for"
+msgstr ""
+
+#: app/views/vacancies/apply/vacancies-confirm-email.php:12
+msgid ""
+"We sent a confirmation code to your email address. Please confirm your "
+"application by filling in the confirmation code."
+msgstr ""
+
+#: app/views/vacancies/apply/vacancies-confirm-email.php:18
+msgid "Confirmation code"
+msgstr ""
+
+#: app/views/vacancies/apply/vacancies-confirm-email.php:24
+msgid "Enter the confirmation code here"
+msgstr ""
+
+#: app/views/vacancies/apply/vacancies-open-apply-success.php:9
+msgid "Thank you for your application."
+msgstr ""
+
+#: app/views/vacancies/preview-mode.php:18
+msgid "Preview mode"
+msgstr ""
+
+#: app/views/vacancies/vacancies-detail.php:88
+msgid "ago"
+msgstr ""
+
+#: app/views/vacancies/vacancies-filters.php:16
+msgid "Filters"
+msgstr ""
+
+#: app/views/vacancies/vacancies-geo-search.php:10
+msgid "Maximum distance"
+msgstr ""
+
+#: app/views/vacancies/vacancies-geo-search.php:30
+msgid "Postal code"
+msgstr ""
+
+#: app/views/vacancies/vacancies-geo-search.php:61
+msgid "Reset"
+msgstr ""
+
+#: app/views/vacancies/vacancies-geo-search.php:66
+#: app/views/vacancies/vacancies-search.php:52
+msgid "Search"
+msgstr ""
+
+#: app/views/vacancies/vacancies-list.php:16
+#, php-format
+msgid "Vacancy %s"
+msgstr ""
+
+#: app/views/vacancies/vacancies-list.php:59
+#: app/views/vacancies/vacancies-shortlist.php:59
+msgid "No vacancies found"
+msgstr ""
+
+#: app/views/vacancies/vacancies-list.php:61
+msgid ""
+"There are no vacancies for your search filters. Remove filters to broaden "
+"the search."
+msgstr ""
+
+#: app/views/vacancies/vacancies-list.php:62
+msgid "Remove all filters"
+msgstr ""
+
+#: app/views/vacancies/vacancies-search.php:9
+msgid "Search vacancies"
+msgstr ""
+
+#: app/views/vacancies/vacancies-search.php:14
+msgid "Keyword"
+msgstr ""
+
+#: app/views/vacancies/vacancies-selected-filtes.php:19
+msgid "or"
+msgstr ""
+
+#: otys-routes.php:32 otys-routes.php:33
+msgid "Settings"
+msgstr ""
+
+#: otys-routes.php:44 otys-routes.php:45
+msgid "Cache"
+msgstr ""
+
+#: otys-routes.php:56 otys-routes.php:57
+msgid "Webhooks"
+msgstr ""
+
+#: otys-routes.php:67 otys-routes.php:68
+msgid "API Logs"
+msgstr ""
+
+#: otys-routes.php:76 otys-routes.php:77
+msgid "Instructions"
+msgstr ""
+
+#. Plugin Name of the plugin/theme
+msgid "OTYS Jobs & Apply"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid ""
+"Make your Wordpress website a proper recruitment website using the OTYS API"
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "OTYS"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "https://otys.nl"
+msgstr ""

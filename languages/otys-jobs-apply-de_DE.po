@@ -1,0 +1,2133 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: OTYS Jobs & Apply\n"
+"POT-Creation-Date: 2024-09-02 15:04+0200\n"
+"PO-Revision-Date: 2024-10-08 10:18+0200\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: de_DE\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 3.5\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: otys-jobs-apply.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.min.js\n"
+"X-Poedit-SearchPathExcluded-1: vendor\n"
+"X-Poedit-SearchPathExcluded-2: node_modules\n"
+
+#: app/Controllers/Admin/AdminJobAlertController.php:59
+msgid "Job alert management"
+msgstr "Job Alert Management"
+
+#: app/Controllers/Admin/AdminJobAlertController.php:62
+msgid ""
+"Below you can configure the JobAlert. You able to choose which questions a "
+"person has to fill in when creating a job alert."
+msgstr ""
+"Unten können Sie den JobAlert konfigurieren. Sie können wählen, welche "
+"Fragen eine Person ausfüllen muss, wenn sie einen JobAlert erstellt."
+
+#: app/Controllers/Admin/AdminJobAlertController.php:71
+msgid "Document to use for the Job Alert confirmation email"
+msgstr "Zu verwendendes Dokument für die Job-Alert-Bestätigungs-E-Mail"
+
+#: app/Controllers/Admin/AdminJobAlertController.php:79
+msgid ""
+"Choose which document you want to use for the Job Alert confirmation email. "
+"By default we created a corresponding template automaticly which you can "
+"use, this document is called WordPress | JobAlert (default)."
+msgstr ""
+"Wählen Sie das Dokument aus, das Sie für die Jobalarm-Bestätigungs-E-Mail "
+"verwenden möchten. Standardmäßig haben wir automatisch eine entsprechende "
+"Vorlage erstellt, die Sie verwenden können, dieses Dokument heißt WordPress "
+"| JobAlert (Standard)."
+
+#: app/Controllers/Admin/AdminJobAlertController.php:89
+msgid "Questions which the candidate has to fill in"
+msgstr "Fragen, die der Kandidat ausfüllen muss"
+
+#: app/Controllers/Admin/AdminJobAlertController.php:97
+msgid "Choose which questions get asked in which order for the job alert."
+msgstr ""
+"Wählen Sie aus, welche Fragen in welcher Reihenfolge bei der "
+"Stellenausschreibung gestellt werden."
+
+#: app/Controllers/Admin/AdminJobAlertController.php:225
+msgid "This field is required and can therefore not be disabled"
+msgstr "Dieses Feld ist erforderlich und kann daher nicht deaktiviert werden"
+
+#: app/Controllers/Admin/AdminJobAlertController.php:231
+msgid ""
+"This criteria does not have any options and can therefore not be enabled"
+msgstr ""
+"Dieses Kriterium hat keine Optionen und kann daher nicht aktiviert werden"
+
+#: app/Controllers/Admin/AdminRoutesSettingsController.php:90
+#: app/Controllers/Admin/AdminSettingsController.php:83
+#: app/Includes/Core/OtysPlugin.php:171
+msgid "Vacancies overview"
+msgstr "Übersicht Stellenangebote"
+
+#: app/Controllers/Admin/AdminRoutesSettingsController.php:91
+#: app/Controllers/Admin/AdminSettingsController.php:87
+#: app/Includes/Core/OtysPlugin.php:172
+msgid "Vacancy detail"
+msgstr "Stellenausschreibung Detail"
+
+#: app/Controllers/Admin/AdminSettingsController.php:63
+msgid "The API key has been removed."
+msgstr "Der API-Schlüssel wurde entfernt."
+
+#: app/Controllers/Admin/AdminSettingsController.php:84
+msgid ""
+"Choose what url you want to use for the vacancies overview. This url should "
+"correspond with the page containing atleast a [otys-vacancies-list] "
+"shortcode. Add a vacancies overview url for each language. If your language "
+"is not available in the dropdown, make sure to install the language in your "
+"WordPress installation."
+msgstr ""
+"Wählen Sie die URL, die Sie für die Übersicht der Stellenangebote verwenden "
+"möchten. Diese URL sollte mit der Seite übereinstimmen, die mindestens einen "
+"[otys-vacancies-list] Shortcode enthält. Fügen Sie für jede Sprache eine URL "
+"für die Stellenangebotsübersicht hinzu. Wenn Ihre Sprache nicht in der "
+"Auswahlliste verfügbar ist, stellen Sie sicher, dass Sie die Sprache in "
+"Ihrer WordPress-Installation installieren."
+
+#: app/Controllers/Admin/AdminSettingsController.php:88
+msgid ""
+"Choose what url you want to use for the vacancies detail page. The vacancy "
+"detail page can be the same url as the vacancy overview url. Add a vacancies "
+"detail url for each language. If your language is not available in the "
+"dropdown, make sure to install the language in your WordPress installation."
+msgstr ""
+"Wählen Sie die URL, die Sie für die Detailseite des Stellenangebots "
+"verwenden möchten. Die Detailseite für Stellenangebote kann dieselbe URL "
+"sein wie die Übersichtsseite für Stellenangebote. Fügen Sie für jede Sprache "
+"eine Detailseite mit Stellenangeboten hinzu. Wenn Ihre Sprache nicht in der "
+"Auswahlliste verfügbar ist, stellen Sie sicher, dass Sie die Sprache in "
+"Ihrer WordPress-Installation installieren."
+
+#: app/Controllers/Admin/AdminSettingsController.php:91
+msgid "Vacancy application thank you"
+msgstr ""
+"Benachrichtigung des Eigentümers über die Bewerbung für eine freie Stelle"
+
+#: app/Controllers/Admin/AdminSettingsController.php:92
+msgid ""
+"Optionally you can choose what url you want to use for the thank you page "
+"after a candidate has applied for a vacancy. You can add a different thank "
+"you url for each language. If your language is not available in the "
+"dropdown, make sure to install the language in your WordPress installation."
+msgstr ""
+"Wählen Sie die URL, die Sie für die Detailseite des Stellenangebots "
+"verwenden möchten. Die Detailseite für Stellenangebote kann dieselbe URL "
+"sein wie die Übersichtsseite für Stellenangebote. Fügen Sie für jede Sprache "
+"eine Detailseite mit Stellenangeboten hinzu. Wenn Ihre Sprache nicht in der "
+"Auswahlliste verfügbar ist, stellen Sie sicher, dass Sie die Sprache in "
+"Ihrer WordPress-Installation installieren."
+
+#: app/Controllers/Admin/AdminSettingsController.php:99
+msgid "API"
+msgstr "API"
+
+#: app/Controllers/Admin/AdminSettingsController.php:105
+msgid "Vacancies"
+msgstr "Stellenangebote"
+
+#: app/Controllers/Admin/AdminSettingsController.php:111
+msgid "Mailing"
+msgstr "Mailing"
+
+#: app/Controllers/Admin/AdminSettingsController.php:117
+msgid "Anti spam"
+msgstr "Anti-Spam"
+
+#: app/Controllers/Admin/AdminSettingsController.php:123
+#: app/Controllers/Admin/AdminSettingsController.php:936
+msgid "Pagination"
+msgstr "Paginierung"
+
+#: app/Controllers/Admin/AdminSettingsController.php:129
+msgid "Candidate authentication"
+msgstr "Kandidat offene Bewerbung"
+
+#: app/Controllers/Admin/AdminSettingsController.php:370
+#: app/Controllers/Admin/AdminSettingsController.php:413
+msgid "All plugin related cache has been removed"
+msgstr "Der gesamte Plugin-Cache wurde entfernt"
+
+#: app/Controllers/Admin/AdminSettingsController.php:406
+msgid "Invalid API key given"
+msgstr "Ungültiger API-Schlüssel angegeben"
+
+#: app/Controllers/Admin/AdminSettingsController.php:441
+#: app/Controllers/Admin/AdminWebhooksController.php:52
+msgid "Api settings"
+msgstr "API Einstellungen"
+
+#: app/Controllers/Admin/AdminSettingsController.php:452
+msgid "API key"
+msgstr "API-Schlüssel"
+
+#: app/Controllers/Admin/AdminSettingsController.php:459
+msgid "Enter the API key provided by OTYS."
+msgstr "Geben Sie den von OTYS bereitgestellten API-Schlüssel ein."
+
+#: app/Controllers/Admin/AdminSettingsController.php:471
+msgid "Brand"
+msgstr "Marke"
+
+#: app/Controllers/Admin/AdminSettingsController.php:478
+msgid "Choose which brand to use."
+msgstr "Wählen Sie die zu verwendende Marke."
+
+#: app/Controllers/Admin/AdminSettingsController.php:485
+msgid "Website status"
+msgstr "Status der Webseite"
+
+#: app/Controllers/Admin/AdminSettingsController.php:488
+msgid ""
+"No, this website is not available to the public. (i.e. development "
+"environment)"
+msgstr ""
+"Nein, diese Website ist nicht für die Öffentlichkeit zugänglich. (d.h. "
+"Entwicklungsumgebung)"
+
+#: app/Controllers/Admin/AdminSettingsController.php:489
+msgid "Yes, this website is available to the public."
+msgstr ""
+"Ja, diese Website wird für die Produktion verwendet und ist für die "
+"Öffentlichkeit zugänglich."
+
+#: app/Controllers/Admin/AdminSettingsController.php:498
+msgid ""
+"Production means that this website is used by the end-user and the website "
+"is live. <br><b>Note</b>: Only one website can be used as production website "
+"per brand, if you mark more than one website as production issues will occur."
+msgstr ""
+"Produktion bedeutet, dass diese Website vom Endbenutzer verwendet wird und "
+"die Website live ist. <br><b>Hinweis</b>: Es kann nur eine Website als "
+"Produktionswebsite verwendet werden. Wenn Sie mehr als eine Website als "
+"Produktionswebsite markieren, treten Probleme auf."
+
+#: app/Controllers/Admin/AdminSettingsController.php:508
+msgid "Google reCAPTCHA v3"
+msgstr "Google reCAPTCHA v3"
+
+#: app/Controllers/Admin/AdminSettingsController.php:513
+#, php-format
+msgid ""
+"Setting up recaptcha is required. Please use your Google account to generate "
+"the needed API keys. Please make sure to choose reCAPTCHA v3 as type and add "
+"<u>%s</u> to the list of domains."
+msgstr ""
+"Die Einrichtung von recaptcha ist erforderlich. Bitte verwenden Sie Ihr "
+"Google-Konto, um die benötigten API-Schlüssel zu generieren. Bitte stellen "
+"Sie sicher, dass Sie reCAPTCHA v3 als Typ wählen und fügen Sie <u>%s</u> zur "
+"Liste der Domains hinzu."
+
+#: app/Controllers/Admin/AdminSettingsController.php:514
+msgid "Create API Key"
+msgstr "API-Key erstellen"
+
+#: app/Controllers/Admin/AdminSettingsController.php:525
+msgid "Site key"
+msgstr "Website-Schlüssel"
+
+#: app/Controllers/Admin/AdminSettingsController.php:532
+msgid "This site key is used in the HTML code your site serves to users."
+msgstr ""
+"Dieser Website-Schlüssel wird in dem HTML-Code verwendet, den Ihre Website "
+"den Benutzern anbietet."
+
+#: app/Controllers/Admin/AdminSettingsController.php:540
+msgid "Secret Key"
+msgstr "Geheimer Schlüssel"
+
+#: app/Controllers/Admin/AdminSettingsController.php:547
+msgid ""
+"This secret key is used for communication between your site and reCAPTCHA."
+msgstr ""
+"Dieser geheime Schlüssel wird für die Kommunikation zwischen Ihrer Website "
+"und reCAPTCHA verwendet."
+
+#: app/Controllers/Admin/AdminSettingsController.php:555
+msgid "Threshold"
+msgstr "Schwellwert"
+
+#: app/Controllers/Admin/AdminSettingsController.php:562
+msgid ""
+"reCAPTCHA learns by seeing real traffic on your site. For this reason, "
+"scores in a staging environment or soon after implementing may differ from "
+"production. As reCAPTCHA v3 doesn't ever interrupt the user flow, you can "
+"first run reCAPTCHA without taking action and then decide on thresholds by "
+"looking at your traffic in the admin console. By default, you can use a "
+"threshold of 0.5."
+msgstr ""
+"reCAPTCHA lernt, indem es den echten Verkehr auf Ihrer Website beobachtet. "
+"Aus diesem Grund können die Ergebnisse in einer Staging-Umgebung oder kurz "
+"nach der Implementierung von der Produktionsumgebung abweichen. Da reCAPTCHA "
+"v3 den Benutzerfluss nicht unterbricht, können Sie reCAPTCHA zunächst ohne "
+"Aktion laufen lassen und dann anhand des Datenverkehrs in der "
+"Verwaltungskonsole über Schwellenwerte entscheiden. Standardmäßig können Sie "
+"einen Schwellenwert von 0,5 verwenden."
+
+#: app/Controllers/Admin/AdminSettingsController.php:571
+msgid "Vacancy Overview"
+msgstr "Stellenausschreibung Übersicht"
+
+#: app/Controllers/Admin/AdminSettingsController.php:584
+msgid "Vacancies per page"
+msgstr "Offene Stellen pro Seite"
+
+#: app/Controllers/Admin/AdminSettingsController.php:592
+msgid "The amount of vacancies displayed per page on the vacancy overview."
+msgstr ""
+"Die Anzahl der Vakanzen, die pro Seite in der Vakanzenübersicht angezeigt "
+"werden."
+
+#: app/Controllers/Admin/AdminSettingsController.php:602
+msgid "Sorting of filter options"
+msgstr "Sortierung der Filteroptionen"
+
+#: app/Controllers/Admin/AdminSettingsController.php:609
+msgid "The sorting of the options of each filter"
+msgstr "Die Sortierung der Optionen eines jeden Filters"
+
+#: app/Controllers/Admin/AdminSettingsController.php:610
+msgid "Alphabetic"
+msgstr "Alphabetisch"
+
+#: app/Controllers/Admin/AdminSettingsController.php:610
+msgid "Frequency"
+msgstr "Häufigkeit"
+
+#: app/Controllers/Admin/AdminSettingsController.php:620
+msgid "Vacancy filters"
+msgstr "Filter für offene Stellen"
+
+#: app/Controllers/Admin/AdminSettingsController.php:628
+msgid ""
+"The filters displayed when using the shortcode [otys-vacancies-filters]."
+msgstr ""
+"Die Filter, die bei Verwendung des Shortcodes [otys-vacancies-filters] "
+"angezeigt werden."
+
+#: app/Controllers/Admin/AdminSettingsController.php:638
+#: app/Controllers/Admin/AdminSettingsController.php:688
+msgid "Vacancy labels"
+msgstr "Stellenausschreibung Detail"
+
+#: app/Controllers/Admin/AdminSettingsController.php:646
+msgid ""
+"Labels displayed at the vacancies displayed with the shortcodes [otys-"
+"vacancies-list] and [otys-vacancies-shortlist]."
+msgstr ""
+"Labels, die bei den Stellenangeboten angezeigt werden, die mit den "
+"Shortcodes [otys-vacancies-list] und [otys-vacancies-shortlist] angezeigt "
+"werden."
+
+#: app/Controllers/Admin/AdminSettingsController.php:655
+msgid "Vacancy Detail"
+msgstr "Stellenausschreibung Detail"
+
+#: app/Controllers/Admin/AdminSettingsController.php:666
+msgid "Fallback header image"
+msgstr "Fallback-Header-Bild"
+
+#: app/Controllers/Admin/AdminSettingsController.php:673
+msgid "The header to show when no vacancy header is set."
+msgstr ""
+"Die Kopfzeile, die angezeigt werden soll, wenn keine Leerstandskopfzeile "
+"eingestellt ist."
+
+#: app/Controllers/Admin/AdminSettingsController.php:675
+msgid "Choose fallback header image"
+msgstr "Bild auswählen"
+
+#: app/Controllers/Admin/AdminSettingsController.php:676
+msgid "Use image"
+msgstr "Bild verwenden"
+
+#: app/Controllers/Admin/AdminSettingsController.php:696
+msgid "Vacancy labels displayed on the vacancy detail."
+msgstr ""
+"Die Kennzeichnungen der Übereinstimmungskriterien werden auf der "
+"Detailansicht der Stelle angezeigt."
+
+#: app/Controllers/Admin/AdminSettingsController.php:705
+msgid "Vacancy URLs"
+msgstr "Stelle URLS"
+
+#: app/Controllers/Admin/AdminSettingsController.php:717
+#: app/Controllers/Admin/AdminSettingsController.php:1149
+msgid "URL Settings"
+msgstr "Einstellungen für URL's"
+
+#: app/Controllers/Admin/AdminSettingsController.php:735
+msgid "Mails"
+msgstr "E-Mails"
+
+#: app/Controllers/Admin/AdminSettingsController.php:752
+msgid "Application"
+msgstr "Anwendung"
+
+#: app/Controllers/Admin/AdminSettingsController.php:766
+msgid "Candidate applied (existing)"
+msgstr "Beworbener Kandidat (vorhanden)"
+
+#: app/Controllers/Admin/AdminSettingsController.php:774
+msgid "Email when an existing candidate applied for a job"
+msgstr ""
+"E-Mail, wenn sich ein bestehender Bewerber auf eine Stelle beworben hat"
+
+#: app/Controllers/Admin/AdminSettingsController.php:784
+msgid "Candidate applied (new)"
+msgstr "Beworbener Kandidat (neu)"
+
+#: app/Controllers/Admin/AdminSettingsController.php:792
+msgid "Email when a new candidate applied for a job."
+msgstr "E-Mail, wenn sich ein neuer Bewerber auf eine Stelle beworben hat."
+
+#: app/Controllers/Admin/AdminSettingsController.php:802
+msgid "Candidate confirm email"
+msgstr "Kandidat bestätigt E-Mail"
+
+#: app/Controllers/Admin/AdminSettingsController.php:810
+msgid ""
+"When a candidate applies with a known email adres, the candidate will "
+"receive an email with a code, the code needs to be filled in at the last "
+"step of the application proces to continue the application."
+msgstr ""
+"Wenn sich ein Bewerber mit einer bekannten E-Mail-Adresse bewirbt, erhält er "
+"eine E-Mail mit einem Code, der im letzten Schritt des Bewerbungsverfahrens "
+"eingegeben werden muss, um die Bewerbung fortzusetzen."
+
+#: app/Controllers/Admin/AdminSettingsController.php:820
+msgid "Vacancy owner application notification"
+msgstr ""
+"Benachrichtigung des Eigentümers über die Bewerbung für eine freie Stelle"
+
+#: app/Controllers/Admin/AdminSettingsController.php:828
+msgid "Notification to vacancy owner when a candidate applied on a vacancy."
+msgstr ""
+"Benachrichtigung des Stelleninhabers, wenn sich ein Bewerber auf eine freie "
+"Stelle beworben hat."
+
+#: app/Controllers/Admin/AdminSettingsController.php:837
+msgid "Open application"
+msgstr "Bewerbungsformular öffnen"
+
+#: app/Controllers/Admin/AdminSettingsController.php:850
+msgid "Candidate open application"
+msgstr "Kandidat offene Bewerbung"
+
+#: app/Controllers/Admin/AdminSettingsController.php:858
+msgid "Email to candidate when candidate did an open application."
+msgstr "E-Mail, wenn der Kandidat eine Bewerbung geöffnet hat."
+
+#: app/Controllers/Admin/AdminSettingsController.php:868
+msgid "Candidate open application notification consultant"
+msgstr "Kandidat offene Bewerbung"
+
+#: app/Controllers/Admin/AdminSettingsController.php:876
+msgid "Email to chosen recipient after a candidate did a open application."
+msgstr "E-Mail, wenn der Kandidat eine Bewerbung geöffnet hat."
+
+#: app/Controllers/Admin/AdminSettingsController.php:886
+msgid "Open application email recipient"
+msgstr "Bewerbungsformular öffnen"
+
+#: app/Controllers/Admin/AdminSettingsController.php:893
+#, php-format
+msgid "i.e. name@%s"
+msgstr "d.h. name@%s"
+
+#: app/Controllers/Admin/AdminSettingsController.php:895
+msgid "The e-mail adres a open application notifcation gets send to."
+msgstr ""
+"Die E-Mail-Adresse, an die eine Benachrichtigung über eine offene Anwendung "
+"gesendet wird."
+
+#: app/Controllers/Admin/AdminSettingsController.php:904
+msgid "Mail sender"
+msgstr "E-Mails"
+
+#: app/Controllers/Admin/AdminSettingsController.php:917
+msgid "Force sending all mails from one user"
+msgstr "Erzwingen des Versands aller Mails von einem Benutzer"
+
+#: app/Controllers/Admin/AdminSettingsController.php:925
+msgid ""
+"When this setting is enabled mails will never be send from the consultant. "
+"Instead mails will be send from the mail address assigned to the API."
+msgstr ""
+"Wenn diese Einstellung aktiviert ist, werden keine E-Mails vom Berater "
+"gesendet. Stattdessen werden Mails von der der API zugewiesenen Mailadresse "
+"gesendet."
+
+#: app/Controllers/Admin/AdminSettingsController.php:947
+msgid "Maximum amount of pages"
+msgstr "Maximale Anzahl von Seiten"
+
+#: app/Controllers/Admin/AdminSettingsController.php:954
+msgid "The maximum amount of pages shown in the pagination."
+msgstr "Die maximale Anzahl der in der Paginierung angezeigten Seiten."
+
+#: app/Controllers/Admin/AdminSettingsController.php:963
+msgid "Previous and next buttons"
+msgstr "Vorherige und nächste Schaltflächen"
+
+#: app/Controllers/Admin/AdminSettingsController.php:970
+msgid "How to show the previous and next buttons."
+msgstr "Wie werden die Schaltflächen \"Zurück\" und \"Weiter\" angezeigt?"
+
+#: app/Controllers/Admin/AdminSettingsController.php:972
+msgid "Hide previous and next button"
+msgstr "Vorherige und nächste Schaltfläche ausblenden"
+
+#: app/Controllers/Admin/AdminSettingsController.php:973
+msgid "Show previous and next button as text"
+msgstr "Vorherige und nächste Schaltfläche als Text anzeigen"
+
+#: app/Controllers/Admin/AdminSettingsController.php:974
+msgid "Show previous and next button as icon"
+msgstr "Vorherige und nächste Schaltfläche als Symbol anzeigen"
+
+#: app/Controllers/Admin/AdminSettingsController.php:983
+msgid "Previous page button"
+msgstr "Schaltfläche \"Vorherige Seite"
+
+#: app/Controllers/Admin/AdminSettingsController.php:990
+#: app/Controllers/Admin/AdminSettingsController.php:1028
+#: app/Controllers/Admin/AdminSettingsController.php:1048
+#: app/Controllers/Admin/AdminSettingsController.php:1067
+msgid "How to show the first and last buttons."
+msgstr "Wie werden die erste und die letzte Schaltfläche angezeigt?"
+
+#: app/Controllers/Admin/AdminSettingsController.php:992
+msgid "Choose the icon to be used for the previous page button"
+msgstr ""
+"Wählen Sie das Symbol, das für die Schaltfläche \"Vorherige Seite\" "
+"verwendet werden soll"
+
+#: app/Controllers/Admin/AdminSettingsController.php:993
+#: app/Controllers/Admin/AdminSettingsController.php:1012
+#: app/Controllers/Admin/AdminSettingsController.php:1051
+#: app/Controllers/Admin/AdminSettingsController.php:1070
+msgid "Use as icon"
+msgstr "Verwendung als Symbol"
+
+#: app/Controllers/Admin/AdminSettingsController.php:1002
+msgid "Next page button"
+msgstr "Weiter-Button"
+
+#: app/Controllers/Admin/AdminSettingsController.php:1009
+msgid "Choose the icon to be used for the next page button."
+msgstr ""
+"Wählen Sie das Symbol, das für die Schaltfläche \"Nächste Seite\" verwendet "
+"werden soll."
+
+#: app/Controllers/Admin/AdminSettingsController.php:1011
+msgid "Choose icon to be used for the next page button"
+msgstr "Wählen Sie das Symbol für die Schaltfläche \"Nächste Seite\""
+
+#: app/Controllers/Admin/AdminSettingsController.php:1021
+msgid "First and last buttons"
+msgstr "Erste und letzte Taste"
+
+#: app/Controllers/Admin/AdminSettingsController.php:1030
+msgid "Hide first and last button button"
+msgstr "Schaltfläche \"Erste und letzte Schaltfläche ausblenden"
+
+#: app/Controllers/Admin/AdminSettingsController.php:1031
+msgid "Show first and last button as text"
+msgstr "Erste und letzte Schaltfläche als Text anzeigen"
+
+#: app/Controllers/Admin/AdminSettingsController.php:1032
+msgid "Show first and last button as icon"
+msgstr "Erste und letzte Schaltfläche als Symbol anzeigen"
+
+#: app/Controllers/Admin/AdminSettingsController.php:1041
+msgid "First page button"
+msgstr "Schaltfläche \"Erste Seite"
+
+#: app/Controllers/Admin/AdminSettingsController.php:1050
+msgid "Choose icon to be used for the first page button"
+msgstr "Wählen Sie das Symbol für die Schaltfläche der ersten Seite"
+
+#: app/Controllers/Admin/AdminSettingsController.php:1060
+msgid "Last page button"
+msgstr "Schaltfläche \"Letzte Seite"
+
+#: app/Controllers/Admin/AdminSettingsController.php:1069
+msgid "Choose icon to be used for the last page button"
+msgstr ""
+"Die Kennzeichnungen der Übereinstimmungskriterien werden in der "
+"Vakanzübersicht angezeigt."
+
+#: app/Controllers/Admin/AdminSettingsController.php:1080
+msgid "Candidate authentication settings"
+msgstr "Einstellungen zur Kandidatenauthentifizierung"
+
+#: app/Controllers/Admin/AdminSettingsController.php:1093
+msgid "Show candidate login link at application forms"
+msgstr "Den Anmeldelink für Kandidaten in den Bewerbungsformularen anzeigen"
+
+#: app/Controllers/Admin/AdminSettingsController.php:1100
+msgid "A login link will be shown at the application form."
+msgstr "Im Bewerbungsformular wird ein Login-Link angezeigt."
+
+#: app/Controllers/Admin/AdminSettingsController.php:1101
+#: app/Controllers/Admin/AdminSettingsController.php:1118
+msgid "No"
+msgstr "Nein"
+
+#: app/Controllers/Admin/AdminSettingsController.php:1101
+#: app/Controllers/Admin/AdminSettingsController.php:1118
+msgid "Yes"
+msgstr "Ja"
+
+#: app/Controllers/Admin/AdminSettingsController.php:1110
+msgid "Use known candidate questionset for logged in candidates"
+msgstr ""
+"Verwenden Sie den Fragensatz „Bekannte Kandidaten“ für angemeldete Kandidaten"
+
+#: app/Controllers/Admin/AdminSettingsController.php:1117
+msgid "Use the known candidate questionset for logged in users"
+msgstr ""
+"Verwenden Sie den bekannten Kandidaten-Fragensatz für angemeldete Benutzer"
+
+#: app/Controllers/Admin/AdminSettingsController.php:1132
+msgid "Forgot password e-mail"
+msgstr "Passwort vergessen E-Mail"
+
+#: app/Controllers/Admin/AdminSettingsController.php:1140
+msgid ""
+"To enable forgot password choose the document which is used as e-mail to "
+"send the newly generated password to the candidate. Also make sure to do the "
+"url settings and provide a forgot password url."
+msgstr ""
+"Um die Funktion \"Passwort vergessen\" zu aktivieren, wählen Sie das "
+"Dokument, das als E-Mail verwendet wird, um das neu generierte Passwort an "
+"den Kandidaten zu senden. Stellen Sie außerdem sicher, dass Sie die URL-"
+"Einstellungen vornehmen und eine URL für Passwort vergessen angeben."
+
+#: app/Controllers/Admin/AdminSettingsController.php:1159
+msgid "Candidate login"
+msgstr "Beworbener Kandidat (neu)"
+
+#: app/Controllers/Admin/AdminSettingsController.php:1160
+msgid ""
+"Choose what url you want to use for the candidate login. Note that you'll "
+"have to create page by yourself and that the [otys-candidate-login] "
+"shortcode should be present on this page."
+msgstr ""
+"Wählen Sie die URL, die Sie für den Kandidaten-Login verwenden möchten. "
+"Beachten Sie, dass Sie die Seite selbst erstellen müssen und dass der "
+"Shortcode [otys-candidate-login] auf dieser Seite vorhanden sein sollte."
+
+#: app/Controllers/Admin/AdminSettingsController.php:1163
+msgid "Candidate logout"
+msgstr "Abmeldung des Bewerbers"
+
+#: app/Controllers/Admin/AdminSettingsController.php:1164
+msgid ""
+"Choose what url you want to use for the candidate logout. Logout will only "
+"be a link, the candidate will be automaticly redirected."
+msgstr ""
+"Wählen Sie die URL, die Sie für die Abmeldung des Kandidaten verwenden "
+"möchten. Die Abmeldung wird nur ein Link sein, der Kandidat wird automatisch "
+"weitergeleitet."
+
+#: app/Controllers/Admin/AdminSettingsController.php:1167
+msgid "Candidate portal"
+msgstr "Kandidatenportal"
+
+#: app/Controllers/Admin/AdminSettingsController.php:1168
+msgid ""
+"Choose what url you want to use for the candidate portal. The candidate will "
+"be redirected to the otys candidate portal using this url."
+msgstr ""
+"Wählen Sie die URL, die Sie für das Bewerberportal verwenden möchten. Der "
+"Kandidat wird über diese URL zum otys-Kandidatenportal weitergeleitet."
+
+#: app/Controllers/Admin/AdminSettingsController.php:1171
+msgid "Candidate forgot password"
+msgstr "Der Kandidat hat sein Passwort vergessen"
+
+#: app/Controllers/Admin/AdminSettingsController.php:1172
+msgid ""
+"Choose what url you want to for the forgot password page. Note that you'll "
+"have to create the page by yourself and that the [otys-candidate-forgot-"
+"password] shotcode should be present on this page and that you need to "
+"specify which document you want to use for the forgot password mail. By "
+"default a forgot password document has been made which can be used."
+msgstr ""
+"Wählen Sie die gewünschte URL für die Seite „Passwort vergessen“ aus. "
+"Beachten Sie, dass Sie die Seite selbst erstellen müssen und dass der "
+"Shotcode [otys-candidate-forgot-password] auf dieser Seite vorhanden sein "
+"sollte und dass Sie angeben müssen, welches Dokument Sie für die E-Mail mit "
+"vergessenem Passwort verwenden möchten. Standardmäßig wurde ein Dokument mit "
+"vergessenem Passwort erstellt, das verwendet werden kann."
+
+#: app/Controllers/Admin/AdminSettingsController.php:1250
+msgid ""
+"Are you sure you want to remove the API Key? You will loose plugin related "
+"settings and all plugin related cache will be removed."
+msgstr ""
+"Sind Sie sicher, dass Sie den API-Schlüssel entfernen möchten? Sie verlieren "
+"Plugin-bezogene Einstellungen und der gesamte Plugin-Cache wird entfernt."
+
+#: app/Controllers/Admin/AdminSettingsController.php:1250
+msgid "Remove API key"
+msgstr "API-Key entfernen"
+
+#: app/Controllers/Admin/AdminSettingsController.php:1253
+#, php-format
+msgid "Connected to %s"
+msgstr "Verbunden mit: %s"
+
+#: app/Controllers/Admin/AdminSettingsController.php:1269
+msgid ""
+"You are using an incorrect API key for the OTYS WordPress plugin. Please "
+"contact OTYS to resolve this to avoid future issues."
+msgstr ""
+"Sie verwenden einen falschen API-Schlüssel für das OTYS WordPress Plugin. "
+"Bitte kontaktieren Sie OTYS, um dies zu beheben und zukünftige Probleme zu "
+"vermeiden."
+
+#: app/Controllers/Admin/AdminWebhooksController.php:62
+msgid "Webhook url"
+msgstr "Webhook-URL"
+
+#: app/Controllers/Admin/AdminWebhooksController.php:70
+#, php-format
+msgid ""
+"The webhook url should on live websites always point at %1$s. \n"
+"                    It is not recommended to change this url. This setting "
+"is here solely for development purposes. \n"
+"                    For safety this setting only gets used when debug mode "
+"is on. \n"
+"                    Remember to click the Register hooks button to register "
+"hooks with OTYS, otherwise changes will not have any effect. \n"
+"                    To make sure the correct webhooks are registered, see "
+"the list of registed webhooks below."
+msgstr ""
+"Die Webhook-URL sollte auf Live-Websites immer auf %1$s zeigen\n"
+"                    Es wird nicht empfohlen, diese Url zu ändern. Diese "
+"Einstellung ist nur für Entwicklungszwecke gedacht\n"
+"                    Zur Sicherheit wird diese Einstellung nur verwendet, "
+"wenn der Debug-Modus aktiviert ist\n"
+"                    Vergessen Sie nicht, auf die Schaltfläche \"Hooks "
+"registrieren\" zu klicken, um die Hooks bei OTYS zu registrieren, "
+"andernfalls haben die Änderungen keine Wirkung\n"
+"                    Um sicherzustellen, dass die richtigen Webhooks "
+"registriert sind, sehen Sie sich die Liste der registrierten Webhooks unten "
+"an."
+
+#: app/Controllers/Shortcodes/AbstractInteractionsController.php:81
+#: app/Controllers/Shortcodes/AuthController.php:64
+#: app/Controllers/Shortcodes/ForgotPasswordController.php:67
+msgid ""
+"Please setup the recaptcha key correctly, otherwise the interaction form "
+"will not work. If you need help please read the article <a target=\"_blank\" "
+"href=\"https://wordpress.otys.com/kb/guide/en/QIkQJMUsa2/\">How do I setup "
+"Google Recaptcha?</a> on our knowledge base."
+msgstr ""
+"Bitte richten Sie den Recaptcha-Schlüssel korrekt ein, sonst funktioniert "
+"das Anmeldeformular nicht. Wenn Sie Hilfe benötigen, lesen Sie bitte den "
+"Artikel <a target=\"_blank\" href=\"https://wordpress.otys.com/kb/guide/en/"
+"QIkQJMUsa2/\">How do I setup Google Recaptcha?</a> in unserer "
+"Wissensdatenbank."
+
+#: app/Controllers/Shortcodes/AbstractInteractionsController.php:99
+msgid "Thank you for filling in the form."
+msgstr "Vielen Dank, dass Sie das Formular ausgefüllt haben."
+
+#: app/Controllers/Shortcodes/AbstractInteractionsController.php:100
+msgid "Send"
+msgstr "Senden"
+
+#: app/Controllers/Shortcodes/AuthController.php:129
+msgid "Login"
+msgstr "Anmelden"
+
+#: app/Controllers/Shortcodes/AuthController.php:130
+msgid "You've been sucessfully logged in and will be redirect to the portal.."
+msgstr ""
+"Sie wurden erfolgreich eingeloggt und werden nun zum Portal weitergeleitet.."
+
+#: app/Controllers/Shortcodes/ForgotPasswordController.php:110
+msgid "Send new password"
+msgstr "Neues Passwort zusenden"
+
+#: app/Controllers/Shortcodes/ForgotPasswordController.php:111
+msgid "A new password has been send to your e-mail address."
+msgstr "Ein neues Passwort wurde an Ihre E-Mail-Adresse geschickt."
+
+#: app/Controllers/Shortcodes/JobAlertController.php:73
+msgid ""
+"Please configure the jobalert settings. Please navigate to the Job Alert tab "
+"under OTYS settings in your WordPress admin panel and select which match "
+"criteria to show."
+msgstr ""
+"Bitte konfigurieren Sie die Jobalert-Einstellungen. Bitte navigieren Sie zur "
+"Registerkarte Jobalarm unter OTYS-Einstellungen in Ihrem WordPress-"
+"Administrationsbereich und wählen Sie die anzuzeigenden "
+"Übereinstimmungskriterien aus."
+
+#: app/Controllers/Shortcodes/JobAlertController.php:83
+msgid ""
+"Please configure the jobalert settings. Please navigate to the Job Alert tab "
+"under OTYS settings in your WordPress admin panel and select which document "
+"to use for the confirmation email."
+msgstr ""
+"Bitte konfigurieren Sie die Jobalert-Einstellungen. Bitte navigieren Sie zur "
+"Registerkarte Jobalarm unter OTYS-Einstellungen in Ihrem WordPress-"
+"Administrationsbereich und wählen Sie aus, welches Dokument für die "
+"Bestätigungs-E-Mail verwendet werden soll."
+
+#: app/Controllers/Shortcodes/JobAlertController.php:126
+msgid ""
+"Thank you for creating a job alert. An email has been send to your email "
+"address with a confirmation link."
+msgstr ""
+"Danke, dass Sie einen Job Alert erstellt haben. Es wurde eine E-Mail mit "
+"einem Bestätigungslink an Ihre E-Mail-Adresse gesendet."
+
+#: app/Controllers/Shortcodes/JobAlertController.php:129
+msgid "Subscribe"
+msgstr "Abonnieren"
+
+#: app/Controllers/Shortcodes/JobAlertController.php:143
+msgid ""
+"Something went wrong while creating the jobalert. Please contact OTYS "
+"support."
+msgstr ""
+"Etwas ist schief gelaufen, bitte kontaktieren Sie den Server-Administrator."
+
+#: app/Controllers/Shortcodes/JobAlertController.php:155
+msgid "No email address found for the jobalert. Please contact OTYS support."
+msgstr ""
+"Keine E-Mail Adresse für den Jobalert gefunden. Bitte kontaktieren Sie den "
+"OTYS-Support."
+
+#: app/Controllers/Shortcodes/JobAlertController.php:159
+msgid ""
+"Something went wrong while getting the jobalert details. Please contact OTYS "
+"support."
+msgstr ""
+"Etwas ist schief gelaufen, bitte kontaktieren Sie den Server-Administrator."
+
+#: app/Controllers/Shortcodes/JobAlertController.php:166
+msgid ""
+"No document set for the jobalert confirmation email, please configure this "
+"in your WordPress admin panel."
+msgstr ""
+"Kein Dokument für die Jobalert-Bestätigungs-E-Mail eingestellt, bitte "
+"konfigurieren Sie dies in Ihrem WordPress-Administrationsbereich."
+
+#: app/Controllers/Shortcodes/JobAlertController.php:183
+msgid "No OTYS website found for your website, please contact OTYS support."
+msgstr ""
+"Es wurde keine OTYS-Website für Ihre Website gefunden, bitte kontaktieren "
+"Sie den OTYS-Support."
+
+#: app/Controllers/Shortcodes/JobAlertController.php:198
+#, fuzzy, php-format
+#| msgid "Something went wrong while retrieving the vacancy."
+msgid ""
+"Something went wrong while getting the mail confirmation configuration. "
+"Please contact %s."
+msgstr ""
+"Etwas ist schief gelaufen, bitte kontaktieren Sie den Server-Administrator."
+
+#: app/Controllers/Shortcodes/VacanciesApplyController.php:76
+msgid ""
+"Please setup the recaptcha key correctly, otherwise the application form "
+"will not work. If you need help please read the article <a target=\"_blank\" "
+"href=\"https://wordpress.otys.com/kb/guide/en/QIkQJMUsa2/\">How do I setup "
+"Google Recaptcha?</a> on our knowledge base."
+msgstr ""
+"Bitte richten Sie den Recaptcha-Schlüssel korrekt ein, sonst funktioniert "
+"das Anmeldeformular nicht. Wenn Sie Hilfe benötigen, lesen Sie bitte den "
+"Artikel <a target=\"_blank\" href=\"https://wordpress.otys.com/kb/guide/en/"
+"QIkQJMUsa2/\">How do I setup Google Recaptcha?</a> in unserer "
+"Wissensdatenbank."
+
+#: app/Controllers/Shortcodes/VacanciesApplyController.php:242
+msgid "Email adres is already used, please choose a different email adres."
+msgstr ""
+"Die E-Mail-Adresse ist bereits verwendet, bitte wählen Sie eine andere E-"
+"Mail-Adresse."
+
+#: app/Controllers/Shortcodes/VacanciesApplyController.php:248
+#: app/Controllers/Shortcodes/VacanciesApplyController.php:264
+msgid "You've already applied on this vacancy with this email adres."
+msgstr ""
+"Sie haben sich bereits auf diese Stelle mit dieser E-Mail-Adresse beworben."
+
+#: app/Controllers/Shortcodes/VacanciesApplyController.php:251
+#: app/Models/QuestionsetModel.php:1123
+#: app/Models/Shortcodes/InteractionsModel.php:462
+msgid "Invalid email adres."
+msgstr "Ungültige E-Mail Adresse."
+
+#: app/Controllers/Shortcodes/VacanciesApplyController.php:383
+#, php-format
+msgid ""
+"Something went wrong. Please contact %s to make sure your application went "
+"through."
+msgstr ""
+"Etwas ist schief gelaufen, bitte kontaktieren Sie den Server-Administrator "
+"%s."
+
+#: app/Controllers/Shortcodes/VacanciesApplyController.php:459
+msgid "Application failed, please contact us."
+msgstr "Bewerbung fehlgeschlagen, bitte kontaktieren Sie uns."
+
+#: app/Controllers/Shortcodes/VacanciesListController.php:115
+msgid "No vacancies found."
+msgstr "Keine Stellenangebote gefunden."
+
+#: app/Controllers/VacanciesApplyController.php:49
+#, php-format
+msgid "Apply for %1$s"
+msgstr "Bewerbung für %1$s"
+
+#: app/Controllers/VacanciesDetailController.php:66
+#, php-format
+msgctxt "Vacancy detail title"
+msgid "%1$s"
+msgstr "%1$s"
+
+#: app/Includes/Core/OtysPlugin.php:145
+msgid "Edit settings"
+msgstr "Einstellungen bearbeiten"
+
+#: app/Includes/Core/Updater.php:311
+msgid "How to contact support?"
+msgstr "Wie kontaktiere ich den Support?"
+
+#: app/Includes/Core/Updater.php:312
+#, php-format
+msgid ""
+"Failed updating version %s to version %s. The updater failed at version %s. "
+"Please create a OTYS support ticket and provide this information in the "
+"ticket. %s"
+msgstr ""
+"Die Aktualisierung von Version %s auf Version %s ist fehlgeschlagen. Der "
+"Updater ist bei Version %s fehlgeschlagen. Bitte erstellen Sie ein OTYS-"
+"Support-Ticket und geben Sie diese Informationen im Ticket an. %s"
+
+#: app/Includes/OtysApi.php:158 app/Includes/OtysApi.php:198
+msgid "API key provided is invalid."
+msgstr "Der verfügbare API-Schlüssel ist ungültig."
+
+#: app/Includes/OtysApi.php:225
+msgid "Session provided with the request is invalid."
+msgstr "Die mit der Anfrage übermittelte Sitzung ist ungültig."
+
+#: app/Includes/OtysApi.php:227
+msgid "No error message available."
+msgstr "Keine Fehlermeldung verfügbar."
+
+#: app/Models/CandidateModel.php:165 app/Models/CandidateModel.php:206
+msgid "Could not create candidate."
+msgstr "Der Kandidat konnte nicht erstellt werden."
+
+#: app/Models/FilesModel.php:116
+msgid "Invalid file upload."
+msgstr "Es wurden keine Dateien hochgeladen."
+
+#: app/Models/FilesModel.php:139
+#, php-format
+msgid "%s is an invalid file."
+msgstr "%s ist eine ungültige Datei."
+
+#: app/Models/FilesModel.php:153
+#, php-format
+msgid "File %1$s exceeds filesize limit. Max file size is %2$s."
+msgstr ""
+"Datei %1$s überschreitet Dateigrößengrenze. Maximale Dateigröße ist %2$s."
+
+#: app/Models/FilesModel.php:185
+#, php-format
+msgid "File extension of %s is not allowed."
+msgstr "Dateierweiterung von %s ist nicht erlaubt."
+
+#: app/Models/FilesModel.php:191
+msgid "No file uploaded"
+msgstr "Es wurden keine Dateien hochgeladen"
+
+#: app/Models/FilesModel.php:195 app/Models/FilesModel.php:198
+#, php-format
+msgid "File %s exceeds filesize limit."
+msgstr "Datei %s überschreitet Dateigrößengrenze."
+
+#: app/Models/FilesModel.php:201
+msgid "Something went wrong while uploading your documents."
+msgstr ""
+"Etwas ist schief gelaufen, bitte kontaktieren Sie den Server-Administrator."
+
+#: app/Models/FilesModel.php:224
+msgid "no subject"
+msgstr "kein Betreff"
+
+#: app/Models/MailModel.php:38
+msgid "No message set for email."
+msgstr "Keine Nachricht für E-Mail eingestellt."
+
+#: app/Models/Pagination.php:113
+msgid "First"
+msgstr "Erste"
+
+#: app/Models/Pagination.php:129
+msgid "Prev"
+msgstr "Zurück"
+
+#: app/Models/Pagination.php:145 app/views/interactions/interactions.php:87
+#: app/views/vacancies/apply/vacancies-apply-shortcode.php:103
+msgid "Next"
+msgstr "Weiter"
+
+#: app/Models/Pagination.php:162
+msgid "Last"
+msgstr "Letzte"
+
+#: app/Models/QuestionsetModel.php:634
+msgid "Wrong questionset UID"
+msgstr "Falsche Fragensatz-UID"
+
+#: app/Models/QuestionsetModel.php:739
+#, php-format
+msgctxt "GDPR"
+msgid "%s months"
+msgstr "%s Monate"
+
+#: app/Models/QuestionsetModel.php:1008 app/Models/QuestionsetModel.php:1064
+msgid "Response open questionset is invalid"
+msgstr "Antwort offener Fragensatz ist ungültig"
+
+#: app/Models/QuestionsetModel.php:1091
+#: app/Models/Shortcodes/InteractionsModel.php:430
+msgid "This field is required."
+msgstr "Dies ist ein Pflichtfeld."
+
+#: app/Models/QuestionsetModel.php:1095
+#: app/Models/Shortcodes/InteractionsModel.php:434
+msgid "File upload is required."
+msgstr "Datei-Upload ist erforderlich."
+
+#: app/Models/QuestionsetModel.php:1102
+#: app/Models/Shortcodes/InteractionsModel.php:441
+msgid "Value should be a valid date."
+msgstr "Wert sollte ein gültiges Datum sein."
+
+#: app/Models/QuestionsetModel.php:1109
+#: app/Models/Shortcodes/InteractionsModel.php:448
+msgid "Postal code is invalid."
+msgstr "Postleitzahl ist ungültig."
+
+#: app/Models/QuestionsetModel.php:1116 app/Models/QuestionsetModel.php:1158
+#: app/Models/Shortcodes/InteractionsModel.php:455
+#: app/Models/Shortcodes/InteractionsModel.php:497
+msgid "Too many digits."
+msgstr "Zu viele Ziffern."
+
+#: app/Models/QuestionsetModel.php:1129 app/Models/QuestionsetModel.php:1132
+#: app/Models/Shortcodes/InteractionsModel.php:468
+#: app/Models/Shortcodes/InteractionsModel.php:471
+msgid "Only numbers & letters are allowed."
+msgstr "Nur Zahlen und Buchstaben sind erlaubt."
+
+#: app/Models/QuestionsetModel.php:1139 app/Models/QuestionsetModel.php:1144
+#: app/Models/Shortcodes/InteractionsModel.php:478
+#: app/Models/Shortcodes/InteractionsModel.php:483
+msgid "Invalid phonenumber."
+msgstr "Ungültige Rufnummer."
+
+#: app/Models/QuestionsetModel.php:1151
+#: app/Models/Shortcodes/InteractionsModel.php:490
+msgid "Please enter a international phonenumber."
+msgstr "Bitte geben Sie eine internationale Rufnummer ein."
+
+#: app/Models/QuestionsetModel.php:1165 app/Models/QuestionsetModel.php:1168
+#: app/Models/Shortcodes/InteractionsModel.php:504
+#: app/Models/Shortcodes/InteractionsModel.php:507
+msgid "Value should be a valid date of birth."
+msgstr "Wert sollte ein gültiges Geburtsdatum sein."
+
+#: app/Models/QuestionsetModel.php:1183
+#: app/Models/Shortcodes/InteractionsModel.php:522
+msgid "Invalid document type."
+msgstr "Ungültiger Dokumententyp."
+
+#: app/Models/Shortcodes/AuthModel.php:36
+msgid "Something went wrong while trying to login."
+msgstr ""
+"Etwas ist schief gelaufen, bitte kontaktieren Sie den Server-Administrator."
+
+#: app/Models/Shortcodes/AuthModel.php:40
+#: app/Models/Shortcodes/AuthModel.php:46
+msgid "User and password combination is wrong."
+msgstr "Die Kombination aus Benutzer und Passwort ist falsch."
+
+#: app/Models/Shortcodes/AuthModel.php:128
+#: app/Models/Shortcodes/ForgotPasswordModel.php:55
+#: app/Models/Shortcodes/InteractionsModel.php:566
+#: app/Models/Shortcodes/VacanciesApplyModel.php:344
+msgid "reCAPTCHA is incorrect. Please try again."
+msgstr "reCAPTCHA ist falsch. Bitte versuchen Sie es erneut."
+
+#: app/Models/Shortcodes/AuthModel.php:224
+msgid "Unable to generate the login link"
+msgstr "Der Anmeldelink kann nicht generiert werden"
+
+#: app/Models/Shortcodes/ForgotPasswordModel.php:101
+msgid "An error occurred while resetting the password."
+msgstr "Beim Zurücksetzen des Passworts ist ein Fehler aufgetreten."
+
+#: app/Models/Shortcodes/ForgotPasswordModel.php:161
+msgid "User not found."
+msgstr "Benutzer nicht gefunden."
+
+#: app/Models/Shortcodes/ForgotPasswordModel.php:196
+msgid "Candidate not found."
+msgstr "Kandidat offene Bewerbung"
+
+#: app/Models/Shortcodes/InteractionsModel.php:252
+#: app/Models/Shortcodes/InteractionsModel.php:300
+msgid "Error while fetching the interaction form."
+msgstr "Fehler beim Abrufen des Interaktionsformulars"
+
+#: app/Models/Shortcodes/InteractionsModel.php:256
+#: app/Models/Shortcodes/InteractionsModel.php:304
+msgid "Interaction form data not found."
+msgstr "Daten des Interaktionsformulars nicht gefunden."
+
+#: app/Models/Shortcodes/InteractionsModel.php:258
+#: app/Models/Shortcodes/InteractionsModel.php:306
+msgid "Could not find interaction form data."
+msgstr "Die Daten des Interaktionsformulars konnten nicht gefunden werden."
+
+#: app/Models/Shortcodes/InteractionsModel.php:262
+#: app/Models/Shortcodes/InteractionsModel.php:264
+#: app/Models/Shortcodes/InteractionsModel.php:347
+msgid "No session id found."
+msgstr "Keine Sitzungs-ID gefunden."
+
+#: app/Models/Shortcodes/InteractionsModel.php:333
+msgid "Error while submitting the interaction form"
+msgstr "Fehler beim Absenden des Interaktionsformulars"
+
+#: app/Models/Shortcodes/InteractionsModel.php:362
+msgid "Errors occured while commiting the session"
+msgstr "Beim Festschreiben der Sitzung sind Fehler aufgetreten"
+
+#: app/Models/Shortcodes/InteractionsModel.php:550
+msgid "Invalid id."
+msgstr "Ungültige ID."
+
+#: app/Models/Shortcodes/JobAlertModel.php:56
+msgid "Please choose at least one match criteria"
+msgstr "Bitte wählen Sie mindestens ein Übereinstimmungskriterium aus"
+
+#: app/Models/Shortcodes/JobAlertModel.php:280
+msgid "Language"
+msgstr "Sprache"
+
+#: app/Models/Shortcodes/JobAlertModel.php:283
+msgid "E-mail"
+msgstr "E-Mail"
+
+#: app/Models/Shortcodes/JobAlertModel.php:287
+msgid "Period"
+msgstr "Zeitraum"
+
+#: app/Models/Shortcodes/VacanciesApplyModel.php:268
+msgid "Something went wrong while retrieving the vacancy."
+msgstr ""
+"Etwas ist schief gelaufen, bitte kontaktieren Sie den Server-Administrator."
+
+#: app/Models/Shortcodes/VacanciesApplyModel.php:328
+msgid "Invalid vacancy uid."
+msgstr "Ungültige Leerstands-UID."
+
+#: app/Models/Shortcodes/VacanciesApplyModel.php:358
+msgid "Invalid action."
+msgstr "Aktion ungültig."
+
+#: app/Models/Shortcodes/VacanciesApplyModel.php:383
+msgid "Invalid confirmation code."
+msgstr "Ungültiger Bestätigungscode."
+
+#: app/Models/Shortcodes/VacanciesListModel.php:492
+msgid "Could not retrieve vacancy list"
+msgstr "Liste der freien Stellen konnte nicht abgerufen werden"
+
+#: app/Models/Shortcodes/VacanciesListModel.php:570
+#: app/Models/VacanciesDetailModel.php:356
+msgid "Category"
+msgstr "Kategorie"
+
+#: app/views/admin/admin-cache/admin-cache.php:14
+#: app/views/admin/admin-logs/admin-logs.php:16
+msgid "Are you sure you want to delete"
+msgstr "Wollen Sie wirklich löschen"
+
+#: app/views/admin/admin-cache/admin-cache.php:21
+msgid "Admin cache"
+msgstr "Admin-Cache"
+
+#: app/views/admin/admin-cache/admin-cache.php:25
+#: app/views/admin/admin-cache/admin-cache.php:26
+msgid "all cache"
+msgstr "alle Caches"
+
+#: app/views/admin/admin-cache/admin-cache.php:25
+msgid "Delete all cache"
+msgstr "Alle Caches löschen"
+
+#: app/views/admin/admin-cache/admin-cache.php:26
+msgid "Delete expired cache"
+msgstr "Abgelaufenen Cache löschen"
+
+#: app/views/admin/admin-cache/admin-cache.php:33
+#: app/views/admin/admin-logs/admin-logs.php:34
+msgid "Total data size"
+msgstr "Gesamtgröße der Daten"
+
+#: app/views/admin/admin-cache/admin-cache.php:47
+msgid "Transient name"
+msgstr "Transient Name"
+
+#: app/views/admin/admin-cache/admin-cache.php:48
+msgid "Autoload"
+msgstr "Autoload"
+
+#: app/views/admin/admin-cache/admin-cache.php:49
+msgid "Expire date"
+msgstr "Ablaufdatum"
+
+#: app/views/admin/admin-cache/admin-cache.php:50
+#: app/views/admin/admin-logs/admin-logs.php:54
+msgid "Action"
+msgstr "Aktion"
+
+#: app/views/admin/admin-cache/admin-cache.php:64
+#: app/views/admin/admin-routes-settings/admin-routes-input.php:63
+#: app/views/admin/admin-routes-settings/admin-routes-input.php:123
+msgid "Delete"
+msgstr "Löschen"
+
+#: app/views/admin/admin-cache/admin-cache.php:77
+#: app/views/admin/admin-logs/admin-logs.php:143
+msgid "&laquo;"
+msgstr "&laquo;"
+
+#: app/views/admin/admin-cache/admin-cache.php:78
+#: app/views/admin/admin-logs/admin-logs.php:144
+msgid "&raquo;"
+msgstr "&raquo;"
+
+#: app/views/admin/admin-cache/admin-cache.php:86
+msgid "Currently there is no cache"
+msgstr "Derzeit gibt es keinen Cache"
+
+#: app/views/admin/admin-dashboard/admin-dashboard.php:2
+msgid "Admin Dashboard"
+msgstr "Admin Dashboard"
+
+#: app/views/admin/admin-dashboard/admin-dashboard.php:8
+msgid ""
+"Currently the OTYS Plugin does not have a valid session. \n"
+"                Make sure to add a proper API Key"
+msgstr ""
+"Derzeit hat das OTYS Plugin keine gültige Sitzung\n"
+"                Stellen Sie sicher, dass Sie einen richtigen API-Schlüssel "
+"hinzufügen"
+
+#: app/views/admin/admin-dashboard/admin-dashboard.php:12
+msgid "Add API Key"
+msgstr "API-Schlüssel hinzufügen"
+
+#: app/views/admin/admin-job-alert/admin-job-alert.php:7
+msgid ""
+"Job alert is not enabled for your client. If you want to use job alerts "
+"please contact support."
+msgstr ""
+"Job Alert ist für Ihren Kunden nicht aktiviert. Wenn Sie Job Alerts "
+"verwenden möchten, kontaktieren Sie bitte den Support."
+
+#: app/views/admin/admin-job-alert/admin-job-alert.php:16
+#: app/views/admin/admin-routes-settings/admin-routes-settings.php:19
+#: app/views/admin/admin-settings/admin-settings.php:36
+msgid "Save changes"
+msgstr "Änderungen speichern"
+
+#: app/views/admin/admin-logs/admin-logs.php:23
+#: app/views/admin/admin-webhooks/admin-webhooks.php:71
+msgid "Logs"
+msgstr "Protokolle"
+
+#: app/views/admin/admin-logs/admin-logs.php:27
+msgid "all logs"
+msgstr "Alle Logs"
+
+#: app/views/admin/admin-logs/admin-logs.php:27
+msgid "Delete all logs"
+msgstr "Alle Logs löschen"
+
+#: app/views/admin/admin-logs/admin-logs.php:49
+msgid "ID"
+msgstr "ID"
+
+#: app/views/admin/admin-logs/admin-logs.php:50
+msgid "Method"
+msgstr "Methode"
+
+#: app/views/admin/admin-logs/admin-logs.php:51
+msgid "Status"
+msgstr "Status"
+
+#: app/views/admin/admin-logs/admin-logs.php:52
+msgid "Message"
+msgstr "Nachricht"
+
+#: app/views/admin/admin-logs/admin-logs.php:53
+msgid "Timestamp"
+msgstr "Zeitstempel"
+
+#: app/views/admin/admin-logs/admin-logs.php:88
+msgid "ERROR"
+msgstr "FEHLER"
+
+#: app/views/admin/admin-logs/admin-logs.php:92
+#: app/views/admin/admin-webhooks/admin-webhooks.php:98
+msgid "View"
+msgstr "Anzeigen"
+
+#: app/views/admin/admin-logs/admin-logs.php:100
+#: app/views/admin/admin-webhooks/admin-webhooks.php:120
+msgid "Request"
+msgstr "Anfrage"
+
+#: app/views/admin/admin-logs/admin-logs.php:116
+#: app/views/admin/admin-webhooks/admin-webhooks.php:106
+msgid "Response"
+msgstr "Antwort"
+
+#: app/views/admin/admin-logs/admin-logs.php:152
+msgid "There are currently no logs"
+msgstr "Derzeit sind keine Protokolle vorhanden"
+
+#: app/views/admin/admin-routes-settings/admin-routes-input.php:47
+#: app/views/admin/admin-routes-settings/admin-routes-input.php:106
+msgctxt "vacancy detail route example"
+msgid "/vacancy-slug"
+msgstr "Freie Stelle %1$s"
+
+#: app/views/admin/admin-routes-settings/admin-routes-input.php:76
+msgid ""
+"Optionally you can set the application thank you url. By default the thank "
+"you message will be shown on the same page as the application form."
+msgstr ""
+"Optional können Sie die Danksagungsurl für die Bewerbung festlegen. "
+"Standardmäßig wird die Dankesnachricht auf der gleichen Seite wie das "
+"Antragsformular angezeigt."
+
+#: app/views/admin/admin-routes-settings/admin-routes-input.php:79
+#, php-format
+msgid ""
+"%s page is not set and is required for your the plugin to work properly."
+msgstr ""
+"die Seite %s ist nicht gesetzt und wird benötigt, damit das Plugin richtig "
+"funktioniert."
+
+#: app/views/admin/admin-routes-settings/admin-routes-input.php:136
+msgid "Add url"
+msgstr "URL  hinzufügen"
+
+#: app/views/admin/admin-routes-settings/admin-routes-settings.php:7
+#: app/views/admin/admin-settings/admin-settings.php:13
+msgid "Settings Saved"
+msgstr "Einstellungen gespeichert"
+
+#: app/views/admin/admin-settings/admin-settings-mails.php:7
+msgid ""
+"Emails sent from the plugin are using documents from your OTYS enviroment."
+msgstr ""
+"Die vom Plugin versendeten E-Mails verwenden Dokumente aus Ihrer OTYS-"
+"Umgebung."
+
+#: app/views/admin/admin-settings/admin-settings-mails.php:13
+msgid ""
+"Below you see mails that get triggered when events happen. For each email "
+"that gets triggered you can choose which document to use. When choosing "
+"disabled the email will not be send."
+msgstr ""
+"Unten sehen Sie E-Mails, die bei Ereignissen ausgelöst werden. Für jede E-"
+"Mail, die ausgelöst wird, können Sie wählen, welches Dokument Sie verwenden "
+"möchten. Wenn Sie deaktiviert wählen, wird die E-Mail nicht gesendet."
+
+#: app/views/admin/admin-settings/admin-settings-mails.php:19
+msgid ""
+"If you as a user has rights to the document module in OTYS, you are able to "
+"edit these documents and also able to create new documents which can be used "
+"for emailing aswell."
+msgstr ""
+"Wenn Sie als Benutzer Rechte für das Dokumentenmodul in OTYS haben, können "
+"Sie diese Dokumente bearbeiten und auch neue Dokumente erstellen, die auch "
+"für den E-Mail-Versand verwendet werden können."
+
+#: app/views/admin/admin-settings/admin-settings-mails.php:23
+#: app/views/admin/admin-settings/admin-settings-mails.php:24
+msgid "Watch documents module instruction video"
+msgstr "Anleitungsvideo zum Modul Dokumente ansehen"
+
+#: app/views/admin/admin-webhooks/admin-webhooks.php:30
+msgid "Registered webhooks"
+msgstr "Registrierte Webhooks"
+
+#: app/views/admin/admin-webhooks/admin-webhooks.php:35
+msgid "Register hooks"
+msgstr "Haken registrieren"
+
+#: app/views/admin/admin-webhooks/admin-webhooks.php:57
+msgid "Not registered"
+msgstr "Nicht registriert"
+
+#: app/views/admin/wp-settings-api/cb-checkbox.php:13
+#: app/views/admin/wp-settings-api/cb-radio.php:7
+#: app/views/admin/wp-settings-api/cb-select.php:9
+msgid "Select option"
+msgstr "Option auswählen"
+
+#: app/views/admin/wp-settings-api/cb-image.php:6
+#: app/views/admin/wp-settings-api/cb-image.php:31
+msgid "Choose image"
+msgstr "Bild auswählen"
+
+#: app/views/admin/wp-settings-api/cb-image.php:7
+msgid "Set image"
+msgstr "Bild festlegen"
+
+#: app/views/admin/wp-settings-api/cb-image.php:17
+msgid "Select image"
+msgstr "Bild auswählen"
+
+#: app/views/admin/wp-settings-api/cb-image.php:42
+msgid "Remove image"
+msgstr "Bild entfernen"
+
+#: app/views/admin/wp-settings-api/cb-jobalert-fields-select.php:9
+#: app/views/admin/wp-settings-api/cb-sortable-checkboxes.php:14
+msgid "Select options"
+msgstr "Optionen wählen"
+
+#: app/views/admin/wp-settings-api/cb-jobalert-fields-select.php:61
+msgid "Please select at least one match criteria"
+msgstr "Bitte wählen Sie mindestens ein Übereinstimmungskriterium aus"
+
+#: app/views/admin/wp-settings-api/cb-select-document.php:9
+msgid "Select documents"
+msgstr "Dokumente auswählen"
+
+#: app/views/admin/wp-settings-api/cb-select-document.php:13
+msgid "Disabled"
+msgstr "Deaktiviert"
+
+#: app/views/admin/wp-settings-api/cb-select-match-criteria.php:14
+msgid "Select match criteria"
+msgstr "Kriterien"
+
+#: app/views/forgot-password/forgot-password-success.php:3
+msgid ""
+"If your username is known by us you will receive an e-mail with a new "
+"password within a few minutes."
+msgstr ""
+"Wenn uns Ihr Benutzername bekannt ist, erhalten Sie innerhalb weniger "
+"Minuten eine E-Mail mit einem neuen Passwort."
+
+#: app/views/interactions/interactions.php:75
+#: app/views/vacancies/apply/vacancies-apply-shortcode.php:92
+msgid "Previous"
+msgstr "Zurück"
+
+#: app/views/login/login-logged-in.php:3
+#, php-format
+msgid "You are logged in as %s"
+msgstr "Sie sind angemeldet als %s"
+
+#: app/views/login/login-logged-in.php:7
+msgid "Logout"
+msgstr "Abmelden"
+
+#: app/views/login/login.php:49
+msgid "Forgot password"
+msgstr "Passwort vergessen"
+
+#: app/views/vacancies/apply/vacancies-apply-shortcode-known-candidate.php:3
+msgid "You've already applied for this job."
+msgstr "Sie haben sich bereits auf diese Stelle beworben."
+
+#: app/views/vacancies/apply/vacancies-apply-shortcode.php:31
+msgid "Already have an account? Login here."
+msgstr "Sie haben schon ein Konto? Loggen Sie sich hier ein."
+
+#: app/views/vacancies/apply/vacancies-apply-shortcode.php:98
+#: app/views/vacancies/vacancies-detail.php:94
+#: app/views/vacancies/vacancies-detail.php:132
+msgid "Apply"
+msgstr "Jetzt Bewerben"
+
+#: app/views/vacancies/apply/vacancies-apply-success.php:13
+#, php-format
+msgid ""
+"Thank you for your application. You have successfully applied for the "
+"vacancy %s."
+msgstr ""
+"Vielen Dank für Ihre Bewerbung. Sie haben sich erfolgreich auf die Stelle %s "
+"beworben."
+
+#: app/views/vacancies/apply/vacancies-apply.php:19
+msgid "You are currently applying for"
+msgstr "Sie bewerben sich derzeit für"
+
+#: app/views/vacancies/apply/vacancies-confirm-email.php:12
+msgid ""
+"We sent a confirmation code to your email address. Please confirm your "
+"application by filling in the confirmation code."
+msgstr ""
+"Wir haben einen Bestätigungscode an Ihre E-Mail-Adresse gesendet. Bitte "
+"bestätigen Sie Ihre Bewerbung, indem Sie den Bestätigungscode eingeben."
+
+#: app/views/vacancies/apply/vacancies-confirm-email.php:18
+msgid "Confirmation code"
+msgstr "Bestätigungscode"
+
+#: app/views/vacancies/apply/vacancies-confirm-email.php:24
+msgid "Enter the confirmation code here"
+msgstr "Geben Sie hier den Bestätigungscode ein"
+
+#: app/views/vacancies/apply/vacancies-open-apply-success.php:9
+msgid "Thank you for your application."
+msgstr "Vielen Dank für Ihre Bewerbung."
+
+#: app/views/vacancies/preview-mode.php:18
+msgid "Preview mode"
+msgstr "Vorschau Modus"
+
+#: app/views/vacancies/vacancies-detail.php:88
+msgid "ago"
+msgstr "vor"
+
+#: app/views/vacancies/vacancies-filters.php:9
+msgid "Toggle filters"
+msgstr "Filter umschalten"
+
+#: app/views/vacancies/vacancies-filters.php:16
+msgid "Filters"
+msgstr "Filter"
+
+#: app/views/vacancies/vacancies-geo-search.php:10
+msgid "Maximum distance"
+msgstr "Maximale Entfernung"
+
+#: app/views/vacancies/vacancies-geo-search.php:30
+msgid "Postal code"
+msgstr "Postleitzahl"
+
+#: app/views/vacancies/vacancies-geo-search.php:61
+msgid "Reset"
+msgstr "Zurücksetzen"
+
+#: app/views/vacancies/vacancies-geo-search.php:66
+#: app/views/vacancies/vacancies-search.php:52
+msgid "Search"
+msgstr "Suche"
+
+#: app/views/vacancies/vacancies-list.php:16
+#, php-format
+msgid "Vacancy %s"
+msgstr "Freie Stelle %1$s"
+
+#: app/views/vacancies/vacancies-list.php:59
+#: app/views/vacancies/vacancies-shortlist.php:59
+msgid "No vacancies found"
+msgstr "Keine freien Stellen gefunden"
+
+#: app/views/vacancies/vacancies-list.php:61
+msgid ""
+"There are no vacancies for your search filters. Remove filters to broaden "
+"the search."
+msgstr ""
+"Es gibt keine freien Stellen für Ihre Suchfilter. Entfernen Sie die Filter, "
+"um die Suche zu erweitern."
+
+#: app/views/vacancies/vacancies-list.php:62
+msgid "Remove all filters"
+msgstr "Alle Filter entfernen"
+
+#: app/views/vacancies/vacancies-search.php:9
+msgid "Search vacancies"
+msgstr "Stellenangebote suchen"
+
+#: app/views/vacancies/vacancies-search.php:14
+msgid "Keyword"
+msgstr "Suchbegriff"
+
+#: app/views/vacancies/vacancies-selected-filtes.php:19
+msgid "or"
+msgstr "oder"
+
+#: otys-routes.php:32 otys-routes.php:33
+msgid "Settings"
+msgstr "Einstellungen"
+
+#: otys-routes.php:44 otys-routes.php:45
+msgid "Cache"
+msgstr "Cache"
+
+#: otys-routes.php:68 otys-routes.php:69
+msgid "Webhooks"
+msgstr "Webhook"
+
+#: otys-routes.php:79 otys-routes.php:80
+msgid "API Logs"
+msgstr "API-Protokolle"
+
+#: otys-routes.php:88 otys-routes.php:89
+msgid "Instructions"
+msgstr "Anweisungen"
+
+#. Plugin Name of the plugin/theme
+msgid "OTYS Jobs & Apply"
+msgstr "OTYS Jobs & Bewerben"
+
+#. Description of the plugin/theme
+msgid ""
+"Make your Wordpress website a proper recruitment website using the OTYS API"
+msgstr ""
+"Verwandeln Sie Ihre Wordpress-Website mit Hilfe der OTYS-API in eine echte "
+"Rekrutierungs-Website"
+
+#. Author of the plugin/theme
+msgid "OTYS"
+msgstr "OTYS"
+
+#. Author URI of the plugin/theme
+msgid "https://otys.nl"
+msgstr "https://otys.nl"
+
+#~ msgid "URL's"
+#~ msgstr "URL's"
+
+#~ msgid ""
+#~ "Choose which page to use for each module. This way the plugin knows where "
+#~ "the pages are located and how the url's should be structured. Make sure "
+#~ "to choose the correct language."
+#~ msgstr ""
+#~ "Wählen Sie, welche Seite für jedes Modul verwendet werden soll. Auf diese "
+#~ "Weise weiß das Plugin, wo sich die Seiten befinden und wie die URLs "
+#~ "strukturiert sein sollten. Stellen Sie sicher, dass Sie die richtige "
+#~ "Sprache wählen."
+
+#~ msgid "No, this website is either used for testing, staging or production."
+#~ msgstr ""
+#~ "Nein, diese Website wird entweder für Tests, Staging oder Produktion "
+#~ "verwendet."
+
+#~ msgid "All brands"
+#~ msgstr "Alle Marken"
+
+#~ msgid "Shortcodes"
+#~ msgstr "Shortcodes"
+
+#~ msgid "Vacancies list"
+#~ msgstr "Liste der offenen Stellen"
+
+#~ msgid "Description"
+#~ msgstr "Beschreibung"
+
+#~ msgid "Outputs a list of vacancies"
+#~ msgstr "Gibt eine Liste der offenen Stellen aus, otys-jobs-apply"
+
+#~ msgid "Attributes"
+#~ msgstr "Attribute"
+
+#~ msgid "Example(s)"
+#~ msgstr "Beispiel(e)"
+
+#~ msgid "Choose how many vacancies are displayed. Default: 10"
+#~ msgstr ""
+#~ "Wählen Sie aus, wie viele freie Stellen angezeigt werden sollen. "
+#~ "Standard: 10"
+
+#~ msgid ""
+#~ "Show vacancies based on relation. You can find the relation ID on the CRM "
+#~ "detail page of the customer."
+#~ msgstr ""
+#~ "Anzeigen von Stellenangeboten basierend auf der Beziehung. Sie können die "
+#~ "Beziehungs-ID auf der CRM-Detailseite des Kunden finden."
+
+#~ msgid "Match criteria"
+#~ msgstr "Kriterien für die Übereinstimmung"
+
+#~ msgid ""
+#~ "It's possible to pre-filter on match criteria. To prefilter on match "
+#~ "criteria you should add the match criteria name and option name as "
+#~ "attribute to the shortcode."
+#~ msgstr ""
+#~ "Es ist möglich, nach Übereinstimmungskriterien vorzufiltern. Um nach "
+#~ "Übereinstimmungskriterien vorzufiltern, sollten Sie den Namen des "
+#~ "Übereinstimmungskriteriums und den Namen der Option als Attribut zum "
+#~ "Shortcode hinzufügen."
+
+#~ msgid ""
+#~ "It's possible to pre-filter on category. To prefilter on category you "
+#~ "should add the category slug and category option name as attribute to the "
+#~ "shortcode."
+#~ msgstr ""
+#~ "Es ist möglich, nach Übereinstimmungskriterien vorzufiltern. Um nach "
+#~ "Übereinstimmungskriterien vorzufiltern, sollten Sie den Namen des "
+#~ "Übereinstimmungskriteriums und den Namen der Option als Attribut zum "
+#~ "Shortcode hinzufügen."
+
+#~ msgid "Premium"
+#~ msgstr "Premium"
+
+#~ msgid ""
+#~ "It's possible to pre-filter on premium vacancies. To prefilter on premium "
+#~ "vacancies you should add the premium slug to the shortcode with value "
+#~ "true or false. True will show only premium vacancies and false will "
+#~ "exclude all premium vacancies."
+#~ msgstr ""
+#~ "Es ist möglich, nach Premium-Stellenangeboten vorzufiltern. Um nach "
+#~ "Premium-Stellenangeboten zu filtern, sollten Sie den Premium-Slug mit dem "
+#~ "Wert true oder false zum Shortcode hinzufügen. Bei true werden nur "
+#~ "Premium-Stellen angezeigt, bei false werden alle Premium-Stellen "
+#~ "ausgeschlossen."
+
+#~ msgid "Vacancies filters"
+#~ msgstr "Filter für offene Stellen"
+
+#, php-format
+#~ msgid ""
+#~ "Ouputs a list of match criteria which enables the user to filter on %1$s. "
+#~ "The default criteria being displayed can be set in the settings panel of "
+#~ "the plugin. When %1$s is on the same page as %1$s, %1$s will use the "
+#~ "match criteria attributes of %1$s. When %1$s has match criteria "
+#~ "attributes set, that specific criteria won't be shown in the %1$s."
+#~ msgstr ""
+#~ "Gibt eine Liste von Übereinstimmungskriterien aus, die es dem Benutzer "
+#~ "ermöglicht, nach %1$s zu filtern. Die angezeigten Standardkriterien "
+#~ "können im Einstellungsfenster des Plugins festgelegt werden. Wenn sich "
+#~ "%1$s auf der gleichen Seite wie %1$s befindet, verwendet %1$s die "
+#~ "Attribute der Übereinstimmungskriterien von %1$s. Wenn für %1$s Attribute "
+#~ "für Übereinstimmungskriterien festgelegt sind, werden diese spezifischen "
+#~ "Kriterien in %1$s nicht angezeigt."
+
+#~ msgid ""
+#~ "Outputs a list of selected filters. Filter options will be grouped per "
+#~ "filter and shown as a button. When clicking the button it will remove "
+#~ "that specific filter from the current search query."
+#~ msgstr ""
+#~ "Gibt eine Liste der ausgewählten Filter aus. Die Filteroptionen werden "
+#~ "pro Filter gruppiert und als Schaltfläche angezeigt. Wenn Sie auf die "
+#~ "Schaltfläche klicken, wird dieser spezifische Filter aus der aktuellen "
+#~ "Suchanfrage entfernt."
+
+#~ msgid "Vacancies short list"
+#~ msgstr "Shortlist der offenen Stellen"
+
+#~ msgid "Outputs a short list of vacancies without pagination"
+#~ msgstr "Gibt eine Kurzliste von Stellenangeboten ohne Paginierung aus"
+
+#~ msgid "Choose how many vacancies are displayed. Default: 3"
+#~ msgstr ""
+#~ "Wählen Sie aus, wie viele freie Stellen angezeigt werden sollen. "
+#~ "Standard: 3"
+
+#~ msgid "Show vacancies based on vacancy owner (consultant)."
+#~ msgstr ""
+#~ "Zeigen Sie freie Stellen auf der Grundlage des Eigentümers der freien "
+#~ "Stelle (Berater) an."
+
+#~ msgid "Vacancies keyword search form"
+#~ msgstr "Formular für die Stichwortsuche nach Stellenangeboten"
+
+#~ msgid "Outputs a search form which enables the user to search on keyword."
+#~ msgstr ""
+#~ "Gibt ein Suchformular aus, mit dem der Benutzer nach einem Schlüsselwort "
+#~ "suchen kann."
+
+#~ msgid ""
+#~ "It's possible to add filters to the search forms. This enables the user "
+#~ "to filter on for example match criteria or category. You can define a "
+#~ "attribute \"filters\" with multiple filters as value. If you want to "
+#~ "display multiple filters you can add values comma seperated without "
+#~ "spaces. Filters will be displayed as a dropdown multiselect. When the "
+#~ "vacancy list view has predefined filters, these filters can't be used "
+#~ "with this shortcode."
+#~ msgstr ""
+#~ "Es ist möglich, Filter zu den Suchformularen hinzuzufügen. Dies "
+#~ "ermöglicht es dem Benutzer, z. B. nach Übereinstimmungskriterien oder "
+#~ "Kategorien zu filtern. Sie können ein Attribut \"Filter\" mit mehreren "
+#~ "Filtern als Wert definieren. Wenn Sie mehrere Filter anzeigen möchten, "
+#~ "können Sie die Werte durch Komma getrennt ohne Leerzeichen eingeben. Die "
+#~ "Filter werden als Dropdown-Multiselect angezeigt. Wenn die Ansicht der "
+#~ "Vakanzliste vordefinierte Filter hat, können diese Filter nicht mit "
+#~ "diesem Shortcode verwendet werden."
+
+#~ msgid ""
+#~ "It's possible to filter on keyword search. Searching on keyword searches "
+#~ "in the following fields: Title, Vacancy text & location. By default the "
+#~ "value is: true. By giving the attribute keyword the value \"false\" the "
+#~ "keyword input search will not be shown."
+#~ msgstr ""
+#~ "Es ist möglich, die Suche nach Schlüsselwörtern zu filtern. Bei der Suche "
+#~ "nach Schlüsselwörtern wird in den folgenden Feldern gesucht: Titel, Text "
+#~ "des Stellenangebots und Ort. Standardmäßig ist der Wert: true. Wenn Sie "
+#~ "dem Attribut Schlüsselwort den Wert \"false\" geben, wird die Suche nach "
+#~ "Schlüsselwörtern nicht angezeigt."
+
+#~ msgid "Vacancies geo location search"
+#~ msgstr "Formular für die Stichwortsuche nach Stellenangeboten"
+
+#~ msgid ""
+#~ "Outputs a range filter based on a postal code. This hook allows the "
+#~ "candidate to specify a maxmium distance in which the candidate would like "
+#~ "to find vacancies."
+#~ msgstr ""
+#~ "Gibt einen auf einer Postleitzahl basierenden Bereichsfilter aus. Mit "
+#~ "diesem Hook kann der Kandidat eine maximale Entfernung angeben, in der er "
+#~ "freie Stellen finden möchte."
+
+#~ msgid ""
+#~ "The minimum distance a candidate can search on in kilometers. Default: 5"
+#~ msgstr ""
+#~ "Die Mindestentfernung in Kilometern, über die ein Kandidat suchen kann. "
+#~ "Standard: 5"
+
+#~ msgid ""
+#~ "The maximum distance a candidate can search on in kilometers. Default: 100"
+#~ msgstr ""
+#~ "Die maximale Entfernung, über die ein Kandidat suchen kann, in "
+#~ "Kilometern. Standard: 100"
+
+#~ msgid ""
+#~ "The default distance a set when a candidate has not searched yet. "
+#~ "Default: 30"
+#~ msgstr ""
+#~ "Der Standardabstand, der festgelegt wird, wenn ein Kandidat noch nicht "
+#~ "gesucht hat. Standard: 30"
+
+#~ msgid ""
+#~ "The country a user searches in. Use the country code to define another "
+#~ "country. Default: NL"
+#~ msgstr ""
+#~ "Das Land, in dem ein Benutzer sucht. Verwenden Sie den Ländercode, um ein "
+#~ "anderes Land zu definieren. Voreinstellung: NL"
+
+#~ msgid ""
+#~ "When this setting is enabled the user gets shown a dropdown in which the "
+#~ "user can select the country to search in. Default: false"
+#~ msgstr ""
+#~ "Wenn diese Einstellung aktiviert ist, wird dem Benutzer eine Auswahlliste "
+#~ "angezeigt, in der er das Land auswählen kann, in dem er suchen möchte. "
+#~ "Standard: false"
+
+#~ msgid ""
+#~ "The steps defines the amount of distance that get added each time the "
+#~ "user drags the distance slider. Default: 5"
+#~ msgstr ""
+#~ "Die Schritte legen fest, wie viel Abstand jedes Mal hinzugefügt wird, "
+#~ "wenn der Benutzer den Entfernungsschieberegler zieht. Standard: 5"
+
+#~ msgid "Open application form"
+#~ msgstr "Bewerbungsformular öffnen"
+
+#~ msgid "Outputs a open application form."
+#~ msgstr "Gibt ein offenes Antragsformular aus."
+
+#~ msgid ""
+#~ "Choose to which page the candidate should be redirected after a "
+#~ "successful application. Attribute should be filled with the slug of the "
+#~ "page you want to redirect the candidate to."
+#~ msgstr ""
+#~ "Wählen Sie, zu welcher Seite der Bewerber nach einer erfolgreichen "
+#~ "Bewerbung weitergeleitet werden soll. Das Attribut sollte mit dem Slug "
+#~ "der Seite gefüllt werden, zu der Sie den Bewerber weiterleiten möchten."
+
+#~ msgid "Choose which page to use for the vacancies overview."
+#~ msgstr ""
+#~ "Die Kennzeichnungen der Übereinstimmungskriterien werden in der "
+#~ "Vakanzübersicht angezeigt."
+
+#~ msgid ""
+#~ "Choose which page to use for the vacancies detail. This can be the same "
+#~ "page as the vacancies overview."
+#~ msgstr ""
+#~ "Die Anzahl der Vakanzen, die pro Seite in der Vakanzenübersicht angezeigt "
+#~ "werden."
+
+#, php-format
+#~ msgid "%s"
+#~ msgstr "%s"
+
+#~ msgid "&mdash; Select &mdash;"
+#~ msgstr "&mdash; Auswählen &mdash;"
+
+#, php-format
+#~ msgid "Vacancy %1$s"
+#~ msgstr "Freie Stelle %1$s"
+
+#~ msgid "Deleted file."
+#~ msgstr "Löschen"
+
+#~ msgid "Request method not supported by this action."
+#~ msgstr "Die Anfragemethode wird von dieser Aktion nicht unterstützt."
+
+#~ msgid "No context vacancy UID given"
+#~ msgstr "Kein Kontext Leerstand UID angegeben"
+
+#~ msgid "No action is given."
+#~ msgstr "Es werden keine Maßnahmen ergriffen."
+
+#~ msgid "Data removed succesfully from qusetionset"
+#~ msgstr "Daten erfolgreich aus dem qusetionset entfernt"
+
+#~ msgid "Data could not be removed"
+#~ msgstr "Daten konnten nicht entfernt werden"
+
+#~ msgid "Unknown action given."
+#~ msgstr "Unbekannte Aktion durchgeführt."
+
+#~ msgid "Vacancy detail footer"
+#~ msgstr "Fußzeile mit Details zum Stellenangebot"
+
+#~ msgid ""
+#~ "The vacancy detail footer is content displayed under the vacancy detail "
+#~ "text"
+#~ msgstr ""
+#~ "Die Fußzeile der Stellenausschreibung ist der Inhalt, der unter dem Text "
+#~ "der Stellenausschreibung angezeigt wird"
+
+#~ msgid "First letter should be a capital letter"
+#~ msgstr "Der erste Buchstabe sollte ein Großbuchstabe sein"
+
+#~ msgid "All words should in capital"
+#~ msgstr "Alle Wörter sollten groß geschrieben werden"
+
+#~ msgid "All letters should in capital"
+#~ msgstr "Alle Buchstaben sollten groß geschrieben werden"
+
+#~ msgid "E-mail already exists"
+#~ msgstr "E-Mail existiert bereits"
+
+#~ msgid "Unknown error occured"
+#~ msgstr "Unbekannter Fehler aufgetreten"
+
+#~ msgid ""
+#~ "Webhooks are not available since there is no valid API Session. Please "
+#~ "make sure to add a valid key."
+#~ msgstr ""
+#~ "Webhooks sind nicht verfügbar, da es keine gültige API-Sitzung gibt. "
+#~ "Bitte stellen Sie sicher, dass Sie einen gültigen Schlüssel hinzufügen."
+
+#~ msgid "delete"
+#~ msgstr "löschen"
+
+#~ msgid "apply"
+#~ msgstr "anwenden"
+
+#~ msgid "The confirmation code entered is wrong. Please try again."
+#~ msgstr ""
+#~ "Der eingegebene Bestätigungscode ist falsch. Bitte versuchen Sie es "
+#~ "erneut."
+
+#~ msgid "Thank you!"
+#~ msgstr "Vielen Dank!"
+
+#~ msgid ""
+#~ "Your open application was successful. You have received an email with "
+#~ "details about your open application."
+#~ msgstr ""
+#~ "Ihre offene Bewerbung war erfolgreich. Sie haben eine E-Mail mit "
+#~ "Einzelheiten zu Ihrer offenen Bewerbung erhalten."
+
+#~ msgid "Application succesful"
+#~ msgstr "Erfolgreiche Bewerbung"
+
+#~ msgid "Refresh all cache"
+#~ msgstr "Alle Caches aktualisieren"
+
+#~ msgid "Documenten"
+#~ msgstr "Unterlagen"
+
+#~ msgid "Oops! That job can&rsquo;t be found."
+#~ msgstr "Huch! Diese Stelle kann nicht gefunden werden."
+
+#~ msgid ""
+#~ "It seems the job you're looking for doesn't exists anymore. Maybe try a "
+#~ "search?"
+#~ msgstr ""
+#~ "Die Stelle, die Sie suchen, scheint es nicht mehr zu geben. Vielleicht "
+#~ "versuchen Sie eine Suche?"
+
+#~ msgid "[otys-vacancies-list perpage=\"5\"]"
+#~ msgstr "[otys-vacancies-list perpage=\"5\"]"
+
+#~ msgid "[otys-vacancies-list relation=\"xxxx.xx.xxxx\"]"
+#~ msgstr "[otys-vacancies-list relation=\"xxxx.xx.xxxx\"]"
+
+#~ msgid "[otys-vacancies-list region=\"utrecht\"]"
+#~ msgstr "[otys-vacancies-list region=\"berlin\"]"
+
+#~ msgid "[otys-vacancies-list region=\"utrecht,gelderland\"]"
+#~ msgstr "[otys-vacancies-list region=\"berlin,frankfurt\"]"
+
+#~ msgid ""
+#~ "[otys-vacancies-list region=\"utrecht,gelderland\" hours-per-week=\"24-"
+#~ "hours\"]"
+#~ msgstr ""
+#~ "[otys-vacancies-list region=\"berlin,frankfurt\" hours-per-week=\"24-"
+#~ "stunden\"]"
+
+#~ msgid "[otys-vacancies-list category=\"ict\"]"
+#~ msgstr "[otys-vacancies-list region=\"berlin\"]"
+
+#~ msgid "[otys-vacancies-shortlist limit=\"5\"]"
+#~ msgstr "[otys-vacancies-shortlist limit=\"5\"]"
+
+#~ msgid "[otys-vacancies-list owner=\"name@website.com\"]"
+#~ msgstr "[otys-vacancies-list region=\"utrecht\"]"
+
+#~ msgid "[otys-vacancies-shortlist relation=\"xxxx.xx.xxxx\"]"
+#~ msgstr "[otys-vacancies-shortlist relation=\"xxxx.xx.xxxx\"]"
+
+#~ msgid "[otys-vacancies-shortlist region=\"utrecht\"]"
+#~ msgstr "[otys-vacancies-shortlist region=\"utrecht\"]"
+
+#~ msgid "[otys-vacancies-shortlist region=\"utrecht,gelderland\"]"
+#~ msgstr "[otys-vacancies-shortlist region=\"utrecht,gelderland\"]"
+
+#~ msgid ""
+#~ "[otys-vacancies-shortlist region=\"utrecht,gelderland\" hours-per-"
+#~ "week=\"24-hours\"]"
+#~ msgstr ""
+#~ "[otys-vacancies-shortlist region=\"utrecht,gelderland\" hours-per-"
+#~ "week=\"24-hours\"]"
+
+#~ msgid "[otys-vacancies-shortlist category=\"ict\"]"
+#~ msgstr "[otys-vacancies-shortlist region=\"utrecht\"]"
+
+#~ msgid "[otys-vacancies-apply redirect=\"page-slug\"]"
+#~ msgstr "[otys-vacancies-apply redirect=\"page-slug\"]"
+
+#~ msgid ""
+#~ "Choose which page is used for the vacancy overview page (this page will "
+#~ "contain the [otys-vacancies-list] shortcode) and will be used as your "
+#~ "main vacancy overview page. Make sure to choose the language which your "
+#~ "website is using (make sure to also use the correct formality)."
+#~ msgstr ""
+#~ "Wählen Sie aus, welche Seite für die Übersichtsseite für Stellenangebote "
+#~ "verwendet werden soll (diese Seite enthält den Shortcode [otys-vacancies-"
+#~ "list]) und wird als Hauptübersichtsseite für Stellenangebote verwendet. "
+#~ "Achten Sie darauf, die Sprache zu wählen, die auf Ihrer Website verwendet "
+#~ "wird (achten Sie auch auf die korrekte Formulierung)."
+
+#~ msgid ""
+#~ "Regarding the vacancy detail routes; The slug of the page you choose will "
+#~ "be the slug which the vacancy detail will be available through. For "
+#~ "example; when choosing a page which has the slug 'vacancies' your vacancy "
+#~ "details will be available via yourwebsite.com/vacancies/a-vacancy-name-"
+#~ "id. The page used for vacancy detail may be the same page as the page "
+#~ "used for the vacancy overview. When you for example choose a page which "
+#~ "the slug 'vacancies' for both the vacancy overview and detail, your "
+#~ "vacancy overview will be available via mywebsite.com/vacancies/ and your "
+#~ "vacancy detail through yourwebsite.com/vacancies/a-vacancy-name-id. This "
+#~ "is the most used scenario."
+#~ msgstr ""
+#~ "Der Slug der Seite, die Sie auswählen, ist der Slug, über den die Details "
+#~ "zu den Stellenangeboten verfügbar sind. Wenn Sie z. B. eine Seite mit dem "
+#~ "Slug \"Stellenangebote\" wählen, werden Ihre Stellenausschreibungen über "
+#~ "yourwebsite.com/vacancies/a-vacancy-name-id verfügbar sein. Die Seite, "
+#~ "die für die Einzelheiten der Stellenangebote verwendet wird, kann "
+#~ "dieselbe Seite sein wie die Seite, die für die Übersicht über die "
+#~ "Stellenangebote verwendet wird. Wenn Sie z. B. eine Seite mit dem Slug "
+#~ "\"Stellenangebote\" sowohl für die Stellenübersicht als auch für die "
+#~ "Stellenausschreibung wählen, ist Ihre Stellenübersicht über mywebsite.com/"
+#~ "vacancies/ und Ihre Stellenausschreibung über yourwebsite.com/vacancies/a-"
+#~ "vacancy-name-id verfügbar. Dies ist das am häufigsten verwendete Szenario."
+
+#~ msgid "Routes"
+#~ msgstr "Routen"
+
+#~ msgid ""
+#~ "This decides which website environment will be used for the Wordpress "
+#~ "plugin"
+#~ msgstr ""
+#~ "Hier wird festgelegt, welche Website-Umgebung für das Wordpress-Plugin "
+#~ "verwendet werden soll"
+
+#~ msgid "Production"
+#~ msgstr "Produktion"
+
+#~ msgid "Recaptcha settings"
+#~ msgstr "Recaptcha-Einstellungen"
+
+#~ msgid "No multisite"
+#~ msgstr "Keine Multisite"
+
+#~ msgid "Edit route"
+#~ msgstr "Route bearbeiten"
+
+#, php-format
+#~ msgid "There are no routes added for %s."
+#~ msgstr "Es sind keine Routen für %s hinzugefügt worden."
+
+#~ msgid ""
+#~ "Note that if a module has no routes specified, the module can't be "
+#~ "reached."
+#~ msgstr ""
+#~ "Wenn für ein Modul keine Routen angegeben sind, kann das Modul nicht "
+#~ "erreicht werden."
+
+#~ msgid "Match criteria filters"
+#~ msgstr "Filter für Übereinstimmungskriterien"
+
+#~ msgid ""
+#~ "The match criteria candidates are able to filter on at the vacancy "
+#~ "overview."
+#~ msgstr ""
+#~ "Die Übereinstimmungskriterien, nach denen die Bewerber in der "
+#~ "Stellenübersicht filtern können."
+
+#~ msgid "Match criteria labels"
+#~ msgstr "Kennzeichnungen der Übereinstimmungskriterien"
+
+#, php-format
+#~ msgid "Vacancies overview page: %s"
+#~ msgstr "Übersichtsseite für offene Stellen: %s"
+
+#~ msgid ""
+#~ "Only locales are displayed which are installed for this wordpress "
+#~ "installation"
+#~ msgstr ""
+#~ "Es werden nur Gebietsschemata angezeigt, die für diese WordPress-"
+#~ "Installation installiert sind"
+
+#~ msgid "vacancies found"
+#~ msgstr "freie Stellen gefunden"

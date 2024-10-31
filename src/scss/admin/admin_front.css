@@ -1,0 +1,5 @@
+/* wp admin menu */
+#wpadminbar li:hover svg circle,
+#wpadminbar li:hover svg path {
+    fill: #72aee6 !important;
+}
